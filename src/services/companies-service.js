@@ -1,0 +1,24 @@
+export default class CompaniesService {
+  _apiBase = 'https://api.opencorporates.com/v0.4';
+
+  getResource = async (url) => {
+    const res = await fetch(`${this._apiBase}${url}`);
+
+    if (!res.ok) {
+      throw new Error(`Could not fetch ${url}` +
+        `, received ${res.status}`)
+    }
+
+    return await res.json();
+  };
+
+  getCompanies = async (query, page = 1) => {
+    const order = 'score';
+    const q = query.trim().replace(/\s+/g, "+");
+    // console.log(q);
+    // return {companies: ''};
+// barclays+bank
+    const companies = await this.getResource(`/companies/search?q=${q}&order=${order}&page=${page}`);
+    return companies.results;
+  }
+}

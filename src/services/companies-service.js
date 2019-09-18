@@ -12,13 +12,13 @@ export default class CompaniesService {
     return await res.json();
   };
 
-  getCompanies = async (query, page = 1) => {
-    const order = 'score';
-    const q = query.trim().replace(/\s+/g, "+");
+  getCompanies = async (utm) => {
+    // const order = 'score';
+    // const q = query.trim().replace(/\s+/g, "+");
     // console.log(q);
     // return {companies: ''};
 // barclays+bank
-    const companies = await this.getResource(`/companies/search?q=${q}&order=${order}&page=${page}`);
+    const companies = await this.getResource(`/companies/search${utm}`);
     return companies.results;
   }
 }

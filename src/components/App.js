@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
+import { BrowserRouter, Route, Switch, Link, Redirect } from 'react-router-dom';
 import HomePage from './home-page';
 import SearchPage from './search-page';
 import CompaniesService from '../services/companies-service';
@@ -37,6 +37,11 @@ class App extends Component {
     return (
       <div className="app">
         <BrowserRouter>
+          <ul className="menu">
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/companies">Companies</Link></li>
+          </ul>
+          <hr />
           <Switch>
             <Route path="/" exact component={HomePage} />
             <Route path="/companies" exact component={SearchPage} />

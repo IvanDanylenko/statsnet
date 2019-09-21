@@ -1,32 +1,28 @@
 import React, { Component } from 'react';
 import CompaniesService from '../services/companies-service';
+import URL from '../helpers/url';
 // import SearchItem from './search-item';
 
 class SearchResults extends Component {
   companiesService = new CompaniesService();
+  url = new URL();
 
   state = {
     companies: []
   }
 
   componentDidMount () {
-    // console.log(this.props.location);
+    if (this.url.getParameterByName("q")) {
+      // TEMPORARY DEACTIVATE
+      // this.searchCompanies();
+      console.log("Companies searched on start");
+    }
   }
   componentDidUpdate (prevProps, prevState, snapshot) {
     if (prevProps.location.search !== this.props.location.search) {
-      this.searchCompanies();
+      // this.searchCompanies();
+      console.log("Companies searched");
     }
-  }
-
-  getParamsFromUrl = () => {
-    const { search } = this.props.location;
-    const query = search.substr(1);
-    const params = {};
-    query.split("&").forEach((part) => {
-      const item = part.split("=");
-      params[item[0]] = item[1];
-    });
-    return params;
   }
 
   searchCompanies = () => {
@@ -36,6 +32,7 @@ class SearchResults extends Component {
       this.companiesService.getCompanies(utm)
         .then(data => {
           this.props.toggleLoading();
+          console.log(data.companies);
           if (typeof data === 'object') {
             this.setState({ companies: data.companies });
           }
@@ -43,27 +40,22 @@ class SearchResults extends Component {
     }
   }
 
-  getParameterByName = (name) => {
-    const { search } = this.props.location;
-    const regex = new RegExp("[\\?&]" + name + "=([^&#]*)");
-    const results = search.match(regex)[1];
-    return results === null ? "" : results;
-  }
-
   render() {
     let elements;
     const { companies } = this.state;
     if (companies.length) {
-      elements = companies.map(({company}, index) => (
-        <div key={index} className="search-item">
-          <p>
-            <span>{ index }.&nbsp;</span>
-            <span>{ company.name } - </span>
-            <span style={{color: "green"}}> { company.company_number }</span>
-          </p>
-          <hr />
-        </div>
-      ));
+      elements = companies.map(({company}, index) => {
+        return (
+          <div key={index} className="search-item">
+            <h5>{ index + 1 }. { company.name }</h5>
+            {/* <p>Registered address: { company.registered_address.locality } { company.registered_address.street_address }</p> */}
+            {/* <p>Country: { company.registered_address.country }</p> */}
+            <p>Branch: { company.branch ? "YES" : "NO" }</p>
+            <p>Active: { company.inactive ? "NO" : "YES" }</p>
+            <hr />
+          </div>
+        )
+      })
     } else {
       elements = "Companies don't found";
     }

@@ -21,4 +21,14 @@ export default class CompaniesService {
     const companies = await this.getResource(`/companies/search${utm}`);
     return companies.results;
   }
+
+  _transformCompany = (company) => {
+    return {
+      // id: this._extractId(planet),
+      name: company.name,
+      population: company.population,
+      rotationPeriod: company.rotation_period,
+      diameter: company.diameter
+    };
+  }
 }

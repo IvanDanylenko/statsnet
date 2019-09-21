@@ -1,0 +1,22 @@
+body {
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 1.42857143;
+  color: #22262a;
+}
+
+.search-page {
+  padding: 0;
+}
+
+.search-results {
+  padding: 0 20px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  li {
+    margin-right: 20px;
+  }
+}

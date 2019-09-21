@@ -20,7 +20,9 @@ class SearchPage extends Component {
           loading={this.state.loading}
           history={this.props.history} />
         <hr />
-        <SearchResults toggleLoading={this.toggleLoading} location={this.props.location} />
+        <SearchResults 
+          location={this.props.location}
+          toggleLoading={this.toggleLoading} />
       </div>
     );
   }

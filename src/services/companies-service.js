@@ -13,22 +13,18 @@ export default class CompaniesService {
   };
 
   getCompanies = async (utm) => {
-    // const order = 'score';
-    // const q = query.trim().replace(/\s+/g, "+");
-    // console.log(q);
-    // return {companies: ''};
-// barclays+bank
     const companies = await this.getResource(`/companies/search${utm}`);
-    return companies.results;
+    return this._transformCompany(companies.results);
   }
 
-  _transformCompany = (company) => {
-    return {
-      // id: this._extractId(planet),
-      name: company.name,
-      population: company.population,
-      rotationPeriod: company.rotation_period,
-      diameter: company.diameter
-    };
+  _transformCompany = (results) => {
+    const {companies: {company}} = results;
+    if (!company.registered_address) {
+      company.registered_address = {}
+    }
+    if (!company.source) {
+      company.source = {}
+    }
+    return results;
   }
 }

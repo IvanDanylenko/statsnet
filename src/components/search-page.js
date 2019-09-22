@@ -16,13 +16,23 @@ class SearchPage extends Component {
   render() {
     return (
       <div className="search-page">
-        <SearchBox 
-          loading={this.state.loading}
-          history={this.props.history} />
-        <hr />
-        <SearchResults 
-          location={this.props.location}
-          toggleLoading={this.toggleLoading} />
+        <div className="container">
+          <h2>Companies from all over the world</h2>
+          <div className="row">
+            <div className="col-md-6 offset-md-3">
+              <SearchBox 
+                loading={this.state.loading}
+                history={this.props.history} />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-md-8">
+              <SearchResults 
+                location={this.props.location}
+                toggleLoading={this.toggleLoading} />
+            </div>
+          </div>
+        </div>
       </div>
     );
   }

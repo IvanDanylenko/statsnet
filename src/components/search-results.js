@@ -1,70 +1,66 @@
 import React, { Component } from 'react';
 import CompaniesService from '../services/companies-service';
 import URL from '../helpers/url';
-// import SearchItem from './search-item';
+import SearchResultsItem from './search-results-item';
+import yandexCompanies from '../db/test-data/companies-yandex.json';
 
 class SearchResults extends Component {
   companiesService = new CompaniesService();
   url = new URL();
 
   state = {
-    companies: []
+    params: {},
+    searchResults: []
   }
 
-  componentDidMount () {
+  constructor() {
+    super();
+    this.state.searchResults = yandexCompanies.results;
+  }
+
+  componentDidMount() {
+    this.setState({ params: this.url.getAllUrlParams() }, () => { console.log(this.state) });
     if (this.url.getParameterByName("q")) {
       // TEMPORARY DEACTIVATE
       // this.searchCompanies();
-      console.log("Companies searched on start");
     }
   }
-  componentDidUpdate (prevProps, prevState, snapshot) {
+  componentDidUpdate(prevProps, prevState, snapshot) {
     if (prevProps.location.search !== this.props.location.search) {
       // this.searchCompanies();
-      console.log("Companies searched");
+      console.log("Component updated, state: ", this.state);
     }
   }
 
   searchCompanies = () => {
     this.props.toggleLoading();
-    const { search: utm } = this.props.location;
-    if (utm) {
-      this.companiesService.getCompanies(utm)
+    const { search } = this.props.location;
+    if (search) {
+      this.companiesService.getCompanies(search)
         .then(data => {
           this.props.toggleLoading();
-          console.log(data.companies);
-          if (typeof data === 'object') {
-            this.setState({ companies: data.companies });
-          }
+          console.log("Searched data: ", data);
+          this.setState({ searchResults: data });
         });
     }
   }
 
   render() {
     let elements;
-    const { companies } = this.state;
-    if (companies.length) {
-      elements = companies.map(({company}, index) => {
-        return (
-          <div key={index} className="search-item">
-            <h5>{ index + 1 }. { company.name }</h5>
-            {/* <p>Registered address: { company.registered_address.locality } { company.registered_address.street_address }</p> */}
-            {/* <p>Country: { company.registered_address.country }</p> */}
-            <p>Branch: { company.branch ? "YES" : "NO" }</p>
-            <p>Active: { company.inactive ? "NO" : "YES" }</p>
-            <hr />
-          </div>
-        )
-      })
+    const { searchResults: results = {} } = this.state;
+    if (results.companies) {
+      elements = results.companies.map(({ company }, index) => <SearchResultsItem key={index} company={company} />)
     } else {
-      elements = "Companies don't found";
+      elements = "Your search returned no results because it's missing a valid search term";
     }
 
     return (
       <div className="search-results">
-        <h3>Search Results</h3>
+        {/* Test icon */}
+        <span className="flag-icon-us"></span>
+        <p className="found-companies">Found {results.total_count ? results.total_count : '0'} companies, showed first 30 </p>
         <div>
-          { elements }
+          {elements}
         </div>
       </div>
     );

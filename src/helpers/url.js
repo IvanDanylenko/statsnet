@@ -79,8 +79,8 @@ export default class URL {
   }
 
   encodeAllUrlParams = (params = {}) => {
-    let str = "";
-    for (let key in params) {
+    let str = "", key;
+    for (key in params) {
       if (params[key]) {
         const value = this.encodeParamValue(params[key]);
         str += `&${key}=${value}`;

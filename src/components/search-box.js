@@ -39,13 +39,12 @@ class SearchBox extends Component {
       },
       search
     }, () => {
-      const title = document.getElementsByTagName('title')[0];
-      const { q } = this.state.formFields;
-      title.innerText = `Companies matching '${q}' :: OpenCorporates`;
+      if (window.location.pathname === '/companies') {
+        const title = document.getElementsByTagName('title')[0];
+        const { q } = this.state.formFields;
+        title.innerText = `Companies matching '${q}' :: OpenCorporates`;
+      }
     });
-    // change page title
-    // document.getElementsByTagName('title')[0].innerText = this.state.formFields.q;
-    // console.log(hu);
   }
 
   handleSubmit = (e) => {
@@ -86,14 +85,14 @@ class SearchBox extends Component {
 
     return (
       <form className="search-box" onSubmit={this.handleSubmit}>
-        <button 
+        {/* <button 
           type="button" 
           onClick={this.test}
           style={{
             position: "fixed",
             top: "20px",
             right: "20px"
-          }}>Test</button>
+          }}>Test</button> */}
         <div className="search-field">
           <input 
             autoFocus 
@@ -106,12 +105,14 @@ class SearchBox extends Component {
             name="jurisdiction_code"
             value={formFields.jurisdiction_code}
             onChange={this.handleSelectChange} >
-            { jurisdictions.map(({name, value}) => (
-              <option key={value} value={value}>{name}</option>
+            { jurisdictions.map(({name, code}, index) => (
+              <option key={index} value={code}>{name}</option>
             ))}
           </select>
           <button type="submit">
-            <FontAwesome name="search" />
+            { window.location.pathname === '/' ? 
+              <FontAwesome name="search" /> : 'Go'
+            }
           </button>
         </div>
         <Loader loading={this.props.loading} />

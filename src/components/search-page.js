@@ -29,6 +29,7 @@ class SearchPage extends Component {
             <div className="col-md-8">
               <SearchResults 
                 location={this.props.location}
+                history={this.props.history}
                 toggleLoading={this.toggleLoading} />
             </div>
           </div>

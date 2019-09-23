@@ -75,6 +75,9 @@ export default class URL {
   }
 
   encodeParamValue = (value) => {
+    if (typeof value === "number") {
+      value = value.toString();
+    }
     return value.trim().replace(/\s+/g, "+");
   }
 
@@ -87,5 +90,10 @@ export default class URL {
       }
     }
     return str.replace(/&/, '?');
+  }
+
+  pushParamsToHistory = (params, history) => {
+    const encodedParams = this.encodeAllUrlParams(params);
+    history.push(`/companies${encodedParams}`);
   }
 }

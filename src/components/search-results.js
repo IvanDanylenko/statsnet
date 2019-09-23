@@ -1,48 +1,65 @@
 import React, { Component } from 'react';
+import Pagination from './pagination';
 import CompaniesService from '../services/companies-service';
 import URL from '../helpers/url';
 import SearchResultsItem from './search-results-item';
-import yandexCompanies from '../db/test-data/companies-yandex.json';
 
 class SearchResults extends Component {
   companiesService = new CompaniesService();
   url = new URL();
 
+  mockData = true;
+
   state = {
     params: {},
-    searchResults: []
-  }
-
-  constructor() {
-    super();
-    this.state.searchResults = yandexCompanies.results;
+    searchResults: [],
+    errorMessage: ''
   }
 
   componentDidMount() {
-    this.setState({ params: this.url.getAllUrlParams() }, () => { console.log(this.state) });
-    if (this.url.getParameterByName("q")) {
-      // TEMPORARY DEACTIVATE
-      // this.searchCompanies();
-    }
+    this.setState(
+      { params: this.url.getAllUrlParams() }, 
+      () => { this.searchCompanies() }
+    );
   }
   componentDidUpdate(prevProps, prevState, snapshot) {
     if (prevProps.location.search !== this.props.location.search) {
-      // this.searchCompanies();
-      console.log("Component updated, state: ", this.state);
+      this.searchCompanies();
     }
   }
 
   searchCompanies = () => {
-    this.props.toggleLoading();
-    const { search } = this.props.location;
-    if (search) {
-      this.companiesService.getCompanies(search)
-        .then(data => {
-          this.props.toggleLoading();
-          console.log("Searched data: ", data);
-          this.setState({ searchResults: data });
-        });
+    console.log("search companies");
+    const { params } = this.state;
+    if (!params.q) {
+      this.setState({ 
+        errorMessage: 'Enter search string'
+      });
+      return;
     }
+
+    let search = '?q=' + params.q;
+    if (params.page) {
+      search += "&page=" + params.page;
+    }
+    this.props.toggleLoading();
+    this.companiesService.getCompanies(search, this.mockData)
+      .then(data => {
+        this.setState({ searchResults: data });
+        this.props.toggleLoading();
+      })
+      .catch(err => {
+        console.error(err);
+        this.props.toggleLoading();
+      });
+  }
+
+  handlePageChange = ({selected}) => {
+    this.setState(({params}) => {
+      const paramsCopy = Object.assign({}, params);
+      paramsCopy.page = selected + 1;
+      return { params: paramsCopy };
+    }, () => { this.url.pushParamsToHistory(this.state.params, this.props.history) });
   }
 
   render() {
@@ -56,6 +73,9 @@ class SearchResults extends Component {
 
     return (
       <div className="search-results">
+        <Pagination
+          pageCount={results.total_pages}
+          onPageChange={this.handlePageChange} />
         {/* Test icon */}
         <span className="flag-icon-us"></span>
         <p className="found-companies">Found {results.total_count ? results.total_count : '0'} companies, showed first 30 </p>

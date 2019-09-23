@@ -1,3 +1,5 @@
+import yandexCompanies from '../db/test-data/companies-yandex.json';
+
 export default class CompaniesService {
   _apiBase = 'https://api.opencorporates.com/v0.4';
 
@@ -12,18 +14,24 @@ export default class CompaniesService {
     return await res.json();
   };
 
-  getCompanies = async (utm) => {
-    const companies = await this.getResource(`/companies/search${utm}`);
+  getCompanies = async (search, mockData = false) => {
+    if (mockData) {
+      return yandexCompanies.results;
+    }
+
+    const companies = await this.getResource(`/companies/search${search}`);
     return this._transformCompany(companies.results);
   }
 
   _transformCompany = (results) => {
-    const {companies: {company}} = results;
-    if (!company.registered_address) {
-      company.registered_address = {}
-    }
-    if (!company.source) {
-      company.source = {}
+    // eslint-disable-next-line
+    for (let company of results.companies) {
+      if (!company.registered_address) {
+        company.registered_address = {}
+      }
+      if (!company.source) {
+        company.source = {}
+      }
     }
     return results;
   }

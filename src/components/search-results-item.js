@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from 'react';
 import jurisdictions from '../db/jurisdictions.json';
 

@@ -1,8 +1,8 @@
 import React from 'react';
 import './company-page.scss';
 
-// import PromoStatistics from './parts/promo-statistics';
-// import Description from './parts/description';
+import PromoStatistics from './parts/promo-statistics';
+import Description from './parts/description';
 
 const CompanyPage = () => {
   return (
@@ -10,8 +10,8 @@ const CompanyPage = () => {
       {/* <Header /> */}
 
       {/* This styles is used */}
-      {/* <PromoStatistics />
-      <Description /> */}
+      <PromoStatistics />
+      <Description />
 
 
       {/* <Report /> */}

@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
-import HomePage from './home-page';
-import SearchPage from './search-page';
-import CompanyPage from './company-page/company-page';
+
+import LoadingProgressBar from './loading-progress-bar';
+
 import NotFound from './not-found';
+
+const HomePage = React.lazy(() => import('./home-page'));
+const SearchPage = React.lazy(() => import('./search-page'));
+const CompanyPage = React.lazy(() => import('./company-page/company-page'));
 
 class App extends Component {
   render() {
@@ -23,12 +27,14 @@ class App extends Component {
               </li>
             </ul>
           </nav>
-          <Switch>
-            <Route exact path="/" component={HomePage} />
-            <Route exact path="/companies" component={SearchPage} />
-            <Route exact path="/companies/:jurisdiction_code/:company_number" component={CompanyPage} />
-            <Route path="/" component={NotFound} />
-          </Switch>
+          <React.Suspense fallback={<LoadingProgressBar />}>
+            <Switch>
+              <Route exact path="/" component={HomePage} />
+              <Route exact path="/companies" component={SearchPage} />
+              <Route exact path="/companies/:jurisdiction_code/:company_number" component={CompanyPage} />
+              <Route path="/" component={NotFound} />
+            </Switch>
+          </React.Suspense>
         </BrowserRouter>
       </div>
     );

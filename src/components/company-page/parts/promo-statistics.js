@@ -1,30 +1,8 @@
 import React from 'react';
 
 class PromoStatistics extends React.Component {
-  constructor() {
-    super();
-    this.myRef = React.createRef();
-  }
-
   state = {
     position: 'relative'
-  }
-
-  componentDidMount() {
-    document.querySelector('.app').addEventListener('scroll', this.handleScroll);
-  }
-
-  handleScroll = () => {
-    const pos = this.myRef.current.getBoundingClientRect();
-    console.log(pos);
-    console.log(Math.abs(pos.y));
-    if (Math.abs(pos.y) < 30) {
-      if (pos.y < 0) {
-        this.setState({ position: 'fixed' })
-      } else {
-        this.setState({ position: 'relative' })
-      }
-    }
   }
 
   render() {

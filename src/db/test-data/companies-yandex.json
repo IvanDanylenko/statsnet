@@ -1,0 +1,1152 @@
+{
+  "api_version": "0.4",
+  "results": {
+      "companies": [
+          {
+              "company": {
+                  "name": "C.P.G.I. LIMITED",
+                  "company_number": "HE109282",
+                  "jurisdiction_code": "cy",
+                  "incorporation_date": "2000-02-23",
+                  "dissolution_date": "2011-11-08",
+                  "company_type": "Limited Company",
+                  "registry_url": "https://efiling.drcor.mcit.gov.cy/DrcorPublic/SearchResults.aspx?name=%25&number=109282&searchtype=optStartMatch&index=1&lang=EN&tname=%25&sc=0",
+                  "branch": null,
+                  "branch_status": null,
+                  "inactive": true,
+                  "current_status": "Members Voluntary Winding Up",
+                  "created_at": "2014-09-19T23:56:03+00:00",
+                  "updated_at": "2019-07-23T16:53:25+00:00",
+                  "retrieved_at": "2019-07-19T17:44:01+00:00",
+                  "opencorporates_url": "https://opencorporates.com/companies/cy/HE109282",
+                  "previous_names": [
+                      {
+                          "company_name": "SETHIA ENTERPRISES LIMITED"
+                      },
+                      {
+                          "company_name": "YANDEX TECHNOLOGIES LIMITED"
+                      }
+                  ],
+                  "source": {
+                      "publisher": "Cyprus Department of Registrar of Companies and Official Receiver",
+                      "url": "http://www.mcit.gov.cy/mcit/drcor/drcor.nsf/index_en/index_en?OpenDocument",
+                      "retrieved_at": "2019-07-19T17:44:01+00:00"
+                  },
+                  "registered_address": {
+                      "street_address": "Ευαγόρα Παπαχριστοφόρου, 18,\nPETOUSSIS BROS BUILDING, Floor 3,\n3030, Λεμεσός, Κύπρος",
+                      "locality": null,
+                      "region": null,
+                      "postal_code": null,
+                      "country": "Cyprus"
+                  },
+                  "registered_address_in_full": "Ευαγόρα Παπαχριστοφόρου, 18,\nPETOUSSIS BROS BUILDING, Floor 3,\n3030, Λεμεσός, Κύπρος",
+                  "industry_codes": [],
+                  "restricted_for_marketing": null,
+                  "native_company_number": null
+              }
+          },
+          {
+              "company": {
+                  "name": "LIMITED LIABILITY COMPANY ''YANDEX''",
+                  "company_number": "C3164903",
+                  "jurisdiction_code": "us_ca",
+                  "incorporation_date": "2008-10-10",
+                  "dissolution_date": null,
+                  "company_type": "FOREIGN STOCK",
+                  "registry_url": "https://businesssearch.sos.ca.gov/CBS/SearchResults?SearchType=NUMBER&SearchCriteria=C3164903",
+                  "branch": "F",
+                  "branch_status": "branch of an out-of-jurisdiction company",
+                  "inactive": true,
+                  "current_status": "Surrender",
+                  "created_at": "2011-09-17T10:45:09+00:00",
+                  "updated_at": "2019-08-15T07:34:54+00:00",
+                  "retrieved_at": "2019-08-15T01:50:24+00:00",
+                  "opencorporates_url": "https://opencorporates.com/companies/us_ca/C3164903",
+                  "previous_names": [],
+                  "source": {
+                      "publisher": "California Secretary of State",
+                      "url": "https://businesssearch.sos.ca.gov/CBS/SearchResults?SearchType=NUMBER&SearchCriteria=C3164903",
+                      "retrieved_at": "2019-08-15T01:50:24+00:00"
+                  },
+                  "registered_address": {
+                      "street_address": "299 S CALIFORNIA AVE STE 200\nPALO ALTO CA 94306",
+                      "locality": null,
+                      "region": null,
+                      "postal_code": null,
+                      "country": "United States"
+                  },
+                  "registered_address_in_full": "299 S CALIFORNIA AVE STE 200\nPALO ALTO CA 94306",
+                  "industry_codes": [],
+                  "restricted_for_marketing": null,
+                  "native_company_number": null
+              }
+          },
+          {
+              "company": {
+                  "name": "SIA Taxi.partner",
+                  "company_number": "40203155663",
+                  "jurisdiction_code": "lv",
+                  "incorporation_date": "2018-07-16",
+                  "dissolution_date": null,
+                  "company_type": "Sabiedrība ar ierobežotu atbildību",
+                  "registry_url": "http://dati.ur.gov.lv/",
+                  "branch": null,
+                  "branch_status": null,
+                  "inactive": null,
+                  "current_status": null,
+                  "created_at": "2018-08-08T00:09:21+00:00",
+                  "updated_at": "2019-09-14T09:47:49+00:00",
+                  "retrieved_at": "2019-09-10T23:06:07+00:00",
+                  "opencorporates_url": "https://opencorporates.com/companies/lv/40203155663",
+                  "previous_names": [
+                      {
+                          "company_name": "SIA Yandex.taxi.partner",
+                          "end_date": "2019-01-24"
+                      }
+                  ],
+                  "source": {
+                      "publisher": "Latvia Database of Enterprises",
+                      "url": "http://dati.ur.gov.lv/register/register.csv",
+                      "retrieved_at": "2019-09-10T23:06:07+00:00"
+                  },
+                  "registered_address": {
+                      "street_address": "\"Skujas\", Glūdas pag., Jelgavas nov.",
+                      "locality": null,
+                      "region": null,
+                      "postal_code": null,
+                      "country": "Latvia"
+                  },
+                  "registered_address_in_full": "\"Skujas\", Glūdas pag., Jelgavas nov.",
+                  "industry_codes": [],
+                  "restricted_for_marketing": null,
+                  "native_company_number": null
+              }
+          },
+          {
+              "company": {
+                  "name": "Stichting Yandex Conversion",
+                  "company_number": "27330915",
+                  "jurisdiction_code": "nl",
+                  "incorporation_date": null,
+                  "dissolution_date": null,
+                  "company_type": "Stichting",
+                  "registry_url": "https://www.kvk.nl/zoeken/handelsregister/#!uitgebreid-zoeken&handelsnaam=&kvknummer=27330915&straat=&postcode=&huisnummer=&plaats=&hoofdvestiging=true&rechtspersoon=true&nevenvestiging=false&zoekvervallen=1&zoekuitgeschreven=1&start=0&initial=0&searchfield=uitgebreidzoeken",
+                  "branch": null,
+                  "branch_status": null,
+                  "inactive": false,
+                  "current_status": "Active",
+                  "created_at": "2011-01-13T09:23:44+00:00",
+                  "updated_at": "2019-09-02T18:55:45+00:00",
+                  "retrieved_at": "2019-08-04T04:05:34+00:00",
+                  "opencorporates_url": "https://opencorporates.com/companies/nl/27330915",
+                  "previous_names": [],
+                  "source": {
+                      "publisher": "Kamer van Koophandel (KvK)",
+                      "url": "https://www.kvk.nl/zoeken/handelsregister/#!uitgebreid-zoeken&handelsnaam=&kvknummer=27330915&straat=&postcode=&huisnummer=&plaats=&hoofdvestiging=true&rechtspersoon=true&nevenvestiging=false&zoekvervallen=1&zoekuitgeschreven=1&start=0&initial=0&searchfield=uitgebreidzoeken",
+                      "retrieved_at": "2019-08-04T04:05:34+00:00"
+                  },
+                  "registered_address": null,
+                  "registered_address_in_full": null,
+                  "industry_codes": [],
+                  "restricted_for_marketing": true,
+                  "native_company_number": null
+              }
+          },
+          {
+              "company": {
+                  "name": "Stichting Yandex.Market Equity Incentive",
+                  "company_number": "71530975",
+                  "jurisdiction_code": "nl",
+                  "incorporation_date": null,
+                  "dissolution_date": null,
+                  "company_type": "Stichting",
+                  "registry_url": "https://www.kvk.nl/zoeken/handelsregister/#!uitgebreid-zoeken&handelsnaam=&kvknummer=71530975&straat=&postcode=&huisnummer=&plaats=&hoofdvestiging=true&rechtspersoon=true&nevenvestiging=false&zoekvervallen=1&zoekuitgeschreven=1&start=0&initial=0&searchfield=uitgebreidzoeken",
+                  "branch": null,
+                  "branch_status": null,
+                  "inactive": false,
+                  "current_status": "Active",
+                  "created_at": "2018-05-04T04:44:58+00:00",
+                  "updated_at": "2019-07-12T06:19:41+00:00",
+                  "retrieved_at": "2019-07-05T03:55:37+00:00",
+                  "opencorporates_url": "https://opencorporates.com/companies/nl/71530975",
+                  "previous_names": [],
+                  "source": {
+                      "publisher": "Kamer van Koophandel (KvK)",
+                      "url": "https://www.kvk.nl/zoeken/handelsregister/#!uitgebreid-zoeken&handelsnaam=&kvknummer=71530975&straat=&postcode=&huisnummer=&plaats=&hoofdvestiging=true&rechtspersoon=true&nevenvestiging=false&zoekvervallen=1&zoekuitgeschreven=1&start=0&initial=0&searchfield=uitgebreidzoeken",
+                      "retrieved_at": "2019-07-05T03:55:37+00:00"
+                  },
+                  "registered_address": null,
+                  "registered_address_in_full": null,
+                  "industry_codes": [],
+                  "restricted_for_marketing": true,
+                  "native_company_number": null
+              }
+          },
+          {
+              "company": {
+                  "name": "VARQUESA HOLDINGS LIMITED",
+                  "company_number": "HE112267",
+                  "jurisdiction_code": "cy",
+                  "incorporation_date": "2000-06-17",
+                  "dissolution_date": "2015-04-08",
+                  "company_type": "Limited Company",
+                  "registry_url": "https://efiling.drcor.mcit.gov.cy/DrcorPublic/SearchResults.aspx?name=%25&number=112267&searchtype=optStartMatch&index=1&lang=EN&tname=%25&sc=0",
+                  "branch": null,
+                  "branch_status": null,
+                  "inactive": true,
+                  "current_status": "Dissolved",
+                  "created_at": "2014-09-19T23:58:24+00:00",
+                  "updated_at": "2019-07-23T16:58:34+00:00",
+                  "retrieved_at": "2019-07-20T15:36:40+00:00",
+                  "opencorporates_url": "https://opencorporates.com/companies/cy/HE112267",
+                  "previous_names": [
+                      {
+                          "company_name": "JANVIER ENTERPRISES LIMITED"
+                      },
+                      {
+                          "company_name": "YANDEX NEW MEDIA LIMITED"
+                      }
+                  ],
+                  "source": {
+                      "publisher": "Cyprus Department of Registrar of Companies and Official Receiver",
+                      "url": "http://www.mcit.gov.cy/mcit/drcor/drcor.nsf/index_en/index_en?OpenDocument",
+                      "retrieved_at": "2019-07-20T15:36:40+00:00"
+                  },
+                  "registered_address": {
+                      "street_address": "Ευαγόρα Παπαχριστοφόρου, 18,\nPETOUSSIS BROS BUILDING, Floor 3,\n3030, Λεμεσός, Κύπρος",
+                      "locality": null,
+                      "region": null,
+                      "postal_code": null,
+                      "country": "Cyprus"
+                  },
+                  "registered_address_in_full": "Ευαγόρα Παπαχριστοφόρου, 18,\nPETOUSSIS BROS BUILDING, Floor 3,\n3030, Λεμεσός, Κύπρος",
+                  "industry_codes": [],
+                  "restricted_for_marketing": null,
+                  "native_company_number": null
+              }
+          },
+          {
+              "company": {
+                  "name": "WOLSEY YANDEX LTD",
+                  "company_number": "11444408",
+                  "jurisdiction_code": "gb",
+                  "incorporation_date": "2018-07-03",
+                  "dissolution_date": null,
+                  "company_type": "Private Limited Company",
+                  "registry_url": "https://beta.companieshouse.gov.uk/company/11444408",
+                  "branch": null,
+                  "branch_status": null,
+                  "inactive": false,
+                  "current_status": "Active",
+                  "created_at": "2018-07-04T04:32:51+00:00",
+                  "updated_at": "2019-07-11T02:24:09+00:00",
+                  "retrieved_at": "2019-07-11T02:24:09+00:00",
+                  "opencorporates_url": "https://opencorporates.com/companies/gb/11444408",
+                  "previous_names": [],
+                  "source": {
+                      "publisher": "UK Companies House",
+                      "url": "http://xmlgw.companieshouse.gov.uk/",
+                      "terms": "UK Crown Copyright",
+                      "retrieved_at": "2019-07-11T02:24:09+00:00"
+                  },
+                  "registered_address": {
+                      "street_address": "12 Mildred Street",
+                      "locality": "Salford",
+                      "region": null,
+                      "postal_code": "M7 2HF",
+                      "country": "United Kingdom"
+                  },
+                  "registered_address_in_full": "12 Mildred Street, Salford, M7 2HF",
+                  "industry_codes": [
+                      {
+                          "industry_code": {
+                              "code": "71.12/1",
+                              "description": "Engineering design activities for industrial process and production",
+                              "code_scheme_id": "uk_sic_2007",
+                              "code_scheme_name": "UK SIC Classification 2007",
+                              "uid": "uk_sic_2007-71121"
+                          }
+                      },
+                      {
+                          "industry_code": {
+                              "code": "71.12",
+                              "description": "Engineering activities and related technical consultancy",
+                              "code_scheme_id": "eu_nace_2",
+                              "code_scheme_name": "European Community NACE Rev 2",
+                              "uid": "eu_nace_2-7112"
+                          }
+                      },
+                      {
+                          "industry_code": {
+                              "code": "7110",
+                              "description": "Architectural and engineering activities and related technical consultancy",
+                              "code_scheme_id": "isic_4",
+                              "code_scheme_name": "UN ISIC Rev 4",
+                              "uid": "isic_4-7110"
+                          }
+                      }
+                  ],
+                  "restricted_for_marketing": null,
+                  "native_company_number": null
+              }
+          },
+          {
+              "company": {
+                  "name": "YANDEX BUSINESS (OPC) PRIVATE LIMITED",
+                  "company_number": "U74999BR2018OPC039532",
+                  "jurisdiction_code": "in",
+                  "incorporation_date": "2018-10-04",
+                  "dissolution_date": null,
+                  "company_type": "Company limited by Shares",
+                  "registry_url": null,
+                  "branch": null,
+                  "branch_status": null,
+                  "inactive": false,
+                  "current_status": "Active",
+                  "created_at": "2018-10-31T08:24:17+00:00",
+                  "updated_at": "2019-09-01T21:06:23+00:00",
+                  "retrieved_at": "2019-08-25T18:18:26+00:00",
+                  "opencorporates_url": "https://opencorporates.com/companies/in/U74999BR2018OPC039532",
+                  "previous_names": [],
+                  "source": {
+                      "publisher": "India Ministry of Corporate Affairs",
+                      "url": "http://www.mca.gov.in/",
+                      "retrieved_at": "2019-08-25T18:18:26+00:00"
+                  },
+                  "registered_address": {
+                      "street_address": "KAMESHWARI VIHAR LANE,NEAR SHERPUR GOMTI, BEHIND SUNSHINE SCHOOL, SHERPUR, MUZAFFARPUR Muzaffarpur BR 842005 IN",
+                      "locality": null,
+                      "region": null,
+                      "postal_code": null,
+                      "country": "India"
+                  },
+                  "registered_address_in_full": "KAMESHWARI VIHAR LANE,NEAR SHERPUR GOMTI, BEHIND SUNSHINE SCHOOL, SHERPUR, MUZAFFARPUR Muzaffarpur BR 842005 IN",
+                  "industry_codes": [
+                      {
+                          "industry_code": {
+                              "code": "74999",
+                              "description": null,
+                              "code_scheme_id": "in_nic_2004_mca",
+                              "code_scheme_name": "India National Industrial Classification 2004 (MCA 2009)",
+                              "uid": "in_nic_2004_mca-74999"
+                          }
+                      }
+                  ],
+                  "restricted_for_marketing": null,
+                  "native_company_number": null
+              }
+          },
+          {
+              "company": {
+                  "name": "YANDEX CONCEPTS LTD",
+                  "company_number": "09625738",
+                  "jurisdiction_code": "gb",
+                  "incorporation_date": "2015-06-05",
+                  "dissolution_date": "2017-05-02",
+                  "company_type": "Private Limited Company",
+                  "registry_url": "https://beta.companieshouse.gov.uk/company/09625738",
+                  "branch": null,
+                  "branch_status": null,
+                  "inactive": true,
+                  "current_status": "Dissolved",
+                  "created_at": "2015-06-05T10:42:46+00:00",
+                  "updated_at": "2018-04-13T13:35:50+00:00",
+                  "retrieved_at": "2017-05-03T17:48:10+00:00",
+                  "opencorporates_url": "https://opencorporates.com/companies/gb/09625738",
+                  "previous_names": [],
+                  "source": {
+                      "publisher": "UK Companies House",
+                      "url": "http://xmlgw.companieshouse.gov.uk/",
+                      "terms": "UK Crown Copyright",
+                      "retrieved_at": "2017-05-03T17:48:10+00:00"
+                  },
+                  "registered_address": {
+                      "street_address": "Suite 331 Kemp House 152-160 City Road",
+                      "locality": "London",
+                      "region": null,
+                      "postal_code": "EC1V 2NX",
+                      "country": "United Kingdom"
+                  },
+                  "registered_address_in_full": "Suite 331 Kemp House 152-160 City Road, London, EC1V 2NX",
+                  "industry_codes": [
+                      {
+                          "industry_code": {
+                              "code": "74.90/9",
+                              "description": "Other professional, scientific and technical activities (not including environmental consultancy or quantity surveying) n.e.c.",
+                              "code_scheme_id": "uk_sic_2007",
+                              "code_scheme_name": "UK SIC Classification 2007",
+                              "uid": "uk_sic_2007-74909"
+                          }
+                      },
+                      {
+                          "industry_code": {
+                              "code": "74.90",
+                              "description": "Other professional, scientific and technical activities n.e.c.",
+                              "code_scheme_id": "eu_nace_2",
+                              "code_scheme_name": "European Community NACE Rev 2",
+                              "uid": "eu_nace_2-7490"
+                          }
+                      },
+                      {
+                          "industry_code": {
+                              "code": "7490",
+                              "description": "Other professional, scientific and technical activities n.e.c.",
+                              "code_scheme_id": "isic_4",
+                              "code_scheme_name": "UN ISIC Rev 4",
+                              "uid": "isic_4-7490"
+                          }
+                      }
+                  ],
+                  "restricted_for_marketing": null,
+                  "native_company_number": null
+              }
+          },
+          {
+              "company": {
+                  "name": "YANDEX INC.",
+                  "company_number": "F12000003935",
+                  "jurisdiction_code": "us_fl",
+                  "incorporation_date": "2012-09-25",
+                  "dissolution_date": null,
+                  "company_type": "Foreign for Profit",
+                  "registry_url": null,
+                  "branch": "F",
+                  "branch_status": "branch of an out-of-jurisdiction company",
+                  "inactive": false,
+                  "current_status": "Active",
+                  "created_at": "2013-04-05T02:27:26+00:00",
+                  "updated_at": "2019-01-29T14:48:59+00:00",
+                  "retrieved_at": "2019-01-01T00:00:00+00:00",
+                  "opencorporates_url": "https://opencorporates.com/companies/us_fl/F12000003935",
+                  "previous_names": [],
+                  "source": {
+                      "publisher": "Florida Department of State Division of Corporations",
+                      "url": "http://www.sunbiz.org",
+                      "retrieved_at": "2019-01-01T00:00:00+00:00"
+                  },
+                  "registered_address": null,
+                  "registered_address_in_full": null,
+                  "industry_codes": [],
+                  "restricted_for_marketing": null,
+                  "native_company_number": null
+              }
+          },
+          {
+              "company": {
+                  "name": "YANDEX INC.",
+                  "company_number": "E0330752011-5",
+                  "jurisdiction_code": "us_nv",
+                  "incorporation_date": "2011-06-09",
+                  "dissolution_date": null,
+                  "company_type": "Foreign Corporation",
+                  "registry_url": null,
+                  "branch": "F",
+                  "branch_status": "branch of an out-of-jurisdiction company",
+                  "inactive": false,
+                  "current_status": "Active",
+                  "created_at": "2015-08-13T18:28:39+00:00",
+                  "updated_at": "2019-01-23T14:11:11+00:00",
+                  "retrieved_at": "2019-01-14T06:53:16+00:00",
+                  "opencorporates_url": "https://opencorporates.com/companies/us_nv/E0330752011-5",
+                  "previous_names": [],
+                  "source": {
+                      "publisher": "Nevada Secretary of State's Office",
+                      "url": null,
+                      "retrieved_at": "2019-01-14T06:53:16+00:00"
+                  },
+                  "registered_address": null,
+                  "registered_address_in_full": null,
+                  "industry_codes": [],
+                  "restricted_for_marketing": null,
+                  "native_company_number": "E0330752011-5"
+              }
+          },
+          {
+              "company": {
+                  "name": "YANDEX INC.",
+                  "company_number": "001050478",
+                  "jurisdiction_code": "us_ma",
+                  "incorporation_date": null,
+                  "dissolution_date": null,
+                  "company_type": null,
+                  "registry_url": "http://corp.sec.state.ma.us/CorpWeb/CorpSearch/CorpSummary.aspx?FEIN=001050478",
+                  "branch": null,
+                  "branch_status": null,
+                  "inactive": null,
+                  "current_status": null,
+                  "created_at": "2012-01-15T21:26:11+00:00",
+                  "updated_at": "2013-05-06T09:47:56+00:00",
+                  "retrieved_at": "2011-12-19T00:30:50+00:00",
+                  "opencorporates_url": "https://opencorporates.com/companies/us_ma/001050478",
+                  "previous_names": [],
+                  "source": {
+                      "publisher": "Massachusetts Secretary of the Commonwealth, Corporations Division",
+                      "url": "http://corp.sec.state.ma.us/CorpWeb/CorpSearch/CorpSummary.aspx?FEIN=001050478",
+                      "retrieved_at": "2011-12-19T00:30:50+00:00"
+                  },
+                  "registered_address": null,
+                  "registered_address_in_full": null,
+                  "industry_codes": [],
+                  "restricted_for_marketing": null,
+                  "native_company_number": null
+              }
+          },
+          {
+              "company": {
+                  "name": "YANDEX INC.",
+                  "company_number": "900600492",
+                  "jurisdiction_code": "us_ma",
+                  "incorporation_date": "2011-04-08",
+                  "dissolution_date": null,
+                  "company_type": "Foreign Corporation",
+                  "registry_url": "http://corp.sec.state.ma.us/CorpWeb/CorpSearch/CorpSummary.aspx?FEIN=900600492",
+                  "branch": "F",
+                  "branch_status": "branch of an out-of-jurisdiction company",
+                  "inactive": null,
+                  "current_status": null,
+                  "created_at": "2015-04-27T19:12:09+00:00",
+                  "updated_at": "2019-06-28T20:44:41+00:00",
+                  "retrieved_at": "2019-06-05T13:12:28+00:00",
+                  "opencorporates_url": "https://opencorporates.com/companies/us_ma/900600492",
+                  "previous_names": [],
+                  "source": {
+                      "publisher": "Massachusetts Secretary of the Commonwealth, Corporations Division",
+                      "url": "http://corp.sec.state.ma.us/CorpWeb/CorpSearch/CorpSummary.aspx?FEIN=900600492",
+                      "retrieved_at": "2019-06-05T13:12:28+00:00"
+                  },
+                  "registered_address": {
+                      "street_address": "38 MERRIMAC ST., SUITE 201",
+                      "locality": "NEWBURYPORT,",
+                      "region": "MA",
+                      "postal_code": "01950",
+                      "country": "USA"
+                  },
+                  "registered_address_in_full": "38 MERRIMAC ST., SUITE 201, NEWBURYPORT,, MA, 01950",
+                  "industry_codes": [],
+                  "restricted_for_marketing": null,
+                  "native_company_number": null
+              }
+          },
+          {
+              "company": {
+                  "name": "YANDEX INC.",
+                  "company_number": "603379855",
+                  "jurisdiction_code": "us_wa",
+                  "incorporation_date": "2014-05-14",
+                  "dissolution_date": null,
+                  "company_type": "FOREIGN PROFIT CORPORATION",
+                  "registry_url": "https://www.sos.wa.gov/corps/business.aspx?ubi=603379855",
+                  "branch": "F",
+                  "branch_status": "branch of an out-of-jurisdiction company",
+                  "inactive": false,
+                  "current_status": "Active",
+                  "created_at": "2015-10-25T08:02:10+00:00",
+                  "updated_at": "2019-05-23T03:26:25+00:00",
+                  "retrieved_at": "2019-05-20T01:01:48+00:00",
+                  "opencorporates_url": "https://opencorporates.com/companies/us_wa/603379855",
+                  "previous_names": [],
+                  "source": {
+                      "publisher": "Washington Secretary of State - Corporations Division",
+                      "url": "https://ccfs.sos.wa.gov/",
+                      "retrieved_at": "2019-05-20T01:01:48+00:00",
+                      "terms": "Public Domain",
+                      "terms_url": "https://www.sos.wa.gov/office/privacy.aspx"
+                  },
+                  "registered_address": {
+                      "street_address": "38R MERRIMAC ST STE 201",
+                      "locality": "NEWBURYPORT",
+                      "region": "MA",
+                      "postal_code": "01950-2662",
+                      "country": "UNITED STATES"
+                  },
+                  "registered_address_in_full": "38R MERRIMAC ST STE 201, NEWBURYPORT, MA, 01950-2662",
+                  "industry_codes": [],
+                  "restricted_for_marketing": null,
+                  "native_company_number": null
+              }
+          },
+          {
+              "company": {
+                  "name": "YANDEX INC.",
+                  "company_number": "C3316322",
+                  "jurisdiction_code": "us_ca",
+                  "incorporation_date": "2010-08-23",
+                  "dissolution_date": null,
+                  "company_type": "FOREIGN STOCK",
+                  "registry_url": "https://businessfilings.sos.ca.gov/frmDetail.asp?CorpID=03316322",
+                  "branch": "F",
+                  "branch_status": "branch of an out-of-jurisdiction company",
+                  "inactive": false,
+                  "current_status": "Active",
+                  "created_at": "2011-09-17T18:05:58+00:00",
+                  "updated_at": "2019-06-24T04:35:51+00:00",
+                  "retrieved_at": "2019-06-24T01:24:12+00:00",
+                  "opencorporates_url": "https://opencorporates.com/companies/us_ca/C3316322",
+                  "previous_names": [],
+                  "source": {
+                      "publisher": "California Secretary of State",
+                      "url": "https://businessfilings.sos.ca.gov/frmDetail.asp?CorpID=03316322",
+                      "retrieved_at": "2019-06-24T01:24:12+00:00"
+                  },
+                  "registered_address": {
+                      "street_address": "38 MERRIMAC ST., SUITE 201\nNEWBURYPORT MA 01950",
+                      "locality": null,
+                      "region": null,
+                      "postal_code": null,
+                      "country": "United States"
+                  },
+                  "registered_address_in_full": "38 MERRIMAC ST., SUITE 201\nNEWBURYPORT MA 01950",
+                  "industry_codes": [],
+                  "restricted_for_marketing": null,
+                  "native_company_number": null
+              }
+          },
+          {
+              "company": {
+                  "name": "YANDEX INC.",
+                  "company_number": "4859313",
+                  "jurisdiction_code": "us_de",
+                  "incorporation_date": "2010-08-12",
+                  "dissolution_date": null,
+                  "company_type": "Corporation",
+                  "registry_url": null,
+                  "branch": null,
+                  "branch_status": null,
+                  "inactive": null,
+                  "current_status": null,
+                  "created_at": "2011-10-19T06:34:18+00:00",
+                  "updated_at": "2019-09-21T02:39:08+00:00",
+                  "retrieved_at": "2018-07-15T04:51:24+00:00",
+                  "opencorporates_url": "https://opencorporates.com/companies/us_de/4859313",
+                  "previous_names": [],
+                  "source": {
+                      "publisher": "Delaware Department of State: Division of Corporations",
+                      "url": "http://www.corp.delaware.gov/",
+                      "retrieved_at": "2018-07-15T04:51:24+00:00"
+                  },
+                  "registered_address": null,
+                  "registered_address_in_full": null,
+                  "industry_codes": [],
+                  "restricted_for_marketing": null,
+                  "native_company_number": null
+              }
+          },
+          {
+              "company": {
+                  "name": "YANDEX INDEX LLC",
+                  "company_number": "5006570",
+                  "jurisdiction_code": "us_nm",
+                  "incorporation_date": "2015-01-15",
+                  "dissolution_date": null,
+                  "company_type": "Domestic Limited Liability Company",
+                  "registry_url": "https://portal.sos.state.nm.us/BFS/online/CorporationBusinessSearch/CorporationBusinessInformation?businessId=364260",
+                  "branch": null,
+                  "branch_status": null,
+                  "inactive": true,
+                  "current_status": "Voluntary Dissolution",
+                  "created_at": "2015-07-10T02:06:42+00:00",
+                  "updated_at": "2017-06-27T10:31:00+00:00",
+                  "retrieved_at": "2017-06-17T16:21:16+00:00",
+                  "opencorporates_url": "https://opencorporates.com/companies/us_nm/5006570",
+                  "previous_names": [],
+                  "source": {
+                      "publisher": "New Mexico Public Regulation Commission (Corporations Division)",
+                      "url": "https://portal.sos.state.nm.us/BFS/online/CorporationBusinessSearch/CorporationBusinessInformation?businessId=364260",
+                      "retrieved_at": "2017-06-17T16:21:16+00:00"
+                  },
+                  "registered_address": null,
+                  "registered_address_in_full": null,
+                  "industry_codes": [],
+                  "restricted_for_marketing": null,
+                  "native_company_number": null
+              }
+          },
+          {
+              "company": {
+                  "name": "YANDEX IT SERVICE HK LIMITED",
+                  "company_number": "2174058",
+                  "jurisdiction_code": "hk",
+                  "incorporation_date": "2014-11-27",
+                  "dissolution_date": null,
+                  "company_type": "Private company limited by shares",
+                  "registry_url": null,
+                  "branch": null,
+                  "branch_status": null,
+                  "inactive": false,
+                  "current_status": "Live",
+                  "created_at": "2015-09-14T09:56:10+00:00",
+                  "updated_at": "2019-09-02T15:13:20+00:00",
+                  "retrieved_at": "2019-09-01T16:04:52+00:00",
+                  "opencorporates_url": "https://opencorporates.com/companies/hk/2174058",
+                  "previous_names": [
+                      {
+                          "start_date": "2014-11-27",
+                          "company_name": "遠大信息服務香港有限公司"
+                      }
+                  ],
+                  "source": {
+                      "publisher": "Hong Kong Companies Registry",
+                      "url": "http://www.icris.cr.gov.hk/",
+                      "retrieved_at": "2019-09-01T16:04:52+00:00"
+                  },
+                  "registered_address": null,
+                  "registered_address_in_full": null,
+                  "industry_codes": [],
+                  "restricted_for_marketing": null,
+                  "native_company_number": null
+              }
+          },
+          {
+              "company": {
+                  "name": "YANDEX LABOR VEST S.R.L.",
+                  "company_number": "39725837",
+                  "jurisdiction_code": "ro",
+                  "incorporation_date": null,
+                  "dissolution_date": null,
+                  "company_type": "Societate cu răspundere limitată",
+                  "registry_url": null,
+                  "branch": null,
+                  "branch_status": null,
+                  "inactive": false,
+                  "current_status": "Funcţiune",
+                  "created_at": "2019-02-19T09:59:20+00:00",
+                  "updated_at": "2019-08-15T16:37:32+00:00",
+                  "retrieved_at": "2019-08-11T18:30:00+00:00",
+                  "opencorporates_url": "https://opencorporates.com/companies/ro/39725837",
+                  "previous_names": [],
+                  "source": {
+                      "publisher": "Oficiul Național al Registrului Comerțului",
+                      "url": "http://data.gov.ro/",
+                      "retrieved_at": "2019-08-11T18:30:00+00:00",
+                      "terms": "Romanian Open Government Licence (OGL-ROU-1.0)",
+                      "terms_url": "http://data.gov.ro/base/images/logoinst/OGL-ROU-1.0.pdf"
+                  },
+                  "registered_address": {
+                      "street_address": "Str. RĂCARI, Nr. 51, CAMERA 1, Bloc 70, Scara 2, Etaj 5, Apartament 81",
+                      "locality": "Bucureşti Sectorul 3",
+                      "region": "",
+                      "postal_code": null,
+                      "country": "Romania"
+                  },
+                  "registered_address_in_full": "Str. RĂCARI, Nr. 51, CAMERA 1, Bloc 70, Scara 2, Etaj 5, Apartament 81, Bucureşti Sectorul 3",
+                  "industry_codes": [],
+                  "restricted_for_marketing": null,
+                  "native_company_number": null
+              }
+          },
+          {
+              "company": {
+                  "name": "YANDEX LTD",
+                  "company_number": "04885777",
+                  "jurisdiction_code": "gb",
+                  "incorporation_date": "2003-09-03",
+                  "dissolution_date": "2005-06-14",
+                  "company_type": "Private Limited Company",
+                  "registry_url": "https://beta.companieshouse.gov.uk/company/04885777",
+                  "branch": null,
+                  "branch_status": null,
+                  "inactive": true,
+                  "current_status": "Dissolved",
+                  "created_at": "2011-07-29T06:41:52+00:00",
+                  "updated_at": "2015-12-17T13:05:38+00:00",
+                  "retrieved_at": "2011-08-04T04:58:25+00:00",
+                  "opencorporates_url": "https://opencorporates.com/companies/gb/04885777",
+                  "previous_names": [],
+                  "source": {
+                      "publisher": "UK Companies House",
+                      "url": "http://xmlgw.companieshouse.gov.uk/",
+                      "terms": "UK Crown Copyright",
+                      "retrieved_at": "2011-08-04T04:58:25+00:00"
+                  },
+                  "registered_address": {
+                      "street_address": "28-29 DOVER STREET",
+                      "locality": "LONDON",
+                      "region": null,
+                      "postal_code": "W1A 4NA",
+                      "country": "United Kingdom"
+                  },
+                  "registered_address_in_full": "28-29 DOVER STREET, LONDON, W1A 4NA",
+                  "industry_codes": [],
+                  "restricted_for_marketing": null,
+                  "native_company_number": null
+              }
+          },
+          {
+              "company": {
+                  "name": "YANDEX LTD.",
+                  "company_number": "RA000693_28083",
+                  "jurisdiction_code": "bz",
+                  "incorporation_date": null,
+                  "dissolution_date": null,
+                  "company_type": "International Business Company",
+                  "registry_url": null,
+                  "branch": null,
+                  "branch_status": null,
+                  "inactive": true,
+                  "current_status": "Inactive",
+                  "created_at": "2019-04-17T14:08:45+00:00",
+                  "updated_at": "2019-09-18T05:55:33+00:00",
+                  "retrieved_at": "2019-09-18T01:39:44+00:00",
+                  "opencorporates_url": "https://opencorporates.com/companies/bz/RA000693_28083",
+                  "previous_names": [],
+                  "source": {
+                      "publisher": "International Business Companies Registry of Belize",
+                      "url": "https://www.ibcbelize.com/",
+                      "retrieved_at": "2019-09-18T01:39:44+00:00"
+                  },
+                  "registered_address": null,
+                  "registered_address_in_full": null,
+                  "industry_codes": [],
+                  "restricted_for_marketing": null,
+                  "native_company_number": "28083"
+              }
+          },
+          {
+              "company": {
+                  "name": "YANDEX, INC.",
+                  "company_number": "000804854",
+                  "jurisdiction_code": "us_ma",
+                  "incorporation_date": "2001-11-26",
+                  "dissolution_date": "2007-05-31",
+                  "company_type": "Domestic Profit Corporation",
+                  "registry_url": "http://corp.sec.state.ma.us/CorpWeb/CorpSearch/CorpSummary.aspx?FEIN=000804854",
+                  "branch": null,
+                  "branch_status": null,
+                  "inactive": true,
+                  "current_status": null,
+                  "created_at": "2012-01-15T21:26:11+00:00",
+                  "updated_at": "2019-06-12T23:56:38+00:00",
+                  "retrieved_at": "2019-03-24T01:07:18+00:00",
+                  "opencorporates_url": "https://opencorporates.com/companies/us_ma/000804854",
+                  "previous_names": [],
+                  "source": {
+                      "publisher": "Massachusetts Secretary of the Commonwealth, Corporations Division",
+                      "url": "http://corp.sec.state.ma.us/CorpWeb/CorpSearch/CorpSummary.aspx?FEIN=000804854",
+                      "retrieved_at": "2019-03-24T01:07:18+00:00"
+                  },
+                  "registered_address": {
+                      "street_address": "11 BEACON ST., SUITE 600",
+                      "locality": "BOSTON,",
+                      "region": "MA",
+                      "postal_code": "02108",
+                      "country": "USA"
+                  },
+                  "registered_address_in_full": "11 BEACON ST., SUITE 600, BOSTON,, MA, 02108",
+                  "industry_codes": [],
+                  "restricted_for_marketing": null,
+                  "native_company_number": null
+              }
+          },
+          {
+              "company": {
+                  "name": "YOUR ANCHOR DISTRIBUTION EXPERTS LTD",
+                  "company_number": "HE320030",
+                  "jurisdiction_code": "cy",
+                  "incorporation_date": "2013-03-04",
+                  "dissolution_date": null,
+                  "company_type": "Limited Company",
+                  "registry_url": "https://efiling.drcor.mcit.gov.cy/DrcorPublic/SearchResults.aspx?name=%25&number=320030&searchtype=optStartMatch&index=1&lang=EN&tname=%25&sc=1",
+                  "branch": null,
+                  "branch_status": null,
+                  "inactive": false,
+                  "current_status": "Active",
+                  "created_at": "2014-09-20T02:46:33+00:00",
+                  "updated_at": "2019-09-14T00:56:03+00:00",
+                  "retrieved_at": "2019-09-05T16:27:10+00:00",
+                  "opencorporates_url": "https://opencorporates.com/companies/cy/HE320030",
+                  "previous_names": [
+                      {
+                          "company_name": "YANDEX LIMITED"
+                      }
+                  ],
+                  "source": {
+                      "publisher": "Cyprus Department of Registrar of Companies and Official Receiver",
+                      "url": "http://www.mcit.gov.cy/mcit/drcor/drcor.nsf/index_en/index_en?OpenDocument",
+                      "retrieved_at": "2019-09-05T16:27:10+00:00"
+                  },
+                  "registered_address": {
+                      "street_address": "Χαράλαμπου Μούσκου, 20,\nABC BUSINESS CENTRE, Floor 1, Flat 101\n8010, Πάφος, Κύπρος",
+                      "locality": null,
+                      "region": null,
+                      "postal_code": null,
+                      "country": "Cyprus"
+                  },
+                  "registered_address_in_full": "Χαράλαμπου Μούσκου, 20,\nABC BUSINESS CENTRE, Floor 1, Flat 101\n8010, Πάφος, Κύπρος",
+                  "industry_codes": [],
+                  "restricted_for_marketing": null,
+                  "native_company_number": null
+              }
+          },
+          {
+              "company": {
+                  "name": "Yandex Africa LLC",
+                  "company_number": "2019-000860648",
+                  "jurisdiction_code": "us_wy",
+                  "incorporation_date": "2019-06-11",
+                  "dissolution_date": null,
+                  "company_type": "Limited Liability Company",
+                  "registry_url": "https://wyobiz.wy.gov/Business/FilingDetails.aspx?eFNum=157223151036250066120203054015255209101224163057",
+                  "branch": null,
+                  "branch_status": null,
+                  "inactive": false,
+                  "current_status": "Active",
+                  "created_at": "2019-06-13T04:42:04+00:00",
+                  "updated_at": "2019-08-09T08:11:04+00:00",
+                  "retrieved_at": "2019-08-09T04:14:11+00:00",
+                  "opencorporates_url": "https://opencorporates.com/companies/us_wy/2019-000860648",
+                  "previous_names": [],
+                  "source": {
+                      "publisher": "Wyoming Secretary of State's Office",
+                      "url": "https://wyobiz.wy.gov/Business/FilingDetails.aspx?eFNum=157223151036250066120203054015255209101224163057",
+                      "retrieved_at": "2019-08-09T04:14:11+00:00"
+                  },
+                  "registered_address": {
+                      "street_address": "30 N Gould St\nSte R\nSheridan, WY 82801\nUSA",
+                      "locality": null,
+                      "region": null,
+                      "postal_code": null,
+                      "country": "United States"
+                  },
+                  "registered_address_in_full": "30 N Gould St\nSte R\nSheridan, WY 82801\nUSA",
+                  "industry_codes": [],
+                  "restricted_for_marketing": null,
+                  "native_company_number": null
+              }
+          },
+          {
+              "company": {
+                  "name": "Yandex Auto.ru AG",
+                  "company_number": "1107554",
+                  "jurisdiction_code": "ch",
+                  "incorporation_date": null,
+                  "dissolution_date": null,
+                  "company_type": "Aktiengesellschaft",
+                  "registry_url": "https://www.zefix.ch/en/search/entity/list/firm/1107554",
+                  "branch": null,
+                  "branch_status": null,
+                  "inactive": false,
+                  "current_status": "Aktive",
+                  "created_at": "2016-09-09T05:38:52+00:00",
+                  "updated_at": "2019-09-21T05:16:46+00:00",
+                  "retrieved_at": "2019-09-10T18:31:26+00:00",
+                  "opencorporates_url": "https://opencorporates.com/companies/ch/1107554",
+                  "previous_names": [
+                      {
+                          "company_name": "Immerbereit AG"
+                      }
+                  ],
+                  "source": {
+                      "publisher": "Swiss Central Register of the Federal Commercial Registry Office (Zefix Web Services)",
+                      "url": "http://www.e-service.admin.ch/ws-zefix-1.7/ZefixService/",
+                      "retrieved_at": "2019-09-10T18:31:26Z"
+                  },
+                  "registered_address": {
+                      "street_address": "Werftestrasse, 4",
+                      "locality": "Luzern",
+                      "region": null,
+                      "postal_code": "6005",
+                      "country": "CH"
+                  },
+                  "registered_address_in_full": "Werftestrasse, 4, Luzern, 6005",
+                  "industry_codes": [],
+                  "restricted_for_marketing": null,
+                  "native_company_number": null
+              }
+          },
+          {
+              "company": {
+                  "name": "Yandex Europe AG",
+                  "company_number": "1043576",
+                  "jurisdiction_code": "ch",
+                  "incorporation_date": null,
+                  "dissolution_date": null,
+                  "company_type": "Aktiengesellschaft",
+                  "registry_url": "https://www.zefix.ch/en/search/entity/list/firm/1043576",
+                  "branch": null,
+                  "branch_status": null,
+                  "inactive": false,
+                  "current_status": "Aktive",
+                  "created_at": "2016-09-09T00:05:57+00:00",
+                  "updated_at": "2019-09-21T02:39:07+00:00",
+                  "retrieved_at": "2019-08-27T17:31:40+00:00",
+                  "opencorporates_url": "https://opencorporates.com/companies/ch/1043576",
+                  "previous_names": [],
+                  "source": {
+                      "publisher": "Swiss Central Register of the Federal Commercial Registry Office (Zefix Web Services)",
+                      "url": "http://www.e-service.admin.ch/ws-zefix-1.7/ZefixService/",
+                      "retrieved_at": "2019-08-27T17:31:40Z"
+                  },
+                  "registered_address": {
+                      "street_address": "Werftestrasse, 4",
+                      "locality": "Luzern",
+                      "region": null,
+                      "postal_code": "6005",
+                      "country": "Switzerland"
+                  },
+                  "registered_address_in_full": "Werftestrasse, 4, Luzern, 6005",
+                  "industry_codes": [],
+                  "restricted_for_marketing": null,
+                  "native_company_number": null
+              }
+          },
+          {
+              "company": {
+                  "name": "Yandex Europe B.V.",
+                  "company_number": "51515539",
+                  "jurisdiction_code": "nl",
+                  "incorporation_date": null,
+                  "dissolution_date": null,
+                  "company_type": "Besloten Vennootschap",
+                  "registry_url": "https://www.kvk.nl/zoeken/handelsregister/#!uitgebreid-zoeken&handelsnaam=&kvknummer=51515539&straat=&postcode=&huisnummer=&plaats=&hoofdvestiging=true&rechtspersoon=true&nevenvestiging=false&zoekvervallen=1&zoekuitgeschreven=1&start=0&initial=0&searchfield=uitgebreidzoeken",
+                  "branch": null,
+                  "branch_status": null,
+                  "inactive": false,
+                  "current_status": "Active",
+                  "created_at": "2011-01-13T15:31:15+00:00",
+                  "updated_at": "2019-09-21T02:21:15+00:00",
+                  "retrieved_at": "2019-06-19T01:31:29+00:00",
+                  "opencorporates_url": "https://opencorporates.com/companies/nl/51515539",
+                  "previous_names": [],
+                  "source": {
+                      "publisher": "Kamer van Koophandel (KvK)",
+                      "url": "https://www.kvk.nl/zoeken/handelsregister/#!uitgebreid-zoeken&handelsnaam=&kvknummer=51515539&straat=&postcode=&huisnummer=&plaats=&hoofdvestiging=true&rechtspersoon=true&nevenvestiging=false&zoekvervallen=1&zoekuitgeschreven=1&start=0&initial=0&searchfield=uitgebreidzoeken",
+                      "retrieved_at": "2019-06-19T01:31:29+00:00"
+                  },
+                  "registered_address": null,
+                  "registered_address_in_full": null,
+                  "industry_codes": [],
+                  "restricted_for_marketing": true,
+                  "native_company_number": null
+              }
+          },
+          {
+              "company": {
+                  "name": "Yandex Media Services B.V.",
+                  "company_number": "71381368",
+                  "jurisdiction_code": "nl",
+                  "incorporation_date": null,
+                  "dissolution_date": null,
+                  "company_type": "Besloten Vennootschap",
+                  "registry_url": "https://www.kvk.nl/zoeken/handelsregister/#!uitgebreid-zoeken&handelsnaam=&kvknummer=71381368&straat=&postcode=&huisnummer=&plaats=&hoofdvestiging=true&rechtspersoon=true&nevenvestiging=false&zoekvervallen=1&zoekuitgeschreven=1&start=0&initial=0&searchfield=uitgebreidzoeken",
+                  "branch": null,
+                  "branch_status": null,
+                  "inactive": false,
+                  "current_status": "Active",
+                  "created_at": "2018-05-04T03:47:16+00:00",
+                  "updated_at": "2019-07-12T06:08:30+00:00",
+                  "retrieved_at": "2019-07-02T15:18:53+00:00",
+                  "opencorporates_url": "https://opencorporates.com/companies/nl/71381368",
+                  "previous_names": [],
+                  "source": {
+                      "publisher": "Kamer van Koophandel (KvK)",
+                      "url": "https://www.kvk.nl/zoeken/handelsregister/#!uitgebreid-zoeken&handelsnaam=&kvknummer=71381368&straat=&postcode=&huisnummer=&plaats=&hoofdvestiging=true&rechtspersoon=true&nevenvestiging=false&zoekvervallen=1&zoekuitgeschreven=1&start=0&initial=0&searchfield=uitgebreidzoeken",
+                      "retrieved_at": "2019-07-02T15:18:53+00:00"
+                  },
+                  "registered_address": null,
+                  "registered_address_in_full": null,
+                  "industry_codes": [],
+                  "restricted_for_marketing": true,
+                  "native_company_number": null
+              }
+          },
+          {
+              "company": {
+                  "name": "Yandex N.V.",
+                  "company_number": "27265167",
+                  "jurisdiction_code": "nl",
+                  "incorporation_date": null,
+                  "dissolution_date": null,
+                  "company_type": "Naamloze Vennootschap",
+                  "registry_url": "https://www.kvk.nl/zoeken/handelsregister/#!uitgebreid-zoeken&handelsnaam=&kvknummer=27265167&straat=&postcode=&huisnummer=&plaats=&hoofdvestiging=true&rechtspersoon=true&nevenvestiging=false&zoekvervallen=1&zoekuitgeschreven=1&start=0&initial=0&searchfield=uitgebreidzoeken",
+                  "branch": null,
+                  "branch_status": null,
+                  "inactive": false,
+                  "current_status": "Active",
+                  "created_at": "2011-01-13T09:12:08+00:00",
+                  "updated_at": "2019-09-21T06:00:06+00:00",
+                  "retrieved_at": "2019-08-25T11:14:29+00:00",
+                  "opencorporates_url": "https://opencorporates.com/companies/nl/27265167",
+                  "previous_names": [],
+                  "source": {
+                      "publisher": "Kamer van Koophandel (KvK)",
+                      "url": "https://www.kvk.nl/zoeken/handelsregister/#!uitgebreid-zoeken&handelsnaam=&kvknummer=27265167&straat=&postcode=&huisnummer=&plaats=&hoofdvestiging=true&rechtspersoon=true&nevenvestiging=false&zoekvervallen=1&zoekuitgeschreven=1&start=0&initial=0&searchfield=uitgebreidzoeken",
+                      "retrieved_at": "2019-08-25T11:14:29+00:00"
+                  },
+                  "registered_address": null,
+                  "registered_address_in_full": null,
+                  "industry_codes": [],
+                  "restricted_for_marketing": true,
+                  "native_company_number": null
+              }
+          },
+          {
+              "company": {
+                  "name": "Yandex Oy",
+                  "company_number": "2541661-9",
+                  "jurisdiction_code": "fi",
+                  "incorporation_date": "2013-04-09",
+                  "dissolution_date": null,
+                  "company_type": "Osakeyhtiö",
+                  "registry_url": null,
+                  "branch": null,
+                  "branch_status": null,
+                  "inactive": null,
+                  "current_status": null,
+                  "created_at": "2013-09-05T05:34:15+00:00",
+                  "updated_at": "2019-08-27T02:19:08+00:00",
+                  "retrieved_at": "2019-08-26T17:33:11+00:00",
+                  "opencorporates_url": "https://opencorporates.com/companies/fi/2541661-9",
+                  "previous_names": [],
+                  "source": {
+                      "publisher": "Finnish Business Information System",
+                      "url": null,
+                      "retrieved_at": "2019-08-26T17:33:11+00:00"
+                  },
+                  "registered_address": {
+                      "street_address": "Moreenikatu 6",
+                      "locality": "MÄNTSÄLÄ",
+                      "region": null,
+                      "postal_code": "04600",
+                      "country": "Finland"
+                  },
+                  "registered_address_in_full": "Moreenikatu 6, MÄNTSÄLÄ, 04600",
+                  "industry_codes": [
+                      {
+                          "industry_code": {
+                              "code": "63110",
+                              "description": "Data processing, hosting and related activities",
+                              "code_scheme_id": "fi_tol_2008",
+                              "code_scheme_name": "Finland TOL 2008",
+                              "uid": "fi_tol_2008-63110"
+                          }
+                      },
+                      {
+                          "industry_code": {
+                              "code": "63.11",
+                              "description": "Data processing, hosting and related activities",
+                              "code_scheme_id": "eu_nace_2",
+                              "code_scheme_name": "European Community NACE Rev 2",
+                              "uid": "eu_nace_2-6311"
+                          }
+                      },
+                      {
+                          "industry_code": {
+                              "code": "6311",
+                              "description": "Data processing, hosting and related activities",
+                              "code_scheme_id": "isic_4",
+                              "code_scheme_name": "UN ISIC Rev 4",
+                              "uid": "isic_4-6311"
+                          }
+                      }
+                  ],
+                  "restricted_for_marketing": null,
+                  "native_company_number": null
+              }
+          }
+      ],
+      "page": 1,
+      "per_page": 30,
+      "total_pages": 2,
+      "total_count": 39
+  }
+}

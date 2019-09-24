@@ -8,7 +8,7 @@ class SearchResults extends Component {
   companiesService = new CompaniesService();
   url = new URL();
 
-  mockData = true;
+  mockData = false;
 
   state = {
     params: {},

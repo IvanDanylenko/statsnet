@@ -46,6 +46,8 @@ h1,h2,h3,h4 {
 }
 
 h1 {
+  font-family: "Avenir";
+  color: #000;
   font-size: 70px;
   line-height: .87;
   margin-bottom: .3em;
@@ -848,8 +850,18 @@ i {
 }
 
 .header__logos {
+  font-family: "Avenir";
   display: inline-block;
-  margin-bottom: 10px
+  margin-bottom: 10px;
+  color: #000;
+  font-size: 70px;
+  line-height: .87;
+  margin-bottom: .3em;
+  margin-top: 0
+}
+
+.header__logos span {
+  color: #000;
 }
 
 @media (max-width: 740px) {
@@ -1348,25 +1360,6 @@ i {
   padding-bottom: 40px
 }
 
-.promo-statistics__title_company:before {
-  content: "";
-  background: #f26522;
-  width: 500px;
-  height: 14px;
-  -webkit-transform: skew(-45deg);
-  -ms-transform: skew(-45deg);
-  transform: skew(-45deg);
-  position: absolute;
-  left: -90px;
-  bottom: 20px
-}
-
-@media (max-width: 998px) {
-  .promo-statistics__title_company:before {
-      left:-350px
-  }
-}
-
 @media (min-width: 998px) {
   .promo-statistics__title_company {
       padding-right:300px
@@ -1789,8 +1782,8 @@ i {
 }
 
 .factoid__value {
-  font-size: 100px;
-  font-family: 'Greta Sans Pro Comp Medium',sans-serif;
+  font-size: 85px;
+  font-family: 'Avenir';
   line-height: .7em;
   padding-right: 10px
 }

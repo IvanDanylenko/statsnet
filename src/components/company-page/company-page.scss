@@ -1,15 +1,14 @@
 .company-page {
   font-size: 18px;
   line-height: 1.4;
+  @import "styles/fonts";
   @import "styles/spark-svg-sprite";
   @import "styles/spark-uncss-main";
 
-  .fixed {
-    position: fixed;
-    width: 923px;
-    z-index: 8;
-    top: 0px;
-  }
+}
+
+#nprogress .spinner {
+  display: none;
 }
 
 // https://uncss-online.com/  - Сервис для удаления неиспользованых стилей в html

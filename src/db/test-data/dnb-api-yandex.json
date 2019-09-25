@@ -1,0 +1,3351 @@
+{
+  "transactionDetail": {
+      "transactionID": "rrt-0017ac209d3396b2a-c-ea-23018-9581833-14",
+      "transactionTimestamp": "2019-09-25T06:51:13.791Z",
+      "inLanguage": "en-US",
+      "serviceVersion": "1"
+  },
+  "inquiryDetail": {
+      "pageNumber": 1,
+      "isOutOfBusiness": false,
+      "isMarketable": true,
+      "pageSize": 1000
+  },
+  "candidatesReturnedQuantity": 25,
+  "candidatesMatchedQuantity": 25,
+  "searchCandidates": [
+      {
+          "displaySequence": 1,
+          "organization": {
+              "duns": "a8ae20abb2af3ff443791e04d4bbfff6",
+              "dunsControlStatus": {
+                  "isOutOfBusiness": false,
+                  "isMarketable": true,
+                  "isTelephoneDisconnected": false,
+                  "isMailUndeliverable": false
+              },
+              "primaryName": "Yandex N.V.",
+              "primaryNameForUrl": "Yandex_NV",
+              "primaryAddress": {
+                  "addressCountry": {
+                      "isoAlpha2Code": "NL",
+                      "countryName": "Netherlands"
+                  },
+                  "addressLocality": {
+                      "name": "Luchthaven Schiphol"
+                  },
+                  "addressRegion": {
+                      "name": "NOORD-HOLLAND"
+                  },
+                  "postalCode": "1118 BG",
+                  "streetAddress": {
+                      "line1": "Schiphol Boulevard 165"
+                  },
+                  "latitude": 52.308709,
+                  "longitude": 4.758502
+              },
+              "primaryIndustryCodes": [
+                  {
+                      "usSicV4": "6733",
+                      "usSicV4Description": "Trust management"
+                  }
+              ],
+              "corporateLinkage": {
+                  "isBranch": false,
+                  "familytreeRolesPlayed": [
+                      {
+                          "description": "Global Ultimate",
+                          "dnbCode": 12775
+                      },
+                      {
+                          "description": "Domestic Ultimate",
+                          "dnbCode": 12774
+                      },
+                      {
+                          "description": "Parent/Headquarters",
+                          "dnbCode": 9141
+                      }
+                  ],
+                  "globalUltimateFamilyTreeMembersCount": 27
+              },
+              "financials": [
+                  {
+                      "yearlyRevenue": [
+                          {
+                              "value": 2.029E9,
+                              "currency": "USD"
+                          }
+                      ]
+                  }
+              ],
+              "registrationNumbers": [
+                  {
+                      "registrationNumber": "NL813422474B01",
+                      "typeDescription": "Value Added Tax Number (NL)",
+                      "typeDnBCode": 6273
+                  },
+                  {
+                      "registrationNumber": "813422474",
+                      "typeDescription": "Legal Entity and Partnership Information Number (NL)",
+                      "typeDnBCode": 23097
+                  },
+                  {
+                      "registrationNumber": "27265167",
+                      "typeDescription": "Trade Register Number (NL)",
+                      "typeDnBCode": 6256
+                  },
+                  {
+                      "registrationNumber": "000019258895",
+                      "typeDescription": "Branch Unit Number (NL)",
+                      "typeDnBCode": 23096
+                  }
+              ],
+              "numberOfEmployees": [
+                  {
+                      "value": 3,
+                      "informationScopeDescription": "HQ only (here)",
+                      "informationScopeDnBCode": 9068,
+                      "reliabilityDescription": "Actual",
+                      "reliabilityDnBCode": 9092
+                  },
+                  {
+                      "value": 8767,
+                      "informationScopeDescription": "Consolidated",
+                      "informationScopeDnBCode": 9067,
+                      "reliabilityDescription": "Actual",
+                      "reliabilityDnBCode": 9092
+                  }
+              ],
+              "industryCodes": [
+                  {
+                      "code": "523991",
+                      "description": "Trust, Fiduciary, and Custody Activities",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 1
+                  },
+                  {
+                      "code": "1036",
+                      "description": "Custodial & Trust Services",
+                      "typeDescription": "D&B Hoovers Industry Code",
+                      "typeDnbCode": 25838,
+                      "priority": 1
+                  },
+                  {
+                      "code": "67330000",
+                      "description": "Trusts, nec",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 1
+                  }
+              ],
+              "telephone": [
+                  {
+                      "telephoneNumber": "202066970"
+                  }
+              ],
+              "tickerSymbol": "NASDAQ:YNDX",
+              "businessEntityType": {
+                  "dnbCode": 451,
+                  "description": "Corporation"
+              },
+              "domain": "yandex.com"
+          }
+      },
+      {
+          "displaySequence": 2,
+          "organization": {
+              "duns": "3e65dec8d3e72a52c8e9093f18945571",
+              "dunsControlStatus": {
+                  "isOutOfBusiness": false,
+                  "isMarketable": true,
+                  "isTelephoneDisconnected": false,
+                  "isMailUndeliverable": false
+              },
+              "primaryName": "YANDEKS, OOO",
+              "primaryNameForUrl": "YANDEKS_OOO",
+              "tradeStyleNames": [
+                  {
+                      "name": "YANDEX LLC",
+                      "priority": 1
+                  }
+              ],
+              "primaryAddress": {
+                  "addressCountry": {
+                      "isoAlpha2Code": "RU",
+                      "countryName": "Russian Federation"
+                  },
+                  "addressLocality": {
+                      "name": "Moscow"
+                  },
+                  "postalCode": "119021",
+                  "streetAddress": {
+                      "line1": "16 ul. Lva Tolstogo"
+                  },
+                  "latitude": 55.73419,
+                  "longitude": 37.586634
+              },
+              "primaryIndustryCodes": [
+                  {
+                      "usSicV4": "7371",
+                      "usSicV4Description": "Custom computer programing"
+                  }
+              ],
+              "corporateLinkage": {
+                  "isBranch": false,
+                  "familytreeRolesPlayed": [
+                      {
+                          "description": "Subsidiary",
+                          "dnbCode": 9159
+                      },
+                      {
+                          "description": "Domestic Ultimate",
+                          "dnbCode": 12774
+                      },
+                      {
+                          "description": "Parent/Headquarters",
+                          "dnbCode": 9141
+                      }
+                  ],
+                  "globalUltimateFamilyTreeMembersCount": 27
+              },
+              "financials": [
+                  {
+                      "yearlyRevenue": [
+                          {
+                              "value": 1.592967473E9,
+                              "currency": "USD"
+                          }
+                      ]
+                  }
+              ],
+              "registrationNumbers": [
+                  {
+                      "registrationNumber": "7736207543",
+                      "typeDescription": "Tax Registration Number (RU)",
+                      "typeDnBCode": 1437
+                  },
+                  {
+                      "registrationNumber": "55187675",
+                      "typeDescription": "Government Gazette Number (RU)",
+                      "typeDnBCode": 9429
+                  },
+                  {
+                      "registrationNumber": "1027700229193",
+                      "typeDescription": "Business Registration Number (RU)",
+                      "typeDnBCode": 9403
+                  }
+              ],
+              "numberOfEmployees": [
+                  {
+                      "value": 650,
+                      "informationScopeDescription": "Consolidated",
+                      "informationScopeDnBCode": 9067,
+                      "reliabilityDescription": "Modelled",
+                      "reliabilityDnBCode": 9094
+                  }
+              ],
+              "industryCodes": [
+                  {
+                      "code": "518210",
+                      "description": "Data Processing, Hosting, and Related Services",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 2
+                  },
+                  {
+                      "code": "541511",
+                      "description": "Custom Computer Programming Services",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 1
+                  },
+                  {
+                      "code": "541512",
+                      "description": "Computer Systems Design Services",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 3
+                  },
+                  {
+                      "code": "1119",
+                      "description": "Information Technology Services",
+                      "typeDescription": "D&B Hoovers Industry Code",
+                      "typeDnbCode": 25838,
+                      "priority": 1
+                  },
+                  {
+                      "code": "73790000",
+                      "description": "Computer related services, nec",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 3
+                  },
+                  {
+                      "code": "73740000",
+                      "description": "Data processing and preparation",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 2
+                  },
+                  {
+                      "code": "73710000",
+                      "description": "Custom computer programming services",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 1
+                  }
+              ],
+              "telephone": [
+                  {
+                      "telephoneNumber": "4957397000"
+                  }
+              ],
+              "businessEntityType": {
+                  "dnbCode": 451,
+                  "description": "Corporation"
+              }
+          }
+      },
+      {
+          "displaySequence": 3,
+          "organization": {
+              "duns": "38a79546afce94fd89cb5383188bb16e",
+              "dunsControlStatus": {
+                  "isOutOfBusiness": false,
+                  "isMarketable": true,
+                  "isTelephoneDisconnected": false,
+                  "isMailUndeliverable": false
+              },
+              "primaryName": "YANDEKS.TAKSI, OOO",
+              "primaryNameForUrl": "YANDEKSTAKSI_OOO",
+              "tradeStyleNames": [
+                  {
+                      "name": "YANDEX.TAXI",
+                      "priority": 1
+                  }
+              ],
+              "primaryAddress": {
+                  "addressCountry": {
+                      "isoAlpha2Code": "RU",
+                      "countryName": "Russian Federation"
+                  },
+                  "addressLocality": {
+                      "name": "Moscow"
+                  },
+                  "postalCode": "115035",
+                  "streetAddress": {
+                      "line1": "d. 82 str. 2 pom. 916, ul. Sadovnicheskaya"
+                  },
+                  "latitude": 55.73465,
+                  "longitude": 37.642802
+              },
+              "primaryIndustryCodes": [
+                  {
+                      "usSicV4": "7371",
+                      "usSicV4Description": "Custom computer programing"
+                  }
+              ],
+              "corporateLinkage": {
+                  "isBranch": false,
+                  "familytreeRolesPlayed": [
+                      {
+                          "description": "Subsidiary",
+                          "dnbCode": 9159
+                      },
+                      {
+                          "description": "Domestic Ultimate",
+                          "dnbCode": 12774
+                      },
+                      {
+                          "description": "Parent/Headquarters",
+                          "dnbCode": 9141
+                      }
+                  ],
+                  "globalUltimateFamilyTreeMembersCount": 16
+              },
+              "financials": [
+                  {
+                      "yearlyRevenue": [
+                          {
+                              "value": 4.06414604E8,
+                              "currency": "USD"
+                          }
+                      ]
+                  }
+              ],
+              "registrationNumbers": [
+                  {
+                      "registrationNumber": "7704340310",
+                      "typeDescription": "Tax Registration Number (RU)",
+                      "typeDnBCode": 1437
+                  },
+                  {
+                      "registrationNumber": "52676221",
+                      "typeDescription": "Government Gazette Number (RU)",
+                      "typeDnBCode": 9429
+                  },
+                  {
+                      "registrationNumber": "5157746192731",
+                      "typeDescription": "Business Registration Number (RU)",
+                      "typeDnBCode": 9403
+                  }
+              ],
+              "numberOfEmployees": [
+                  {
+                      "value": 375,
+                      "informationScopeDescription": "Individual",
+                      "informationScopeDnBCode": 9066,
+                      "reliabilityDescription": "Estimated",
+                      "reliabilityDnBCode": 9093
+                  }
+              ],
+              "industryCodes": [
+                  {
+                      "code": "517919",
+                      "description": "All Other Telecommunications",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 2
+                  },
+                  {
+                      "code": "518210",
+                      "description": "Data Processing, Hosting, and Related Services",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 4
+                  },
+                  {
+                      "code": "541511",
+                      "description": "Custom Computer Programming Services",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 1
+                  },
+                  {
+                      "code": "541512",
+                      "description": "Computer Systems Design Services",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 6
+                  },
+                  {
+                      "code": "541810",
+                      "description": "Advertising Agencies",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 3
+                  },
+                  {
+                      "code": "541512",
+                      "description": "Computer Systems Design Services",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 5
+                  },
+                  {
+                      "code": "1119",
+                      "description": "Information Technology Services",
+                      "typeDescription": "D&B Hoovers Industry Code",
+                      "typeDnbCode": 25838,
+                      "priority": 1
+                  },
+                  {
+                      "code": "73110000",
+                      "description": "Advertising agencies",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 3
+                  },
+                  {
+                      "code": "73790000",
+                      "description": "Computer related services, nec",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 6
+                  },
+                  {
+                      "code": "73790000",
+                      "description": "Computer related services, nec",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 5
+                  },
+                  {
+                      "code": "73740000",
+                      "description": "Data processing and preparation",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 4
+                  },
+                  {
+                      "code": "48990000",
+                      "description": "Communication services, nec",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 2
+                  },
+                  {
+                      "code": "73710000",
+                      "description": "Custom computer programming services",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 1
+                  }
+              ],
+              "telephone": [
+                  {
+                      "telephoneNumber": "4997058888"
+                  }
+              ],
+              "businessEntityType": {
+                  "dnbCode": 451,
+                  "description": "Corporation"
+              }
+          }
+      },
+      {
+          "displaySequence": 4,
+          "organization": {
+              "duns": "208649965f71fb011719c17f9fba232a",
+              "dunsControlStatus": {
+                  "isOutOfBusiness": false,
+                  "isMarketable": true,
+                  "isMailUndeliverable": false
+              },
+              "primaryName": "YANDEKS.MARKET, OOO",
+              "primaryNameForUrl": "YANDEKSMARKET_OOO",
+              "tradeStyleNames": [
+                  {
+                      "name": "YANDEX.MARKET",
+                      "priority": 1
+                  }
+              ],
+              "primaryAddress": {
+                  "addressCountry": {
+                      "isoAlpha2Code": "RU",
+                      "countryName": "Russian Federation"
+                  },
+                  "addressLocality": {
+                      "name": "Moscow"
+                  },
+                  "postalCode": "119021",
+                  "streetAddress": {
+                      "line1": "d. 11 str. 44 etazh 5, ul. Timura Frunze"
+                  },
+                  "latitude": 55.732452,
+                  "longitude": 37.591674
+              },
+              "primaryIndustryCodes": [
+                  {
+                      "usSicV4": "7371",
+                      "usSicV4Description": "Custom computer programing"
+                  }
+              ],
+              "corporateLinkage": {
+                  "isBranch": false,
+                  "familytreeRolesPlayed": [
+                      {
+                          "description": "Subsidiary",
+                          "dnbCode": 9159
+                      },
+                      {
+                          "description": "Domestic Ultimate",
+                          "dnbCode": 12774
+                      },
+                      {
+                          "description": "Parent/Headquarters",
+                          "dnbCode": 9141
+                      }
+                  ],
+                  "globalUltimateFamilyTreeMembersCount": 3
+              },
+              "financials": [
+                  {
+                      "yearlyRevenue": [
+                          {
+                              "value": 1.23096824E8,
+                              "currency": "USD"
+                          }
+                      ]
+                  }
+              ],
+              "registrationNumbers": [
+                  {
+                      "registrationNumber": "7704357909",
+                      "typeDescription": "Tax Registration Number (RU)",
+                      "typeDnBCode": 1437
+                  },
+                  {
+                      "registrationNumber": "02645729",
+                      "typeDescription": "Government Gazette Number (RU)",
+                      "typeDnBCode": 9429
+                  },
+                  {
+                      "registrationNumber": "1167746491395",
+                      "typeDescription": "Business Registration Number (RU)",
+                      "typeDnBCode": 9403
+                  }
+              ],
+              "numberOfEmployees": [
+                  {
+                      "value": 30,
+                      "informationScopeDescription": "Consolidated",
+                      "informationScopeDnBCode": 9067,
+                      "reliabilityDescription": "Modelled",
+                      "reliabilityDnBCode": 9094
+                  }
+              ],
+              "industryCodes": [
+                  {
+                      "code": "517919",
+                      "description": "All Other Telecommunications",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 2
+                  },
+                  {
+                      "code": "442110",
+                      "description": "Furniture Stores",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 4
+                  },
+                  {
+                      "code": "541511",
+                      "description": "Custom Computer Programming Services",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 1
+                  },
+                  {
+                      "code": "453998",
+                      "description": "All Other Miscellaneous Store Retailers (except Tobacco Stores)",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 6
+                  },
+                  {
+                      "code": "423860",
+                      "description": "Transportation Equipment and Supplies (except Motor Vehicle) Merchant Wholesalers",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 3
+                  },
+                  {
+                      "code": "454110",
+                      "description": "Electronic Shopping and Mail-Order Houses",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 5
+                  },
+                  {
+                      "code": "1119",
+                      "description": "Information Technology Services",
+                      "typeDescription": "D&B Hoovers Industry Code",
+                      "typeDnbCode": 25838,
+                      "priority": 1
+                  },
+                  {
+                      "code": "50880000",
+                      "description": "Transportation equipment and supplies",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 3
+                  },
+                  {
+                      "code": "59990000",
+                      "description": "Miscellaneous retail stores, nec",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 6
+                  },
+                  {
+                      "code": "59610000",
+                      "description": "Catalog and mail-order houses",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 5
+                  },
+                  {
+                      "code": "57120000",
+                      "description": "Furniture stores",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 4
+                  },
+                  {
+                      "code": "48990000",
+                      "description": "Communication services, nec",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 2
+                  },
+                  {
+                      "code": "73710000",
+                      "description": "Custom computer programming services",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 1
+                  }
+              ],
+              "businessEntityType": {
+                  "dnbCode": 451,
+                  "description": "Corporation"
+              }
+          }
+      },
+      {
+          "displaySequence": 5,
+          "organization": {
+              "duns": "b2a7e2ce1037df2f3580f71ce1490930",
+              "dunsControlStatus": {
+                  "isOutOfBusiness": false,
+                  "isMarketable": true,
+                  "isTelephoneDisconnected": false,
+                  "isMailUndeliverable": false
+              },
+              "primaryName": "Yandex Oy",
+              "primaryNameForUrl": "Yandex_Oy",
+              "primaryAddress": {
+                  "addressCountry": {
+                      "isoAlpha2Code": "FI",
+                      "countryName": "Finland"
+                  },
+                  "addressLocality": {
+                      "name": "MÄNTSÄLÄ"
+                  },
+                  "addressRegion": {
+                      "name": "Uusimaa"
+                  },
+                  "postalCode": "04600",
+                  "streetAddress": {
+                      "line1": "Moreenikatu 6"
+                  },
+                  "latitude": 60.629359,
+                  "longitude": 25.269149
+              },
+              "primaryIndustryCodes": [
+                  {
+                      "usSicV4": "7371",
+                      "usSicV4Description": "Custom computer programing"
+                  }
+              ],
+              "corporateLinkage": {
+                  "isBranch": false,
+                  "familytreeRolesPlayed": [
+                      {
+                          "description": "Subsidiary",
+                          "dnbCode": 9159
+                      },
+                      {
+                          "description": "Domestic Ultimate",
+                          "dnbCode": 12774
+                      }
+                  ],
+                  "globalUltimateFamilyTreeMembersCount": 27
+              },
+              "financials": [
+                  {
+                      "yearlyRevenue": [
+                          {
+                              "value": 6.5218448E7,
+                              "currency": "USD"
+                          }
+                      ]
+                  }
+              ],
+              "registrationNumbers": [
+                  {
+                      "registrationNumber": "25416619",
+                      "typeDescription": "Company House Registration Number (FI)",
+                      "typeDnBCode": 553
+                  }
+              ],
+              "numberOfEmployees": [
+                  {
+                      "value": 17,
+                      "informationScopeDescription": "Individual",
+                      "informationScopeDnBCode": 9066,
+                      "reliabilityDescription": "Actual",
+                      "reliabilityDnBCode": 9092
+                  }
+              ],
+              "industryCodes": [
+                  {
+                      "code": "541511",
+                      "description": "Custom Computer Programming Services",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 1
+                  },
+                  {
+                      "code": "1119",
+                      "description": "Information Technology Services",
+                      "typeDescription": "D&B Hoovers Industry Code",
+                      "typeDnbCode": 25838,
+                      "priority": 1
+                  },
+                  {
+                      "code": "73710000",
+                      "description": "Custom computer programming services",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 1
+                  }
+              ],
+              "telephone": [
+                  {
+                      "telephoneNumber": "503888388"
+                  }
+              ],
+              "businessEntityType": {
+                  "dnbCode": 451,
+                  "description": "Corporation"
+              }
+          }
+      },
+      {
+          "displaySequence": 6,
+          "organization": {
+              "duns": "04e19e2114c29899204a2ec210b3df55",
+              "dunsControlStatus": {
+                  "isOutOfBusiness": false,
+                  "isMarketable": true,
+                  "isTelephoneDisconnected": false,
+                  "isMailUndeliverable": false
+              },
+              "primaryName": "Yandex Europe B.V.",
+              "primaryNameForUrl": "Yandex_Europe_BV",
+              "tradeStyleNames": [
+                  {
+                      "name": "Yandex Data Factory",
+                      "priority": 1
+                  }
+              ],
+              "primaryAddress": {
+                  "addressCountry": {
+                      "isoAlpha2Code": "NL",
+                      "countryName": "Netherlands"
+                  },
+                  "addressLocality": {
+                      "name": "Luchthaven Schiphol"
+                  },
+                  "addressRegion": {
+                      "name": "NOORD-HOLLAND"
+                  },
+                  "postalCode": "1118 BG",
+                  "streetAddress": {
+                      "line1": "Schiphol Boulevard 165"
+                  },
+                  "latitude": 52.308709,
+                  "longitude": 4.758502
+              },
+              "primaryIndustryCodes": [
+                  {
+                      "usSicV4": "7374",
+                      "usSicV4Description": "Data processing/preparation"
+                  }
+              ],
+              "corporateLinkage": {
+                  "isBranch": false,
+                  "familytreeRolesPlayed": [
+                      {
+                          "description": "Subsidiary",
+                          "dnbCode": 9159
+                      },
+                      {
+                          "description": "Parent/Headquarters",
+                          "dnbCode": 9141
+                      }
+                  ],
+                  "globalUltimateFamilyTreeMembersCount": 27
+              },
+              "financials": [
+                  {
+                      "yearlyRevenue": [
+                          {
+                              "value": 2.2067996E7,
+                              "currency": "USD"
+                          }
+                      ]
+                  }
+              ],
+              "registrationNumbers": [
+                  {
+                      "registrationNumber": "NL850068095B01",
+                      "typeDescription": "Value Added Tax Number (NL)",
+                      "typeDnBCode": 6273
+                  },
+                  {
+                      "registrationNumber": "850068095",
+                      "typeDescription": "Legal Entity and Partnership Information Number (NL)",
+                      "typeDnBCode": 23097
+                  },
+                  {
+                      "registrationNumber": "51515539",
+                      "typeDescription": "Trade Register Number (NL)",
+                      "typeDnBCode": 6256
+                  },
+                  {
+                      "registrationNumber": "000021535531",
+                      "typeDescription": "Branch Unit Number (NL)",
+                      "typeDnBCode": 23096
+                  }
+              ],
+              "numberOfEmployees": [
+                  {
+                      "value": 1,
+                      "informationScopeDescription": "Individual",
+                      "informationScopeDnBCode": 9066,
+                      "reliabilityDescription": "Actual",
+                      "reliabilityDnBCode": 9092
+                  }
+              ],
+              "industryCodes": [
+                  {
+                      "code": "523991",
+                      "description": "Trust, Fiduciary, and Custody Activities",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 2
+                  },
+                  {
+                      "code": "518210",
+                      "description": "Data Processing, Hosting, and Related Services",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 1
+                  },
+                  {
+                      "code": "1585",
+                      "description": "Managed Application & Network Services",
+                      "typeDescription": "D&B Hoovers Industry Code",
+                      "typeDnbCode": 25838,
+                      "priority": 1
+                  },
+                  {
+                      "code": "67330000",
+                      "description": "Trusts, nec",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 2
+                  },
+                  {
+                      "code": "73740000",
+                      "description": "Data processing and preparation",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 1
+                  }
+              ],
+              "telephone": [
+                  {
+                      "telephoneNumber": "202066970"
+                  }
+              ],
+              "businessEntityType": {
+                  "dnbCode": 451,
+                  "description": "Corporation"
+              }
+          }
+      },
+      {
+          "displaySequence": 7,
+          "organization": {
+              "duns": "87b21f6f6e9570ffbfe8b6eacb182ee1",
+              "dunsControlStatus": {
+                  "isOutOfBusiness": false,
+                  "isMarketable": true,
+                  "isMailUndeliverable": false
+              },
+              "primaryName": "Yandex.Taxi Holding B.V.",
+              "primaryNameForUrl": "YandexTaxi_Holding_BV",
+              "primaryAddress": {
+                  "addressCountry": {
+                      "isoAlpha2Code": "NL",
+                      "countryName": "Netherlands"
+                  },
+                  "addressLocality": {
+                      "name": "Luchthaven Schiphol"
+                  },
+                  "addressRegion": {
+                      "name": "NOORD-HOLLAND"
+                  },
+                  "postalCode": "1118 BG",
+                  "streetAddress": {
+                      "line1": "Schiphol Boulevard 165"
+                  },
+                  "latitude": 52.308709,
+                  "longitude": 4.758502
+              },
+              "primaryIndustryCodes": [
+                  {
+                      "usSicV4": "6733",
+                      "usSicV4Description": "Trust management"
+                  }
+              ],
+              "corporateLinkage": {
+                  "isBranch": false,
+                  "familytreeRolesPlayed": [
+                      {
+                          "description": "Subsidiary",
+                          "dnbCode": 9159
+                      },
+                      {
+                          "description": "Parent/Headquarters",
+                          "dnbCode": 9141
+                      }
+                  ],
+                  "globalUltimateFamilyTreeMembersCount": 16
+              },
+              "financials": [
+                  {
+                      "yearlyRevenue": [
+                          {
+                              "value": 2179080.0,
+                              "currency": "USD"
+                          }
+                      ]
+                  }
+              ],
+              "registrationNumbers": [
+                  {
+                      "registrationNumber": "NL857250413B01",
+                      "typeDescription": "Value Added Tax Number (NL)",
+                      "typeDnBCode": 6273
+                  },
+                  {
+                      "registrationNumber": "857250413",
+                      "typeDescription": "Legal Entity and Partnership Information Number (NL)",
+                      "typeDnBCode": 23097
+                  },
+                  {
+                      "registrationNumber": "67977464",
+                      "typeDescription": "Trade Register Number (NL)",
+                      "typeDnBCode": 6256
+                  },
+                  {
+                      "registrationNumber": "000036459879",
+                      "typeDescription": "Branch Unit Number (NL)",
+                      "typeDnBCode": 23096
+                  }
+              ],
+              "numberOfEmployees": [
+                  {
+                      "value": 0,
+                      "informationScopeDescription": "Individual",
+                      "informationScopeDnBCode": 9066,
+                      "reliabilityDescription": "Actual",
+                      "reliabilityDnBCode": 9092
+                  }
+              ],
+              "industryCodes": [
+                  {
+                      "code": "523991",
+                      "description": "Trust, Fiduciary, and Custody Activities",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 1
+                  },
+                  {
+                      "code": "1036",
+                      "description": "Custodial & Trust Services",
+                      "typeDescription": "D&B Hoovers Industry Code",
+                      "typeDnbCode": 25838,
+                      "priority": 1
+                  },
+                  {
+                      "code": "67330000",
+                      "description": "Trusts, nec",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 1
+                  }
+              ],
+              "businessEntityType": {
+                  "dnbCode": 451,
+                  "description": "Corporation"
+              }
+          }
+      },
+      {
+          "displaySequence": 8,
+          "organization": {
+              "duns": "434f1420e65fe047bbaf536632fe577e",
+              "dunsControlStatus": {
+                  "isOutOfBusiness": false,
+                  "isMarketable": true,
+                  "isTelephoneDisconnected": false,
+                  "isMailUndeliverable": false
+              },
+              "primaryName": "YANDEKS.TAKSI UKRAINA, TOV",
+              "primaryNameForUrl": "YANDEKSTAKSI_UKRAINA_TOV",
+              "tradeStyleNames": [
+                  {
+                      "name": "LLC \"YANDEX.TAXI UKRAINE\"",
+                      "priority": 1
+                  }
+              ],
+              "primaryAddress": {
+                  "addressCountry": {
+                      "isoAlpha2Code": "UA",
+                      "countryName": "Ukraine"
+                  },
+                  "addressLocality": {
+                      "name": "Odesa"
+                  },
+                  "postalCode": "65026",
+                  "streetAddress": {
+                      "line1": "Bud. 11 of. 8, Prymorsky R-N, Uzviz Polsky"
+                  }
+              },
+              "primaryIndustryCodes": [
+                  {
+                      "usSicV4": "7311",
+                      "usSicV4Description": "Advertising agency"
+                  }
+              ],
+              "corporateLinkage": {
+                  "isBranch": false,
+                  "familytreeRolesPlayed": [
+                      {
+                          "description": "Subsidiary",
+                          "dnbCode": 9159
+                      }
+                  ],
+                  "globalUltimateFamilyTreeMembersCount": 2
+              },
+              "financials": [
+                  {
+                      "yearlyRevenue": [
+                          {
+                              "value": 1805728.0,
+                              "currency": "USD"
+                          }
+                      ]
+                  }
+              ],
+              "registrationNumbers": [
+                  {
+                      "registrationNumber": "40904934",
+                      "typeDescription": "Government Gazette Number (UA)",
+                      "typeDnBCode": 9431
+                  }
+              ],
+              "numberOfEmployees": [
+                  {
+                      "value": 16,
+                      "informationScopeDescription": "Individual",
+                      "informationScopeDnBCode": 9066,
+                      "reliabilityDescription": "Actual",
+                      "reliabilityDnBCode": 9092
+                  }
+              ],
+              "industryCodes": [
+                  {
+                      "code": "541511",
+                      "description": "Custom Computer Programming Services",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 2
+                  },
+                  {
+                      "code": "541512",
+                      "description": "Computer Systems Design Services",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 4
+                  },
+                  {
+                      "code": "541810",
+                      "description": "Advertising Agencies",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 1
+                  },
+                  {
+                      "code": "519190",
+                      "description": "All Other Information Services",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 3
+                  },
+                  {
+                      "code": "1056",
+                      "description": "Advertising Agencies",
+                      "typeDescription": "D&B Hoovers Industry Code",
+                      "typeDnbCode": 25838,
+                      "priority": 1
+                  },
+                  {
+                      "code": "73750000",
+                      "description": "Information retrieval services",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 3
+                  },
+                  {
+                      "code": "73790000",
+                      "description": "Computer related services, nec",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 4
+                  },
+                  {
+                      "code": "73710000",
+                      "description": "Custom computer programming services",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 2
+                  },
+                  {
+                      "code": "73110000",
+                      "description": "Advertising agencies",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 1
+                  }
+              ],
+              "telephone": [
+                  {
+                      "telephoneNumber": "487374410"
+                  }
+              ],
+              "businessEntityType": {
+                  "dnbCode": 451,
+                  "description": "Corporation"
+              }
+          }
+      },
+      {
+          "displaySequence": 9,
+          "organization": {
+              "duns": "ce23a1d4227bc95921dfdc9bf4a27d01",
+              "dunsControlStatus": {
+                  "isOutOfBusiness": false,
+                  "isMarketable": true,
+                  "isMailUndeliverable": false
+              },
+              "primaryName": "YANDEKS.PROBKI, OOO",
+              "primaryNameForUrl": "YANDEKSPROBKI_OOO",
+              "tradeStyleNames": [
+                  {
+                      "name": "\"YANDEX.PROBKI LLC\"",
+                      "priority": 1
+                  }
+              ],
+              "primaryAddress": {
+                  "addressCountry": {
+                      "isoAlpha2Code": "RU",
+                      "countryName": "Russian Federation"
+                  },
+                  "addressLocality": {
+                      "name": "Moscow"
+                  },
+                  "postalCode": "119021",
+                  "streetAddress": {
+                      "line1": "16 ul. Lva Tolstogo"
+                  },
+                  "latitude": 55.732666,
+                  "longitude": 37.588819
+              },
+              "primaryIndustryCodes": [
+                  {
+                      "usSicV4": "7374",
+                      "usSicV4Description": "Data processing/preparation"
+                  }
+              ],
+              "corporateLinkage": {
+                  "isBranch": false,
+                  "familytreeRolesPlayed": [
+                      {
+                          "description": "Subsidiary",
+                          "dnbCode": 9159
+                      }
+                  ],
+                  "globalUltimateFamilyTreeMembersCount": 27
+              },
+              "financials": [
+                  {
+                      "yearlyRevenue": [
+                          {
+                              "value": 1719078.0,
+                              "currency": "USD"
+                          }
+                      ]
+                  }
+              ],
+              "registrationNumbers": [
+                  {
+                      "registrationNumber": "7707666550",
+                      "typeDescription": "Tax Registration Number (RU)",
+                      "typeDnBCode": 1437
+                  },
+                  {
+                      "registrationNumber": "86527797",
+                      "typeDescription": "Government Gazette Number (RU)",
+                      "typeDnBCode": 9429
+                  },
+                  {
+                      "registrationNumber": "1087746706596",
+                      "typeDescription": "Business Registration Number (RU)",
+                      "typeDnBCode": 9403
+                  }
+              ],
+              "numberOfEmployees": [
+                  {
+                      "value": 10,
+                      "informationScopeDescription": "Individual",
+                      "informationScopeDnBCode": 9066,
+                      "reliabilityDescription": "Estimated",
+                      "reliabilityDnBCode": 9093
+                  }
+              ],
+              "industryCodes": [
+                  {
+                      "code": "518210",
+                      "description": "Data Processing, Hosting, and Related Services",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 1
+                  },
+                  {
+                      "code": "1585",
+                      "description": "Managed Application & Network Services",
+                      "typeDescription": "D&B Hoovers Industry Code",
+                      "typeDnbCode": 25838,
+                      "priority": 1
+                  },
+                  {
+                      "code": "73740000",
+                      "description": "Data processing and preparation",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 1
+                  }
+              ],
+              "businessEntityType": {
+                  "dnbCode": 451,
+                  "description": "Corporation"
+              }
+          }
+      },
+      {
+          "displaySequence": 10,
+          "organization": {
+              "duns": "34332ba475c31756b5c24816284a39fe",
+              "dunsControlStatus": {
+                  "isOutOfBusiness": false,
+                  "isMarketable": true,
+                  "isTelephoneDisconnected": false,
+                  "isMailUndeliverable": false
+              },
+              "primaryName": "Yandex Inc.",
+              "primaryNameForUrl": "Yandex_Inc",
+              "primaryAddress": {
+                  "addressCountry": {
+                      "isoAlpha2Code": "US",
+                      "countryName": "United States of America"
+                  },
+                  "addressLocality": {
+                      "name": "Newburyport"
+                  },
+                  "addressRegion": {
+                      "name": "Massachusetts",
+                      "abbreviatedName": "MA"
+                  },
+                  "postalCode": "01950-2662",
+                  "streetAddress": {
+                      "line1": "38R Merrimac St Ste 201"
+                  },
+                  "latitude": 42.811974,
+                  "longitude": -70.871806
+              },
+              "primaryIndustryCodes": [
+                  {
+                      "usSicV4": "7371",
+                      "usSicV4Description": "Custom computer programing"
+                  }
+              ],
+              "corporateLinkage": {
+                  "isBranch": false
+              },
+              "financials": [
+                  {
+                      "yearlyRevenue": [
+                          {
+                              "value": 1695185.0,
+                              "currency": "USD"
+                          }
+                      ]
+                  }
+              ],
+              "registrationNumbers": [
+                  {
+                      "registrationNumber": "90-0600492",
+                      "typeDescription": "Federal Taxpayer Identification Number (US)",
+                      "typeDnBCode": 6863
+                  }
+              ],
+              "numberOfEmployees": [
+                  {
+                      "value": 20,
+                      "informationScopeDescription": "Consolidated",
+                      "informationScopeDnBCode": 9067,
+                      "reliabilityDescription": "Actual",
+                      "reliabilityDnBCode": 9092
+                  },
+                  {
+                      "value": 20,
+                      "informationScopeDescription": "Individual",
+                      "informationScopeDnBCode": 9066,
+                      "reliabilityDescription": "Actual",
+                      "reliabilityDnBCode": 9092
+                  }
+              ],
+              "industryCodes": [
+                  {
+                      "code": "541511",
+                      "description": "Custom Computer Programming Services",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 1
+                  },
+                  {
+                      "code": "1119",
+                      "description": "Information Technology Services",
+                      "typeDescription": "D&B Hoovers Industry Code",
+                      "typeDnbCode": 25838,
+                      "priority": 1
+                  },
+                  {
+                      "code": "73710301",
+                      "description": "Computer software development",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 1
+                  }
+              ],
+              "telephone": [
+                  {
+                      "telephoneNumber": "6173987870"
+                  }
+              ],
+              "businessEntityType": {
+                  "dnbCode": 451,
+                  "description": "Corporation"
+              }
+          }
+      },
+      {
+          "displaySequence": 11,
+          "organization": {
+              "duns": "68f7e03d1f735eda36bb307f3388aebc",
+              "dunsControlStatus": {
+                  "isOutOfBusiness": false,
+                  "isMarketable": true,
+                  "isTelephoneDisconnected": false,
+                  "isMailUndeliverable": false
+              },
+              "primaryName": "Yandex Europe AG",
+              "primaryNameForUrl": "Yandex_Europe_AG",
+              "primaryAddress": {
+                  "addressCountry": {
+                      "isoAlpha2Code": "CH",
+                      "countryName": "Switzerland"
+                  },
+                  "addressLocality": {
+                      "name": "Luzern"
+                  },
+                  "addressRegion": {
+                      "name": "LUZERN",
+                      "abbreviatedName": "LU"
+                  },
+                  "postalCode": "6005",
+                  "streetAddress": {
+                      "line1": "Werftestrasse 4"
+                  },
+                  "latitude": 47.047011,
+                  "longitude": 8.315136
+              },
+              "primaryIndustryCodes": [
+                  {
+                      "usSicV4": "7389",
+                      "usSicV4Description": "Business services"
+                  }
+              ],
+              "corporateLinkage": {
+                  "isBranch": false,
+                  "familytreeRolesPlayed": [
+                      {
+                          "description": "Subsidiary",
+                          "dnbCode": 9159
+                      },
+                      {
+                          "description": "Domestic Ultimate",
+                          "dnbCode": 12774
+                      }
+                  ],
+                  "globalUltimateFamilyTreeMembersCount": 27
+              },
+              "financials": [
+                  {
+                      "yearlyRevenue": [
+                          {
+                              "value": 1026145.0,
+                              "currency": "USD"
+                          }
+                      ]
+                  }
+              ],
+              "registrationNumbers": [
+                  {
+                      "registrationNumber": "CH02030374336",
+                      "typeDescription": "Business Registration Number (CH)",
+                      "typeDnBCode": 13145
+                  },
+                  {
+                      "registrationNumber": "CHE-439.270.050",
+                      "typeDescription": "Swiss Uniform Identification Number (CH)",
+                      "typeDnBCode": 28865
+                  },
+                  {
+                      "registrationNumber": "CHE-439.270.050 MWST",
+                      "typeDescription": "Value Added Tax Number (CH)",
+                      "typeDnBCode": 1440
+                  }
+              ],
+              "numberOfEmployees": [
+                  {
+                      "value": 5,
+                      "informationScopeDescription": "Individual",
+                      "informationScopeDnBCode": 9066,
+                      "reliabilityDescription": "Estimated",
+                      "reliabilityDnBCode": 9093
+                  }
+              ],
+              "industryCodes": [
+                  {
+                      "code": "541990",
+                      "description": "All Other Professional, Scientific, and Technical Services",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 2
+                  },
+                  {
+                      "code": "423830",
+                      "description": "Industrial Machinery and Equipment Merchant Wholesalers",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 4
+                  },
+                  {
+                      "code": "561499",
+                      "description": "All Other Business Support Services",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 1
+                  },
+                  {
+                      "code": "423430",
+                      "description": "Computer and Computer Peripheral Equipment and Software Merchant Wholesalers",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 6
+                  },
+                  {
+                      "code": "423620",
+                      "description": "Household Appliances, Electric Housewares, and Consumer Electronics Merchant Wholesalers",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 3
+                  },
+                  {
+                      "code": "423430",
+                      "description": "Computer and Computer Peripheral Equipment and Software Merchant Wholesalers",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 5
+                  },
+                  {
+                      "code": "1054",
+                      "description": "Business Services Sector",
+                      "typeDescription": "D&B Hoovers Industry Code",
+                      "typeDnbCode": 25838,
+                      "priority": 1
+                  },
+                  {
+                      "code": "50640000",
+                      "description": "Electrical appliances, television and radio",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 3
+                  },
+                  {
+                      "code": "50450000",
+                      "description": "Computers, peripherals, and software",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 6
+                  },
+                  {
+                      "code": "50459903",
+                      "description": "Computer software",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 5
+                  },
+                  {
+                      "code": "50840000",
+                      "description": "Industrial machinery and equipment",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 4
+                  },
+                  {
+                      "code": "89999900",
+                      "description": "Services, nec",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 2
+                  },
+                  {
+                      "code": "73890000",
+                      "description": "Business services, nec",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 1
+                  }
+              ],
+              "telephone": [
+                  {
+                      "telephoneNumber": "2480860"
+                  }
+              ],
+              "businessEntityType": {
+                  "dnbCode": 451,
+                  "description": "Corporation"
+              }
+          }
+      },
+      {
+          "displaySequence": 12,
+          "organization": {
+              "duns": "e55464ebbfa9c2cabbe7e39e8b0f406e",
+              "dunsControlStatus": {
+                  "isOutOfBusiness": false,
+                  "isMarketable": true,
+                  "isMailUndeliverable": false
+              },
+              "primaryName": "YANDEX BUSINESS (OPC) PRIVATE LIMITED",
+              "primaryNameForUrl": "YANDEX_BUSINESS_(OPC)_PRIVATE_LIMITED",
+              "primaryAddress": {
+                  "addressCountry": {
+                      "isoAlpha2Code": "IN",
+                      "countryName": "India"
+                  },
+                  "addressLocality": {
+                      "name": "Muzaffarpur"
+                  },
+                  "addressRegion": {
+                      "name": "Bihar",
+                      "abbreviatedName": "BH"
+                  },
+                  "postalCode": "842005",
+                  "streetAddress": {
+                      "line1": "KAMESHWARI VIHAR LANE,NEAR SHERPUR GOMTI"
+                  }
+              },
+              "primaryIndustryCodes": [
+                  {
+                      "usSicV4": "7389",
+                      "usSicV4Description": "Business services"
+                  }
+              ],
+              "corporateLinkage": {
+                  "isBranch": false
+              },
+              "financials": [
+                  {
+                      "yearlyRevenue": [
+                          {
+                              "value": 993096.0,
+                              "currency": "USD"
+                          }
+                      ]
+                  }
+              ],
+              "registrationNumbers": [
+                  {
+                      "registrationNumber": "U74999BR2018OPC039532",
+                      "typeDescription": "Company Incorporation Number (IN)",
+                      "typeDnBCode": 1362
+                  }
+              ],
+              "numberOfEmployees": [
+                  {
+                      "value": 18,
+                      "informationScopeDescription": "Consolidated",
+                      "informationScopeDnBCode": 9067,
+                      "reliabilityDescription": "Modelled",
+                      "reliabilityDnBCode": 9094
+                  },
+                  {
+                      "value": 18,
+                      "informationScopeDescription": "Individual",
+                      "informationScopeDnBCode": 9066,
+                      "reliabilityDescription": "Modelled",
+                      "reliabilityDnBCode": 9094
+                  }
+              ],
+              "industryCodes": [
+                  {
+                      "code": "561499",
+                      "description": "All Other Business Support Services",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 1
+                  },
+                  {
+                      "code": "1054",
+                      "description": "Business Services Sector",
+                      "typeDescription": "D&B Hoovers Industry Code",
+                      "typeDnbCode": 25838,
+                      "priority": 1
+                  },
+                  {
+                      "code": "73890000",
+                      "description": "Business services, nec",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 1
+                  }
+              ],
+              "businessEntityType": {
+                  "dnbCode": 451,
+                  "description": "Corporation"
+              }
+          }
+      },
+      {
+          "displaySequence": 13,
+          "organization": {
+              "duns": "88ac29571e965e248bd653a986940c1d",
+              "dunsControlStatus": {
+                  "isOutOfBusiness": false,
+                  "isMarketable": true,
+                  "isMailUndeliverable": true
+              },
+              "primaryName": "Yandex.Technology GmbH",
+              "primaryNameForUrl": "YandexTechnology_GmbH",
+              "primaryAddress": {
+                  "addressCountry": {
+                      "isoAlpha2Code": "DE",
+                      "countryName": "Germany"
+                  },
+                  "addressLocality": {
+                      "name": "Berlin"
+                  },
+                  "addressRegion": {
+                      "name": "Berlin"
+                  },
+                  "postalCode": "10117",
+                  "streetAddress": {
+                      "line1": "Oberwallstr. 6"
+                  },
+                  "latitude": 52.514263,
+                  "longitude": 13.396854
+              },
+              "primaryIndustryCodes": [
+                  {
+                      "usSicV4": "7379",
+                      "usSicV4Description": "Computer related services"
+                  }
+              ],
+              "corporateLinkage": {
+                  "isBranch": false,
+                  "familytreeRolesPlayed": [
+                      {
+                          "description": "Subsidiary",
+                          "dnbCode": 9159
+                      },
+                      {
+                          "description": "Domestic Ultimate",
+                          "dnbCode": 12774
+                      }
+                  ],
+                  "globalUltimateFamilyTreeMembersCount": 27
+              },
+              "financials": [
+                  {
+                      "yearlyRevenue": [
+                          {
+                              "value": 933681.0,
+                              "currency": "USD"
+                          }
+                      ]
+                  }
+              ],
+              "registrationNumbers": [
+                  {
+                      "registrationNumber": "10623B155425B",
+                      "typeDescription": "Register Number (DE)",
+                      "typeDnBCode": 6862
+                  }
+              ],
+              "numberOfEmployees": [
+                  {
+                      "value": 14,
+                      "informationScopeDescription": "Individual",
+                      "informationScopeDnBCode": 9066
+                  }
+              ],
+              "industryCodes": [
+                  {
+                      "code": "541511",
+                      "description": "Custom Computer Programming Services",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 2
+                  },
+                  {
+                      "code": "541512",
+                      "description": "Computer Systems Design Services",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 1
+                  },
+                  {
+                      "code": "1119",
+                      "description": "Information Technology Services",
+                      "typeDescription": "D&B Hoovers Industry Code",
+                      "typeDnbCode": 25838,
+                      "priority": 1
+                  },
+                  {
+                      "code": "73710301",
+                      "description": "Computer software development",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 2
+                  },
+                  {
+                      "code": "73790000",
+                      "description": "Computer related services, nec",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 1
+                  }
+              ],
+              "businessEntityType": {
+                  "dnbCode": 451,
+                  "description": "Corporation"
+              }
+          }
+      },
+      {
+          "displaySequence": 14,
+          "organization": {
+              "duns": "ca66b6f12cfbb8613aced0c694f58c12",
+              "dunsControlStatus": {
+                  "isOutOfBusiness": false,
+                  "isMarketable": true,
+                  "isMailUndeliverable": false
+              },
+              "primaryName": "Yandex.Taxi B.V.",
+              "primaryNameForUrl": "YandexTaxi_BV",
+              "primaryAddress": {
+                  "addressCountry": {
+                      "isoAlpha2Code": "NL",
+                      "countryName": "Netherlands"
+                  },
+                  "addressLocality": {
+                      "name": "Luchthaven Schiphol"
+                  },
+                  "addressRegion": {
+                      "name": "NOORD-HOLLAND"
+                  },
+                  "postalCode": "1118 BG",
+                  "streetAddress": {
+                      "line1": "Schiphol Boulevard 165"
+                  },
+                  "latitude": 52.308709,
+                  "longitude": 4.758502
+              },
+              "primaryIndustryCodes": [
+                  {
+                      "usSicV4": "6733",
+                      "usSicV4Description": "Trust management"
+                  }
+              ],
+              "corporateLinkage": {
+                  "isBranch": false,
+                  "familytreeRolesPlayed": [
+                      {
+                          "description": "Subsidiary",
+                          "dnbCode": 9159
+                      },
+                      {
+                          "description": "Parent/Headquarters",
+                          "dnbCode": 9141
+                      }
+                  ],
+                  "globalUltimateFamilyTreeMembersCount": 16
+              },
+              "financials": [
+                  {
+                      "yearlyRevenue": [
+                          {
+                              "value": 818000.0,
+                              "currency": "USD"
+                          }
+                      ]
+                  }
+              ],
+              "registrationNumbers": [
+                  {
+                      "registrationNumber": "NL855733949B01",
+                      "typeDescription": "Value Added Tax Number (NL)",
+                      "typeDnBCode": 6273
+                  },
+                  {
+                      "registrationNumber": "855733949",
+                      "typeDescription": "Legal Entity and Partnership Information Number (NL)",
+                      "typeDnBCode": 23097
+                  },
+                  {
+                      "registrationNumber": "64591069",
+                      "typeDescription": "Trade Register Number (NL)",
+                      "typeDnBCode": 6256
+                  },
+                  {
+                      "registrationNumber": "000033403627",
+                      "typeDescription": "Branch Unit Number (NL)",
+                      "typeDnBCode": 23096
+                  }
+              ],
+              "numberOfEmployees": [
+                  {
+                      "value": 15,
+                      "informationScopeDescription": "Individual",
+                      "informationScopeDnBCode": 9066,
+                      "reliabilityDescription": "Actual",
+                      "reliabilityDnBCode": 9092
+                  }
+              ],
+              "industryCodes": [
+                  {
+                      "code": "523991",
+                      "description": "Trust, Fiduciary, and Custody Activities",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 1
+                  },
+                  {
+                      "code": "1036",
+                      "description": "Custodial & Trust Services",
+                      "typeDescription": "D&B Hoovers Industry Code",
+                      "typeDnbCode": 25838,
+                      "priority": 1
+                  },
+                  {
+                      "code": "67330000",
+                      "description": "Trusts, nec",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 1
+                  }
+              ],
+              "businessEntityType": {
+                  "dnbCode": 451,
+                  "description": "Corporation"
+              }
+          }
+      },
+      {
+          "displaySequence": 15,
+          "organization": {
+              "duns": "4686f5c472c08b4df44933c80d655e9d",
+              "dunsControlStatus": {
+                  "isOutOfBusiness": false,
+                  "isMarketable": true,
+                  "isTelephoneDisconnected": false,
+                  "isMailUndeliverable": false
+              },
+              "primaryName": "Yandex Services AG",
+              "primaryNameForUrl": "Yandex_Services_AG",
+              "primaryAddress": {
+                  "addressCountry": {
+                      "isoAlpha2Code": "CH",
+                      "countryName": "Switzerland"
+                  },
+                  "addressLocality": {
+                      "name": "Luzern"
+                  },
+                  "addressRegion": {
+                      "name": "LUZERN",
+                      "abbreviatedName": "LU"
+                  },
+                  "postalCode": "6005",
+                  "streetAddress": {
+                      "line1": "Werftestrasse 4"
+                  },
+                  "latitude": 47.047011,
+                  "longitude": 8.315136
+              },
+              "primaryIndustryCodes": [
+                  {
+                      "usSicV4": "7372",
+                      "usSicV4Description": "Prepackaged software services"
+                  }
+              ],
+              "corporateLinkage": {
+                  "isBranch": false,
+                  "familytreeRolesPlayed": [
+                      {
+                          "description": "Subsidiary",
+                          "dnbCode": 9159
+                      },
+                      {
+                          "description": "Domestic Ultimate",
+                          "dnbCode": 12774
+                      }
+                  ],
+                  "globalUltimateFamilyTreeMembersCount": 27
+              },
+              "financials": [
+                  {
+                      "yearlyRevenue": [
+                          {
+                              "value": 632505.0,
+                              "currency": "USD"
+                          }
+                      ]
+                  }
+              ],
+              "registrationNumbers": [
+                  {
+                      "registrationNumber": "CH02030374888",
+                      "typeDescription": "Business Registration Number (CH)",
+                      "typeDnBCode": 13145
+                  },
+                  {
+                      "registrationNumber": "CHE-229.170.782",
+                      "typeDescription": "Swiss Uniform Identification Number (CH)",
+                      "typeDnBCode": 28865
+                  },
+                  {
+                      "registrationNumber": "CHE-229.170.782 MWST",
+                      "typeDescription": "Value Added Tax Number (CH)",
+                      "typeDnBCode": 1440
+                  }
+              ],
+              "numberOfEmployees": [
+                  {
+                      "value": 5,
+                      "informationScopeDescription": "Individual",
+                      "informationScopeDnBCode": 9066,
+                      "reliabilityDescription": "Actual",
+                      "reliabilityDnBCode": 9092
+                  }
+              ],
+              "industryCodes": [
+                  {
+                      "code": "541511",
+                      "description": "Custom Computer Programming Services",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 2
+                  },
+                  {
+                      "code": "511210",
+                      "description": "Software Publishers",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 1
+                  },
+                  {
+                      "code": "1121",
+                      "description": "Computer Software",
+                      "typeDescription": "D&B Hoovers Industry Code",
+                      "typeDnbCode": 25838,
+                      "priority": 1
+                  },
+                  {
+                      "code": "73710000",
+                      "description": "Custom computer programming services",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 2
+                  },
+                  {
+                      "code": "73720000",
+                      "description": "Prepackaged software",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 1
+                  }
+              ],
+              "telephone": [
+                  {
+                      "telephoneNumber": "2480860"
+                  }
+              ],
+              "businessEntityType": {
+                  "dnbCode": 451,
+                  "description": "Corporation"
+              },
+              "domain": "company.yandex.com"
+          }
+      },
+      {
+          "displaySequence": 16,
+          "organization": {
+              "duns": "c4c27a7a7c0cd6870ef7584ea840107c",
+              "dunsControlStatus": {
+                  "isOutOfBusiness": false,
+                  "isMarketable": true,
+                  "isTelephoneDisconnected": false,
+                  "isMailUndeliverable": false
+              },
+              "primaryName": "YANDEX REKLAMCILIK HIZMETLERI LIMITED SIRKETI",
+              "primaryNameForUrl": "YANDEX_REKLAMCILIK_HIZMETLERI_LIMITED_SIRKETI",
+              "primaryAddress": {
+                  "addressCountry": {
+                      "isoAlpha2Code": "TR",
+                      "countryName": "Turkey"
+                  },
+                  "addressLocality": {
+                      "name": "Istanbul (Europe)"
+                  },
+                  "postalCode": "34394",
+                  "streetAddress": {
+                      "line1": "KAT:1 OFIS NO:A1, NO:5 ESENTEPE MAHALLESI"
+                  }
+              },
+              "primaryIndustryCodes": [
+                  {
+                      "usSicV4": "7311",
+                      "usSicV4Description": "Advertising agency"
+                  }
+              ],
+              "corporateLinkage": {
+                  "isBranch": false,
+                  "familytreeRolesPlayed": [
+                      {
+                          "description": "Subsidiary",
+                          "dnbCode": 9159
+                      },
+                      {
+                          "description": "Domestic Ultimate",
+                          "dnbCode": 12774
+                      }
+                  ],
+                  "globalUltimateFamilyTreeMembersCount": 27
+              },
+              "financials": [
+                  {
+                      "yearlyRevenue": [
+                          {
+                              "value": 451432.0,
+                              "currency": "USD"
+                          }
+                      ]
+                  }
+              ],
+              "registrationNumbers": [
+                  {
+                      "registrationNumber": "9360647207",
+                      "typeDescription": "Tax Registration Number (TR)",
+                      "typeDnBCode": 1442
+                  },
+                  {
+                      "registrationNumber": "825880",
+                      "typeDescription": "Business Registration Number (TR)",
+                      "typeDnBCode": 9418
+                  }
+              ],
+              "numberOfEmployees": [
+                  {
+                      "value": 4,
+                      "informationScopeDescription": "Consolidated",
+                      "informationScopeDnBCode": 9067,
+                      "reliabilityDescription": "Modelled",
+                      "reliabilityDnBCode": 9094
+                  },
+                  {
+                      "value": 4,
+                      "informationScopeDescription": "Individual",
+                      "informationScopeDnBCode": 9066,
+                      "reliabilityDescription": "Modelled",
+                      "reliabilityDnBCode": 9094
+                  }
+              ],
+              "industryCodes": [
+                  {
+                      "code": "541810",
+                      "description": "Advertising Agencies",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 1
+                  },
+                  {
+                      "code": "1056",
+                      "description": "Advertising Agencies",
+                      "typeDescription": "D&B Hoovers Industry Code",
+                      "typeDnbCode": 25838,
+                      "priority": 1
+                  },
+                  {
+                      "code": "73110000",
+                      "description": "Advertising agencies",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 1
+                  }
+              ],
+              "telephone": [
+                  {
+                      "telephoneNumber": "2122844648"
+                  }
+              ],
+              "businessEntityType": {
+                  "dnbCode": 451,
+                  "description": "Corporation"
+              }
+          }
+      },
+      {
+          "displaySequence": 17,
+          "organization": {
+              "duns": "5fbcc96aeea239c706e41fcc89972d07",
+              "dunsControlStatus": {
+                  "isOutOfBusiness": false,
+                  "isMarketable": true,
+                  "isMailUndeliverable": false
+              },
+              "primaryName": "Yandex Media Services B.V.",
+              "primaryNameForUrl": "Yandex_Media_Services_BV",
+              "tradeStyleNames": [
+                  {
+                      "name": "Yandex Media Services B.V.",
+                      "priority": 1
+                  },
+                  {
+                      "name": "Yandex Media Services B.V.",
+                      "priority": 2
+                  }
+              ],
+              "primaryAddress": {
+                  "addressCountry": {
+                      "isoAlpha2Code": "NL",
+                      "countryName": "Netherlands"
+                  },
+                  "addressLocality": {
+                      "name": "Luchthaven Schiphol"
+                  },
+                  "addressRegion": {
+                      "name": "NOORD-HOLLAND"
+                  },
+                  "postalCode": "1118 BG",
+                  "streetAddress": {
+                      "line1": "Schiphol Boulevard 165"
+                  },
+                  "latitude": 52.308709,
+                  "longitude": 4.758502
+              },
+              "primaryIndustryCodes": [
+                  {
+                      "usSicV4": "7311",
+                      "usSicV4Description": "Advertising agency"
+                  }
+              ],
+              "corporateLinkage": {
+                  "isBranch": false,
+                  "familytreeRolesPlayed": [
+                      {
+                          "description": "Global Ultimate",
+                          "dnbCode": 12775
+                      },
+                      {
+                          "description": "Domestic Ultimate",
+                          "dnbCode": 12774
+                      },
+                      {
+                          "description": "Parent/Headquarters",
+                          "dnbCode": 9141
+                      }
+                  ],
+                  "globalUltimateFamilyTreeMembersCount": 4
+              },
+              "financials": [
+                  {
+                      "yearlyRevenue": [
+                          {
+                              "value": 338574.0,
+                              "currency": "USD"
+                          }
+                      ]
+                  }
+              ],
+              "registrationNumbers": [
+                  {
+                      "registrationNumber": "NL858693835B01",
+                      "typeDescription": "Value Added Tax Number (NL)",
+                      "typeDnBCode": 6273
+                  },
+                  {
+                      "registrationNumber": "858693835",
+                      "typeDescription": "Legal Entity and Partnership Information Number (NL)",
+                      "typeDnBCode": 23097
+                  },
+                  {
+                      "registrationNumber": "71381368",
+                      "typeDescription": "Trade Register Number (NL)",
+                      "typeDnBCode": 6256
+                  },
+                  {
+                      "registrationNumber": "000039570584",
+                      "typeDescription": "Branch Unit Number (NL)",
+                      "typeDnBCode": 23096
+                  }
+              ],
+              "numberOfEmployees": [
+                  {
+                      "value": 0,
+                      "informationScopeDescription": "Individual",
+                      "informationScopeDnBCode": 9066,
+                      "reliabilityDescription": "Actual",
+                      "reliabilityDnBCode": 9092
+                  }
+              ],
+              "industryCodes": [
+                  {
+                      "code": "541810",
+                      "description": "Advertising Agencies",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 1
+                  },
+                  {
+                      "code": "1056",
+                      "description": "Advertising Agencies",
+                      "typeDescription": "D&B Hoovers Industry Code",
+                      "typeDnbCode": 25838,
+                      "priority": 1
+                  },
+                  {
+                      "code": "73110000",
+                      "description": "Advertising agencies",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 1
+                  }
+              ],
+              "businessEntityType": {
+                  "dnbCode": 451,
+                  "description": "Corporation"
+              }
+          }
+      },
+      {
+          "displaySequence": 18,
+          "organization": {
+              "duns": "2d3d41db08a17059bf846db4e7e956c3",
+              "dunsControlStatus": {
+                  "isOutOfBusiness": false,
+                  "isMarketable": true,
+                  "isMailUndeliverable": false
+              },
+              "primaryName": "Yandex Auto.ru AG",
+              "primaryNameForUrl": "Yandex_Autoru_AG",
+              "primaryAddress": {
+                  "addressCountry": {
+                      "isoAlpha2Code": "CH",
+                      "countryName": "Switzerland"
+                  },
+                  "addressLocality": {
+                      "name": "Luzern"
+                  },
+                  "addressRegion": {
+                      "name": "LUZERN",
+                      "abbreviatedName": "LU"
+                  },
+                  "postalCode": "6005",
+                  "streetAddress": {
+                      "line1": "Werftestrasse 4"
+                  },
+                  "latitude": 47.047011,
+                  "longitude": 8.315136
+              },
+              "primaryIndustryCodes": [
+                  {
+                      "usSicV4": "6722",
+                      "usSicV4Description": "Open-end management investment"
+                  }
+              ],
+              "corporateLinkage": {
+                  "isBranch": false,
+                  "familytreeRolesPlayed": [
+                      {
+                          "description": "Global Ultimate",
+                          "dnbCode": 12775
+                      },
+                      {
+                          "description": "Domestic Ultimate",
+                          "dnbCode": 12774
+                      },
+                      {
+                          "description": "Parent/Headquarters",
+                          "dnbCode": 9141
+                      }
+                  ],
+                  "globalUltimateFamilyTreeMembersCount": 3
+              },
+              "financials": [
+                  {
+                      "yearlyRevenue": [
+                          {
+                              "value": 261722.0,
+                              "currency": "USD"
+                          }
+                      ]
+                  }
+              ],
+              "registrationNumbers": [
+                  {
+                      "registrationNumber": "CH30030174988",
+                      "typeDescription": "Business Registration Number (CH)",
+                      "typeDnBCode": 13145
+                  },
+                  {
+                      "registrationNumber": "CHE-160.776.145",
+                      "typeDescription": "Swiss Uniform Identification Number (CH)",
+                      "typeDnBCode": 28865
+                  }
+              ],
+              "numberOfEmployees": [
+                  {
+                      "value": 2,
+                      "informationScopeDescription": "Individual",
+                      "informationScopeDnBCode": 9066,
+                      "reliabilityDescription": "Modelled",
+                      "reliabilityDnBCode": 9094
+                  }
+              ],
+              "industryCodes": [
+                  {
+                      "code": "523910",
+                      "description": "Miscellaneous Intermediation",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 2
+                  },
+                  {
+                      "code": "522298",
+                      "description": "All Other Nondepository Credit Intermediation",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 4
+                  },
+                  {
+                      "code": "525910",
+                      "description": "Open-End Investment Funds",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 1
+                  },
+                  {
+                      "code": "541611",
+                      "description": "Administrative Management and General Management Consulting Services",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 3
+                  },
+                  {
+                      "code": "541611",
+                      "description": "Administrative Management and General Management Consulting Services",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 5
+                  },
+                  {
+                      "code": "1300",
+                      "description": "Asset Management",
+                      "typeDescription": "D&B Hoovers Industry Code",
+                      "typeDnbCode": 25838,
+                      "priority": 1
+                  },
+                  {
+                      "code": "87420000",
+                      "description": "Management consulting services",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 3
+                  },
+                  {
+                      "code": "87420000",
+                      "description": "Management consulting services",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 5
+                  },
+                  {
+                      "code": "61599902",
+                      "description": "Intermediate investment banks",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 4
+                  },
+                  {
+                      "code": "67990000",
+                      "description": "Investors, nec",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 2
+                  },
+                  {
+                      "code": "67220000",
+                      "description": "Management investment, open-end",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 1
+                  }
+              ],
+              "businessEntityType": {
+                  "dnbCode": 451,
+                  "description": "Corporation"
+              }
+          }
+      },
+      {
+          "displaySequence": 19,
+          "organization": {
+              "duns": "7427779e51b383a28cf50c49e66d7245",
+              "dunsControlStatus": {
+                  "isOutOfBusiness": false,
+                  "isMarketable": true,
+                  "isTelephoneDisconnected": false,
+                  "isMailUndeliverable": false
+              },
+              "primaryName": "Yandex.Market B.V.",
+              "primaryNameForUrl": "YandexMarket_BV",
+              "primaryAddress": {
+                  "addressCountry": {
+                      "isoAlpha2Code": "NL",
+                      "countryName": "Netherlands"
+                  },
+                  "addressLocality": {
+                      "name": "Luchthaven Schiphol"
+                  },
+                  "addressRegion": {
+                      "name": "NOORD-HOLLAND"
+                  },
+                  "postalCode": "1118 BG",
+                  "streetAddress": {
+                      "line1": "Schiphol Boulevard 165"
+                  },
+                  "latitude": 52.308709,
+                  "longitude": 4.758502
+              },
+              "primaryIndustryCodes": [
+                  {
+                      "usSicV4": "6733",
+                      "usSicV4Description": "Trust management"
+                  }
+              ],
+              "corporateLinkage": {
+                  "isBranch": false,
+                  "familytreeRolesPlayed": [
+                      {
+                          "description": "Global Ultimate",
+                          "dnbCode": 12775
+                      },
+                      {
+                          "description": "Domestic Ultimate",
+                          "dnbCode": 12774
+                      },
+                      {
+                          "description": "Parent/Headquarters",
+                          "dnbCode": 9141
+                      }
+                  ],
+                  "globalUltimateFamilyTreeMembersCount": 3
+              },
+              "financials": [
+                  {
+                      "yearlyRevenue": [
+                          {
+                              "value": 242120.0,
+                              "currency": "USD"
+                          }
+                      ]
+                  }
+              ],
+              "registrationNumbers": [
+                  {
+                      "registrationNumber": "NL856400841B01",
+                      "typeDescription": "Value Added Tax Number (NL)",
+                      "typeDnBCode": 6273
+                  },
+                  {
+                      "registrationNumber": "856400841",
+                      "typeDescription": "Legal Entity and Partnership Information Number (NL)",
+                      "typeDnBCode": 23097
+                  },
+                  {
+                      "registrationNumber": "66115582",
+                      "typeDescription": "Trade Register Number (NL)",
+                      "typeDnBCode": 6256
+                  },
+                  {
+                      "registrationNumber": "000034768874",
+                      "typeDescription": "Branch Unit Number (NL)",
+                      "typeDnBCode": 23096
+                  }
+              ],
+              "numberOfEmployees": [
+                  {
+                      "value": 0,
+                      "informationScopeDescription": "Individual",
+                      "informationScopeDnBCode": 9066,
+                      "reliabilityDescription": "Actual",
+                      "reliabilityDnBCode": 9092
+                  }
+              ],
+              "industryCodes": [
+                  {
+                      "code": "523991",
+                      "description": "Trust, Fiduciary, and Custody Activities",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 1
+                  },
+                  {
+                      "code": "1036",
+                      "description": "Custodial & Trust Services",
+                      "typeDescription": "D&B Hoovers Industry Code",
+                      "typeDnbCode": 25838,
+                      "priority": 1
+                  },
+                  {
+                      "code": "67330000",
+                      "description": "Trusts, nec",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 1
+                  }
+              ],
+              "telephone": [
+                  {
+                      "telephoneNumber": "202066970"
+                  }
+              ],
+              "businessEntityType": {
+                  "dnbCode": 451,
+                  "description": "Corporation"
+              },
+              "domain": "yandex.com"
+          }
+      },
+      {
+          "displaySequence": 20,
+          "organization": {
+              "duns": "dad2b2503f91f55277fa62682bd3e5ec",
+              "dunsControlStatus": {
+                  "isOutOfBusiness": false,
+                  "isMarketable": true,
+                  "isMailUndeliverable": false
+              },
+              "primaryName": "P H U YANDEX KRZYSZTOF GŁĘBOWICZ",
+              "primaryNameForUrl": "P_H_U_YANDEX_KRZYSZTOF_GŁĘBOWICZ",
+              "primaryAddress": {
+                  "addressCountry": {
+                      "isoAlpha2Code": "PL",
+                      "countryName": "Poland"
+                  },
+                  "addressLocality": {
+                      "name": "Warszawa"
+                  },
+                  "addressRegion": {
+                      "name": "MAZOWIECKIE"
+                  },
+                  "postalCode": "02-656",
+                  "streetAddress": {
+                      "line1": "Ul. Ksawerów 30-81"
+                  },
+                  "latitude": 52.186807,
+                  "longitude": 21.014243
+              },
+              "primaryIndustryCodes": [
+                  {
+                      "usSicV4": "5511",
+                      "usSicV4Description": "Ret new/used automobiles"
+                  }
+              ],
+              "corporateLinkage": {
+                  "isBranch": false
+              },
+              "financials": [
+                  {
+                      "yearlyRevenue": [
+                          {
+                              "value": 198000.0,
+                              "currency": "USD"
+                          }
+                      ]
+                  }
+              ],
+              "registrationNumbers": [
+                  {
+                      "registrationNumber": "381864975",
+                      "typeDescription": "National Official Business Register Number (PL)",
+                      "typeDnBCode": 18518
+                  },
+                  {
+                      "registrationNumber": "5213847125",
+                      "typeDescription": "Value Added Tax Number (PL)",
+                      "typeDnBCode": 1435
+                  }
+              ],
+              "numberOfEmployees": [
+                  {
+                      "value": 1,
+                      "informationScopeDescription": "Individual",
+                      "informationScopeDnBCode": 9066,
+                      "reliabilityDescription": "Actual",
+                      "reliabilityDnBCode": 9092
+                  }
+              ],
+              "industryCodes": [
+                  {
+                      "code": "441110",
+                      "description": "New Car Dealers",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 1
+                  },
+                  {
+                      "code": "1522",
+                      "description": "Automobile Dealers",
+                      "typeDescription": "D&B Hoovers Industry Code",
+                      "typeDnbCode": 25838,
+                      "priority": 1
+                  },
+                  {
+                      "code": "55110000",
+                      "description": "New and used car dealers",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 1
+                  }
+              ],
+              "businessEntityType": {
+                  "dnbCode": 453,
+                  "description": "Proprietorship"
+              }
+          }
+      },
+      {
+          "displaySequence": 21,
+          "organization": {
+              "duns": "9e17ee48583d7a97b7dd03c3055cb08f",
+              "dunsControlStatus": {
+                  "isOutOfBusiness": false,
+                  "isMarketable": true,
+                  "isMailUndeliverable": false
+              },
+              "primaryName": "YANDEX LABOR VEST S.R.L.",
+              "primaryNameForUrl": "YANDEX_LABOR_VEST_SRL",
+              "primaryAddress": {
+                  "addressCountry": {
+                      "isoAlpha2Code": "RO",
+                      "countryName": "Romania"
+                  },
+                  "addressLocality": {
+                      "name": "Bucuresti"
+                  },
+                  "streetAddress": {
+                      "line1": "STR. RACARI NR. 51 BL. 70 SC. 2 ET. 5 AP. 81, SECTORUL 3"
+                  }
+              },
+              "primaryIndustryCodes": [
+                  {
+                      "usSicV4": "3843",
+                      "usSicV4Description": "Mfg dental equipment/supplies"
+                  }
+              ],
+              "corporateLinkage": {
+                  "isBranch": false
+              },
+              "financials": [
+                  {
+                      "yearlyRevenue": [
+                          {
+                              "value": 191312.0,
+                              "currency": "USD"
+                          }
+                      ]
+                  }
+              ],
+              "registrationNumbers": [
+                  {
+                      "registrationNumber": "J40/11380/2018",
+                      "typeDescription": "Business Registration Number (RO)",
+                      "typeDnBCode": 1436
+                  },
+                  {
+                      "registrationNumber": "39725837",
+                      "typeDescription": "Tax Registration Number (RO)",
+                      "typeDnBCode": 17278
+                  }
+              ],
+              "numberOfEmployees": [
+                  {
+                      "value": 2,
+                      "informationScopeDescription": "Consolidated",
+                      "informationScopeDnBCode": 9067,
+                      "reliabilityDescription": "Modelled",
+                      "reliabilityDnBCode": 9094
+                  },
+                  {
+                      "value": 2,
+                      "informationScopeDescription": "Individual",
+                      "informationScopeDnBCode": 9066,
+                      "reliabilityDescription": "Modelled",
+                      "reliabilityDnBCode": 9094
+                  }
+              ],
+              "industryCodes": [
+                  {
+                      "code": "339114",
+                      "description": "Dental Equipment and Supplies Manufacturing",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 1
+                  },
+                  {
+                      "code": "1378",
+                      "description": "Medical Equipment & Supplies Manufacturing",
+                      "typeDescription": "D&B Hoovers Industry Code",
+                      "typeDnbCode": 25838,
+                      "priority": 1
+                  },
+                  {
+                      "code": "38430000",
+                      "description": "Dental equipment and supplies",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 1
+                  }
+              ],
+              "businessEntityType": {
+                  "dnbCode": 451,
+                  "description": "Corporation"
+              }
+          }
+      },
+      {
+          "displaySequence": 22,
+          "organization": {
+              "duns": "632bb21d8616fe77235f8ab4767687a0",
+              "dunsControlStatus": {
+                  "isOutOfBusiness": false,
+                  "isMarketable": true,
+                  "isTelephoneDisconnected": false,
+                  "isMailUndeliverable": false
+              },
+              "primaryName": "Yandex",
+              "primaryNameForUrl": "Yandex",
+              "primaryAddress": {
+                  "addressCountry": {
+                      "isoAlpha2Code": "US",
+                      "countryName": "United States of America"
+                  },
+                  "addressLocality": {
+                      "name": "San Jose"
+                  },
+                  "addressRegion": {
+                      "name": "California",
+                      "abbreviatedName": "CA"
+                  },
+                  "postalCode": "95110-1013",
+                  "streetAddress": {
+                      "line1": "2001 Gateway Pl Ste 400W"
+                  },
+                  "latitude": 37.370621,
+                  "longitude": -121.922481
+              },
+              "primaryIndustryCodes": [
+                  {
+                      "usSicV4": "8071",
+                      "usSicV4Description": "Medical laboratory"
+                  }
+              ],
+              "corporateLinkage": {
+                  "isBranch": false
+              },
+              "financials": [
+                  {
+                      "yearlyRevenue": [
+                          {
+                              "value": 47435.0,
+                              "currency": "USD"
+                          }
+                      ]
+                  }
+              ],
+              "numberOfEmployees": [
+                  {
+                      "value": 3,
+                      "informationScopeDescription": "Consolidated",
+                      "informationScopeDnBCode": 9067,
+                      "reliabilityDescription": "Modelled",
+                      "reliabilityDnBCode": 9094
+                  },
+                  {
+                      "value": 3,
+                      "informationScopeDescription": "Individual",
+                      "informationScopeDnBCode": 9066,
+                      "reliabilityDescription": "Modelled",
+                      "reliabilityDnBCode": 9094
+                  }
+              ],
+              "industryCodes": [
+                  {
+                      "code": "621511",
+                      "description": "Medical Laboratories",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 1
+                  },
+                  {
+                      "code": "2052",
+                      "description": "Medical & Diagnostic Laboratories",
+                      "typeDescription": "D&B Hoovers Industry Code",
+                      "typeDnbCode": 25838,
+                      "priority": 1
+                  },
+                  {
+                      "code": "80710000",
+                      "description": "Medical laboratories",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 1
+                  }
+              ],
+              "telephone": [
+                  {
+                      "telephoneNumber": "2095606724"
+                  }
+              ]
+          }
+      },
+      {
+          "displaySequence": 23,
+          "organization": {
+              "duns": "1e37686a7104a0f833cd732d7874608c",
+              "dunsControlStatus": {
+                  "isOutOfBusiness": false,
+                  "isMarketable": true,
+                  "isMailUndeliverable": false
+              },
+              "primaryName": "Stichting Yandex Conversion",
+              "primaryNameForUrl": "Stichting_Yandex_Conversion",
+              "primaryAddress": {
+                  "addressCountry": {
+                      "isoAlpha2Code": "NL",
+                      "countryName": "Netherlands"
+                  },
+                  "addressLocality": {
+                      "name": "Luchthaven Schiphol"
+                  },
+                  "addressRegion": {
+                      "name": "NOORD-HOLLAND"
+                  },
+                  "postalCode": "1118 BG",
+                  "streetAddress": {
+                      "line1": "Schiphol Boulevard 165"
+                  },
+                  "latitude": 52.308709,
+                  "longitude": 4.758502
+              },
+              "primaryIndustryCodes": [
+                  {
+                      "usSicV4": "6211",
+                      "usSicV4Description": "Security broker/dealer"
+                  }
+              ],
+              "corporateLinkage": {
+                  "isBranch": false
+              },
+              "financials": [
+                  {
+                      "yearlyRevenue": [
+                          {
+                              "value": 29910.0,
+                              "currency": "USD"
+                          }
+                      ]
+                  }
+              ],
+              "registrationNumbers": [
+                  {
+                      "registrationNumber": "820154477",
+                      "typeDescription": "Legal Entity and Partnership Information Number (NL)",
+                      "typeDnBCode": 23097
+                  },
+                  {
+                      "registrationNumber": "27330915",
+                      "typeDescription": "Trade Register Number (NL)",
+                      "typeDnBCode": 6256
+                  },
+                  {
+                      "registrationNumber": "NL820154477B01",
+                      "typeDescription": "Value Added Tax Number (NL)",
+                      "typeDnBCode": 6273
+                  }
+              ],
+              "numberOfEmployees": [
+                  {
+                      "value": 0,
+                      "informationScopeDescription": "Individual",
+                      "informationScopeDnBCode": 9066,
+                      "reliabilityDescription": "Actual",
+                      "reliabilityDnBCode": 9092
+                  }
+              ],
+              "industryCodes": [
+                  {
+                      "code": "523120",
+                      "description": "Securities Brokerage",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 1
+                  },
+                  {
+                      "code": "1330",
+                      "description": "Securities Brokerages",
+                      "typeDescription": "D&B Hoovers Industry Code",
+                      "typeDnbCode": 25838,
+                      "priority": 1
+                  },
+                  {
+                      "code": "62110100",
+                      "description": "Security brokers and dealers",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 1
+                  }
+              ],
+              "businessEntityType": {
+                  "dnbCode": 457,
+                  "description": "Non Profit Organisation"
+              }
+          }
+      },
+      {
+          "displaySequence": 24,
+          "organization": {
+              "duns": "fef9c4820fd535115bbb3fab87a0a434",
+              "dunsControlStatus": {
+                  "isOutOfBusiness": false,
+                  "isMarketable": true,
+                  "isMailUndeliverable": false
+              },
+              "primaryName": "PS YANDEKS.DENGI, OOO",
+              "primaryNameForUrl": "PS_YANDEKSDENGI_OOO",
+              "tradeStyleNames": [
+                  {
+                      "name": "\"PS YANDEX.MONEY\" LLC.",
+                      "priority": 1
+                  }
+              ],
+              "primaryAddress": {
+                  "addressCountry": {
+                      "isoAlpha2Code": "RU",
+                      "countryName": "Russian Federation"
+                  },
+                  "addressLocality": {
+                      "name": "Moscow"
+                  },
+                  "postalCode": "115035",
+                  "streetAddress": {
+                      "line1": "d. 82 str. 2, ul. Sadovnicheskaya"
+                  },
+                  "latitude": 55.747738,
+                  "longitude": 37.627333
+              },
+              "primaryIndustryCodes": [
+                  {
+                      "usSicV4": "7379",
+                      "usSicV4Description": "Computer related services"
+                  }
+              ],
+              "corporateLinkage": {
+                  "isBranch": false,
+                  "familytreeRolesPlayed": [
+                      {
+                          "description": "Subsidiary",
+                          "dnbCode": 9159
+                      },
+                      {
+                          "description": "Parent/Headquarters",
+                          "dnbCode": 9141
+                      }
+                  ],
+                  "globalUltimateFamilyTreeMembersCount": 1920
+              },
+              "financials": [
+                  {
+                      "yearlyRevenue": [
+                          {
+                              "value": 24344.0,
+                              "currency": "USD"
+                          }
+                      ]
+                  }
+              ],
+              "registrationNumbers": [
+                  {
+                      "registrationNumber": "7736554890",
+                      "typeDescription": "Tax Registration Number (RU)",
+                      "typeDnBCode": 1437
+                  },
+                  {
+                      "registrationNumber": "99578661",
+                      "typeDescription": "Government Gazette Number (RU)",
+                      "typeDnBCode": 9429
+                  },
+                  {
+                      "registrationNumber": "1077746365113",
+                      "typeDescription": "Business Registration Number (RU)",
+                      "typeDnBCode": 9403
+                  }
+              ],
+              "numberOfEmployees": [
+                  {
+                      "value": 1,
+                      "informationScopeDescription": "Individual",
+                      "informationScopeDnBCode": 9066,
+                      "reliabilityDescription": "Estimated",
+                      "reliabilityDnBCode": 9093
+                  }
+              ],
+              "industryCodes": [
+                  {
+                      "code": "424990",
+                      "description": "Other Miscellaneous Nondurable Goods Merchant Wholesalers",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 2
+                  },
+                  {
+                      "code": "522320",
+                      "description": "Financial Transactions Processing, Reserve, and Clearinghouse Activities",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 4
+                  },
+                  {
+                      "code": "541512",
+                      "description": "Computer Systems Design Services",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 1
+                  },
+                  {
+                      "code": "541512",
+                      "description": "Computer Systems Design Services",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 6
+                  },
+                  {
+                      "code": "454110",
+                      "description": "Electronic Shopping and Mail-Order Houses",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 3
+                  },
+                  {
+                      "code": "518210",
+                      "description": "Data Processing, Hosting, and Related Services",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 5
+                  },
+                  {
+                      "code": "1119",
+                      "description": "Information Technology Services",
+                      "typeDescription": "D&B Hoovers Industry Code",
+                      "typeDnbCode": 25838,
+                      "priority": 1
+                  },
+                  {
+                      "code": "59610000",
+                      "description": "Catalog and mail-order houses",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 3
+                  },
+                  {
+                      "code": "73790000",
+                      "description": "Computer related services, nec",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 6
+                  },
+                  {
+                      "code": "73740000",
+                      "description": "Data processing and preparation",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 5
+                  },
+                  {
+                      "code": "60990000",
+                      "description": "Functions related to deposit banking",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 4
+                  },
+                  {
+                      "code": "51990000",
+                      "description": "Nondurable goods, nec",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 2
+                  },
+                  {
+                      "code": "73790000",
+                      "description": "Computer related services, nec",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 1
+                  }
+              ],
+              "businessEntityType": {
+                  "dnbCode": 451,
+                  "description": "Corporation"
+              }
+          }
+      },
+      {
+          "displaySequence": 25,
+          "organization": {
+              "duns": "74aaa7e3911f30480c7768ede664fca3",
+              "dunsControlStatus": {
+                  "isOutOfBusiness": false,
+                  "isMarketable": true,
+                  "isMailUndeliverable": false
+              },
+              "primaryName": "Yandex.Classifieds Holding B.V.",
+              "primaryNameForUrl": "YandexClassifieds_Holding_BV",
+              "tradeStyleNames": [
+                  {
+                      "name": "Yandex.Classifieds Holding B.V.",
+                      "priority": 1
+                  },
+                  {
+                      "name": "Yandex.Classifieds Holding B.V.",
+                      "priority": 2
+                  }
+              ],
+              "primaryAddress": {
+                  "addressCountry": {
+                      "isoAlpha2Code": "NL",
+                      "countryName": "Netherlands"
+                  },
+                  "addressLocality": {
+                      "name": "Luchthaven Schiphol"
+                  },
+                  "addressRegion": {
+                      "name": "NOORD-HOLLAND"
+                  },
+                  "postalCode": "1118 BG",
+                  "streetAddress": {
+                      "line1": "Schiphol Boulevard 165"
+                  },
+                  "latitude": 52.308991,
+                  "longitude": 4.759806
+              },
+              "primaryIndustryCodes": [
+                  {
+                      "usSicV4": "6733",
+                      "usSicV4Description": "Trust management"
+                  }
+              ],
+              "corporateLinkage": {
+                  "isBranch": false,
+                  "familytreeRolesPlayed": [
+                      {
+                          "description": "Subsidiary",
+                          "dnbCode": 9159
+                      }
+                  ],
+                  "globalUltimateFamilyTreeMembersCount": 27
+              },
+              "registrationNumbers": [
+                  {
+                      "registrationNumber": "NL859527244B01",
+                      "typeDescription": "Value Added Tax Number (NL)",
+                      "typeDnBCode": 6273
+                  },
+                  {
+                      "registrationNumber": "859527244",
+                      "typeDescription": "Legal Entity and Partnership Information Number (NL)",
+                      "typeDnBCode": 23097
+                  },
+                  {
+                      "registrationNumber": "73416665",
+                      "typeDescription": "Trade Register Number (NL)",
+                      "typeDnBCode": 6256
+                  },
+                  {
+                      "registrationNumber": "000041455657",
+                      "typeDescription": "Branch Unit Number (NL)",
+                      "typeDnBCode": 23096
+                  }
+              ],
+              "numberOfEmployees": [
+                  {
+                      "value": 0,
+                      "informationScopeDescription": "Individual",
+                      "informationScopeDnBCode": 9066,
+                      "reliabilityDescription": "Actual",
+                      "reliabilityDnBCode": 9092
+                  }
+              ],
+              "industryCodes": [
+                  {
+                      "code": "523991",
+                      "description": "Trust, Fiduciary, and Custody Activities",
+                      "typeDescription": "North American Industry Classification System 2017",
+                      "typeDnbCode": 30832,
+                      "priority": 1
+                  },
+                  {
+                      "code": "1036",
+                      "description": "Custodial & Trust Services",
+                      "typeDescription": "D&B Hoovers Industry Code",
+                      "typeDnbCode": 25838,
+                      "priority": 1
+                  },
+                  {
+                      "code": "67330000",
+                      "description": "Trusts, nec",
+                      "typeDescription": "D&B Standard Industry Code",
+                      "typeDnbCode": 3599,
+                      "priority": 1
+                  }
+              ],
+              "businessEntityType": {
+                  "dnbCode": 451,
+                  "description": "Corporation"
+              }
+          }
+      }
+  ]
+}

@@ -1,11 +1,10 @@
-/* eslint-disable */
 import React from 'react';
-import jurisdictions from '../db/jurisdictions.json';
 
 const SearchResultsItem = ({company}) => {
-  const { jurisdiction_code, registered_address } = company;
-  const { country } = jurisdictions.find(item => item.code === jurisdiction_code);
-  const countryCode = jurisdiction_code.split('_')[0].toLowerCase();
+  // console.log(company);
+  return <div />;
+  const { isoAlpha2Code, address } = company;
+  const countryCode = isoAlpha2Code.toLowerCase();
   const flag = { backgroundImage: `url(/img/flags/${countryCode}.gif)` };
   let inactive = '', branch = '';
   if (company.inactive) {
@@ -23,10 +22,10 @@ const SearchResultsItem = ({company}) => {
         </a>
       </div>
       <p>
-        <span>{country}</span>
+        <span>{address.country}</span>
         <span>-</span>
-        <span>{company.registered_address_in_full},</span>
-        <span>{company.company_number}</span>
+        <span>{address.street},</span>
+        <span>{'Some number'}</span>
       </p>
       <hr />
     </div>

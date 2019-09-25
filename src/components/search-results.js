@@ -8,7 +8,7 @@ class SearchResults extends Component {
   companiesService = new CompaniesService();
   url = new URL();
 
-  mockData = false;
+  mockData = true;
 
   state = {
     params: {},
@@ -35,6 +35,7 @@ class SearchResults extends Component {
       this.setState({ 
         errorMessage: 'Enter search string'
       });
+      console.log("Doesn't have q parameter");
       return;
     }
 
@@ -46,6 +47,7 @@ class SearchResults extends Component {
     this.companiesService.getCompanies(search, this.mockData)
       .then(data => {
         this.setState({ searchResults: data });
+        // console.log(data);
         this.props.toggleLoading();
       })
       .catch(err => {
@@ -63,6 +65,7 @@ class SearchResults extends Component {
   }
 
   render() {
+    console.log(this.state);
     let elements;
     const { searchResults: results = {} } = this.state;
     if (results.companies) {

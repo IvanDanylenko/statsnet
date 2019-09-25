@@ -1,8 +1,9 @@
 import React from 'react';
 import './company-page.scss';
 
-import PromoStatistics from './parts/promo-statistics';
-import Description from './parts/description';
+import WholePage from './parts/whole-page';
+// import PromoStatistics from './parts/promo-statistics';
+// import Description from './parts/description';
 
 const CompanyPage = () => {
   return (
@@ -10,9 +11,10 @@ const CompanyPage = () => {
       {/* <Header /> */}
 
       {/* This styles is used */}
-      <PromoStatistics />
-      <Description />
-
+      {/* <PromoStatistics /> */}
+      {/* <Description /> */}
+      
+      <WholePage />
 
       {/* <Report /> */}
       {/* <SimilarCompanies /> */}

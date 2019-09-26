@@ -5,6 +5,9 @@ import 'nprogress/nprogress.css';
 
 class LoadingProgressBar extends React.Component {
   componentDidMount () {
+    NProgress.configure({
+      template: '<div class="bar" role="bar"><div class="peg"></div></div>'
+    });
     NProgress.start();
   }
 

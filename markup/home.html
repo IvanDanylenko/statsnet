@@ -2,73 +2,88 @@
 <html lang="ru">
 
 <head>
-  <meta charset="utf-8" />
-  <!-- <a rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" /> -->
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8">
+  <!-- <a rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Statsnet – это сервис, разработанный для тех, кто хочет работать только с надёжными контрагентами.
-Проявите должную осмотрительность и проверяйте своих контрагентов по 37 факторам риска." />
+Проявите должную осмотрительность и проверяйте своих контрагентов по 37 факторам риска.">
   <title>Statsnet — поиск и проверка контрагентов по всему миру</title>
+  <!-- Font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
 
-  <a rel="stylesheet" href="../css/bootstrap.min.css">
-  <a rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/main.css">
 </head>
 
 <body>
   <header class="header">
-    <div class="logo">
-      <a href="/">Statsnet</a>
+    <div class="container">
+      <div class="header__inner">
+        <div class="logo">
+          <a href="/">Statsnet</a>
+        </div>
+        <nav>
+          <ul>
+            <li>
+              <a href="/jurisdictions">Юрисдикции</a>
+            </li>
+            <li>
+              <a href="/about">О проекте</a>
+            </li>
+            <li>
+              <a href="/terms">Условия использования</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </div>
-    <nav>
-      <ul>
-        <li>
-          <a href="/jurisdictions">Юрисдикции</a >
-        </li>
-        <li>
-          <a href="/about">О проекте</a>
-        </li>
-        <li>
-          <a href="/terms">Условия использования</a>
-        </li>
-      </ul>
-    </nav>
   </header>
-  <section className="home-page">
-    <div className="container">
-      <div className="offer">
-        <div className="row">
-          <div className="col-md-8">
+  <section class="home-page">
+    <div class="container">
+      <div class="offer">
+        <div class="row">
+          <div class="col-md-8">
             <h1>Поиск и проверка контрагентов</h1>
-            <p>Statsnet – это сервис, разработанный для тех, кто хочет работать только с надёжными контрагентами. Проявите
+            <p>Statsnet – это сервис, разработанный для тех, кто хочет работать только с надёжными контрагентами.
+              Проявите
               должную осмотрительность и проверяйте своих контрагентов по 37 факторам риска</p>
           </div>
         </div>
-        <div className="row">
-          <div className="col-md-8">
-            <SearchBox location={location} history={history} />
+        <div class="row">
+          <div class="col-md-8">
+            <!-- Search box -->
+            <form class="search-box">
+              <div class="search-field">
+                <input autofocus type="text" name="query" placeholder="Search 178,868,916 companies">
+                <button type="submit">
+                  <span class="fas fa-search"></span>
+                </button>
+              </div>
+            </form>
           </div>
         </div>
-        <div className="row">
-          <div className="col-md-8">
-            <div className="row">
-              <div className="col-md-4">
-                <div className="advantages--item">
-                  <img src="/img/tools-dashboard.svg" alt="Tools dashboard" />
+        <div class="row">
+          <div class="col-md-8">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="advantages--item">
+                  <img src="/img/tools-dashboard.svg" alt="Tools dashboard">
                   <h3>Оценка рисков</h3>
                   <p>Уникальные аналитические показатели, позволяющие провести экспресс-анализ компании и оценить ее
                     благонадежность</p>
                 </div>
               </div>
-              <div className="col-md-4">
-                <div className="advantages--item">
-                  <img src="/img/inbox-down.svg" alt="Inbox down" />
+              <div class="col-md-4">
+                <div class="advantages--item">
+                  <img src="/img/inbox-down.svg" alt="Inbox down">
                   <h3>Отчеты и выписки</h3>
                   <p>Предоставляем отчеты и выписки из государственных реестров, судов, правоохранительных органов,
                     кредитных бюро.</p>
                 </div>
               </div>
-              <div className="col-md-4">
-                <div className="advantages--item">
-                  <img src="/img/user-check.svg" alt="User check" />
+              <div class="col-md-4">
+                <div class="advantages--item">
+                  <img src="/img/user-check.svg" alt="User check">
                   <h3>Проверка руководства</h3>
                   <p>Список совладельцев, иерархия владения и структура собственников, включая иностранных бенефициаров
                   </p>

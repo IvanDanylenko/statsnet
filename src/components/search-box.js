@@ -85,14 +85,6 @@ class SearchBox extends Component {
 
     return (
       <form className="search-box" onSubmit={this.handleSubmit}>
-        {/* <button 
-          type="button" 
-          onClick={this.test}
-          style={{
-            position: "fixed",
-            top: "20px",
-            right: "20px"
-          }}>Test</button> */}
         <div className="search-field">
           <input 
             autoFocus 

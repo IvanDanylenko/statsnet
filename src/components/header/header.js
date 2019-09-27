@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header className="header">
       <div className="logo">
-        <a href="/">Statsnet</a>
+        <Link to="/">Statsnet</Link>
       </div>
       {window.location.pathname !== '/' ? <SearchBox /> : null}
       <nav>

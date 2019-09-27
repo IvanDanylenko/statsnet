@@ -1,5 +1,6 @@
 import React from 'react';
-import SearchBox from './search-box';
+import SearchBox from '../search-box';
+import './home-page.scss';
 
 const HomePage = ({history, location}) => {
   return (

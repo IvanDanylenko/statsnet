@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Pagination from './pagination';
-import CompaniesService from '../services/companies-service';
-import URL from '../helpers/url';
+import CompaniesService from '../../services/companies-service';
+import URL from '../../helpers/url';
 import SearchResultsItem from './search-results-item';
 
 class SearchResults extends Component {

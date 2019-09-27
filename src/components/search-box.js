@@ -39,11 +39,11 @@ class SearchBox extends Component {
       },
       search
     }, () => {
-      if (window.location.pathname === '/companies') {
-        const title = document.getElementsByTagName('title')[0];
-        const { q } = this.state.formFields;
-        title.innerText = `Companies matching '${q}' :: OpenCorporates`;
-      }
+      // if (window.location.pathname === '/companies') {
+      //   const title = document.getElementsByTagName('title')[0];
+      //   const { q } = this.state.formFields;
+      //   title.innerText = `Companies matching '${q}' :: OpenCorporates`;
+      // }
     });
   }
 

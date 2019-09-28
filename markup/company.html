@@ -14,12 +14,22 @@
 </head>
 
 <body>
-  <header class="header position-absolute">
+  <header class="header position-static">
     <div class="container">
       <div class="header__inner">
         <div class="logo">
           <a href="/">Statsnet</a>
         </div>
+        <!-- Search box -->
+        <form class="search-box">
+          <div class="search-field">
+            <input type="text" name="query" placeholder="Поиск">
+            <button type="submit">
+              <span class="fas fa-search"></span>
+            </button>
+          </div>
+        </form>
+        <!-- Navigation -->
         <nav>
           <ul>
             <li>
@@ -44,14 +54,14 @@
             <button class="button-unstyled sp-icon-close-dark js-search-close"></button>
           </div>
           <div class="search-panel__form">
-    
-    
+
+
             <form action="file:///C:/search" autocomplete="off" class="search-form js-search-form" method="get">
               <div class="search-form__group">
                 <div class="search-form__input-wrap">
                   <i class="search-form__input-icon sp-icon-magnifier-dark"></i>
-                  <input class="search-form__input autocomplete-enabled js-search-input" type="text" name="Query" value=""
-                    placeholder="Поиск компаний" autocomplete="off">
+                  <input class="search-form__input autocomplete-enabled js-search-input" type="text" name="Query"
+                    value="" placeholder="Поиск компаний" autocomplete="off">
                 </div>
                 <div class="search-form__buttons-wrap">
                   <input class="btn btn-primary search-form__button js-search-submit" type="submit" value="Найти"
@@ -77,21 +87,21 @@
         </div>
       </div>
     </div>
-    
+
     <div class="promo-statistics" itemscope="" itemtype="http://schema.org/Organization">
       <div class="promo-statistics__header">
         <div class="container relative">
-    
+
           <ul class="breadcrumbs" itemscope="" itemtype="http://schema.org/BreadcrumbList">
             <li class="breadcrumbs__item-wrapper" itemprop="itemListElement" itemscope=""
               itemtype="http://schema.org/ListItem">
               <meta itemprop="position" content="1">
-              <a href="file:///C:/statistics" class="breadcrumbs__item-val" itemscope="" itemtype="http://schema.org/Thing"
-                itemprop="item">
+              <a href="file:///C:/statistics" class="breadcrumbs__item-val" itemscope=""
+                itemtype="http://schema.org/Thing" itemprop="item">
                 <span itemprop="name">Казахстан</span>
               </a>
             </li>
-    
+
             <li class="breadcrumbs__item-wrapper js-breadcrumbs-level" itemprop="itemListElement" itemscope=""
               itemtype="http://schema.org/ListItem">
               <meta itemprop="position" content="1">
@@ -100,19 +110,19 @@
                   itemtype="http://schema.org/Thing" itemprop="item">
                   <span itemprop="name">Алматы</span>
                 </a>
-    
+
               </div>
             </li>
-    
-    
+
+
           </ul>
-    
+
           <h1 class="promo-statistics__title promo-statistics__title_company" itemprop="name">АО Казпочта</h1>
-    
-    
+          <p class="promo-statistics__subscription">Деятельность почтовой связи общего пользования</p>
+
         </div>
       </div>
-    
+
       <div class="container">
         <div class="row">
           <div class="col-lg-9 col-md-8">
@@ -142,7 +152,7 @@
                     </a>
                   </div>
                 </div>
-    
+
                 <div class="company-characteristics__row">
                   <div class="company-characteristics__name">Эл. почта<br>(e-mail)</div>
                   <div class="company-characteristics__value">
@@ -153,7 +163,7 @@
                     </a>
                   </div>
                 </div>
-    
+
                 <div class="company-characteristics__row">
                   <div class="company-characteristics__name">Сайт</div>
                   <div class="company-characteristics__value">
@@ -164,10 +174,10 @@
                   </div>
                 </div>
               </div>
-    
+
               <div>
                 <h2 id="_details" class="promo-statistics__section-title">Реквизиты</h2>
-    
+
                 <div class="company-characteristics full-width">
                   <div class="company-characteristics__row">
                     <div class="company-characteristics__name">Полное название организации</div>
@@ -224,7 +234,7 @@
               </div>
               <div>
                 <h2 class="promo-statistics__section-title">Информация о компании</h2>
-    
+
                 <div class="company-characteristics full-width">
                   <div class="company-characteristics__row">
                     <div class="company-characteristics__name">Статус компании</div>
@@ -255,7 +265,7 @@
                       </a>
                     </div>
                   </div>
-    
+
                   <div class="company-characteristics__row">
                     <div class="company-characteristics__name">Численность персонала</div>
                     <div class="company-characteristics__value">
@@ -264,7 +274,7 @@
                       </a>
                     </div>
                   </div>
-    
+
                   <div class="company-characteristics__row">
                     <div class="company-characteristics__name">Филиалы</div>
                     <div class="company-characteristics__value">
@@ -273,7 +283,7 @@
                       </a>
                     </div>
                   </div>
-    
+
                   <div class="company-characteristics__row">
                     <div class="company-characteristics__name">Выручка</div>
                     <div class="company-characteristics__value">
@@ -283,7 +293,7 @@
                       </a>
                     </div>
                   </div>
-    
+
                   <div class="company-characteristics__row">
                     <div class="company-characteristics__name">Чистая прибыль</div>
                     <div class="company-characteristics__value">
@@ -293,7 +303,7 @@
                       </a>
                     </div>
                   </div>
-    
+
                   <div class="company-characteristics__row">
                     <div class="company-characteristics__name">Чистые активы</div>
                     <div class="company-characteristics__value">
@@ -305,7 +315,7 @@
                   </div>
                 </div>
               </div>
-    
+
               <div class="notes notes_bordered-top">
                 <div class="notes__item">Данные без учета обновлений, доступных в системе СПАРК. <br>Для получения
                   актуальных данных – <a class="" data-popup="demo">войдите в систему</a>.</div>
@@ -314,7 +324,7 @@
               <div>
                 <h2 class="promo-statistics__section-title">Сведения о государственной регистрации</h2>
                 <div class="company-characteristics full-width">
-    
+
                   <div class="company-characteristics__row">
                     <div class="company-characteristics__name">Дата регистрации</div>
                     <div class="company-characteristics__value">02.08.2002</div>
@@ -331,13 +341,14 @@
                   <div class="company-characteristics__row">
                     <div class="company-characteristics__name">Регистрирующий орган, в котором находится регистрационное
                       дело</div>
-                    <div class="company-characteristics__value">Межрайонная инспекция Федеральной налоговой службы № 46 по
+                    <div class="company-characteristics__value">Межрайонная инспекция Федеральной налоговой службы № 46
+                      по
                       г. Москве</div>
                   </div>
-    
+
                 </div>
               </div>
-    
+
               <h2 id="_activity" class="promo-statistics__section-title">Виды деятельности</h2>
               <div class="okved-list">
                 <div class="okved-list__title">Основной вид деятельности по ОКВЭД</div>
@@ -348,7 +359,7 @@
                       продуктами</div>
                   </div>
                 </div>
-    
+
               </div>
               <div class="okved-list">
                 <div class="okved-list__title">Дополнительные виды деятельности</div>
@@ -383,7 +394,8 @@
                   </div>
                   <div class="okved-list__item ">
                     <div class="okved-list__code">35.22</div>
-                    <div class="okved-list__name">Распределение газообразного топлива по газораспределительным сетям</div>
+                    <div class="okved-list__name">Распределение газообразного топлива по газораспределительным сетям
+                    </div>
                   </div>
                   <div class="okved-list__item ">
                     <div class="okved-list__code">41.20</div>
@@ -391,7 +403,8 @@
                   </div>
                   <div class="okved-list__item ">
                     <div class="okved-list__code">42.21</div>
-                    <div class="okved-list__name">Строительство инженерных коммуникаций для водоснабжения и водоотведения,
+                    <div class="okved-list__name">Строительство инженерных коммуникаций для водоснабжения и
+                      водоотведения,
                       газоснабжения</div>
                   </div>
                   <div class="okved-list__item  js-company-industry-item-toggleable hide">
@@ -485,7 +498,8 @@
                   </div>
                   <div class="okved-list__item  js-company-industry-item-toggleable hide">
                     <div class="okved-list__code">85.42.9</div>
-                    <div class="okved-list__name">Деятельность по дополнительному профессиональному образованию прочая, не
+                    <div class="okved-list__name">Деятельность по дополнительному профессиональному образованию прочая,
+                      не
                       включенная в другие группировки</div>
                   </div>
                 </div>
@@ -497,12 +511,12 @@
               <div class="factoids-block" id="_statistics">
                 <div class="factoids-block__item factoids-block__item_arbitr">
                   <h3 class="factoid__title">Арбитражные дела</h3>
-    
+
                   <a class="factoid " data-popup="demo">
                     <div class="factoid__value">5003</div>
                     <div class="factoid__name">судебные<br> дела</div>
                   </a>
-    
+
                   <a class="factoid " data-popup="demo">
                     <div class="factoid__value">1288</div>
                     <div class="factoid__name">в качестве<br> истца</div>
@@ -512,7 +526,7 @@
                     <div class="factoid__name">в качестве<br> ответчика</div>
                   </a>
                 </div>
-    
+
                 <div class="factoids-block__item">
                   <h3 class="factoid__title">Исполнительные<br> производства</h3>
                   <a class="factoid " data-popup="demo">
@@ -524,7 +538,7 @@
                     <div class="factoid__name">завершенные производства</div>
                   </a>
                 </div>
-    
+
                 <div class="factoids-block__item">
                   <h3 class="factoid__title">Тендеры<br> и госзакупки</h3>
                   <a class="factoid " data-popup="demo">
@@ -532,7 +546,7 @@
                     <div class="factoid__name">количество закупок</div>
                   </a>
                 </div>
-    
+
                 <div class="factoids-block__item">
                   <h3 class="factoid__title">Существенные<br> события</h3>
                   <a class="factoid " data-popup="demo">
@@ -544,7 +558,7 @@
                     <div class="factoid__name">за текущий год</div>
                   </a>
                 </div>
-    
+
                 <div class="factoids-block__item">
                   <h3 class="factoid__title">Связи<br>компании</h3>
                   <a class="factoid " data-popup="demo">
@@ -556,7 +570,7 @@
                     <div class="factoid__name">совладельцы</div>
                   </a>
                 </div>
-    
+
                 <div class="last-changes-block">
                   <div class="last-changes-block__item">
                     <h3 class="factoid__title">Последние изменения</h3>
@@ -574,12 +588,12 @@
                     значимых событиях в жизни компании.
                   </div>
                 </div>
-    
+
               </div>
-    
+
               <div>
                 <h2 id="_risks" class="promo-statistics__section-title">Риски и надежность компании</h2>
-    
+
                 <div class="top-offset-15">
                   <h3>Индексы СПАРКА</h3>
                   <ul class="list-indices bottom-offset-10">
@@ -599,7 +613,7 @@
                         <div>Оценка, показывающая вероятность того, что компания является «фирмой- однодневкой»</div>
                       </div>
                     </li>
-    
+
                     <li class="list-indices__item">
                       <div class="list-indices__item-icon">
                         <i class="sp-icon-ifr"></i>
@@ -616,7 +630,7 @@
                         <div>Оценка вероятности неплатежеспособности компании</div>
                       </div>
                     </li>
-    
+
                     <li class="list-indices__item">
                       <div class="list-indices__item-icon">
                         <i class="sp-icon-ipd"></i>
@@ -649,14 +663,14 @@
                 </div>
               </div>
             </div>
-    
-    
+
+
           </div>
-    
+
         </div>
       </div>
     </div>
-    
+
     <div>
       <div class="container js-company-map-block">
         <h2 class="promo-statistics__section-title top-offset-50">Адрес: ПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО "ГАЗПРОМ"</h2>
@@ -665,10 +679,10 @@
           data-place-link="&lt;a href=&quot;/moskva-cheremushki/pao-gazprom-inn-7736050003-ogrn-1027700070518-29a1661f45934247b58ec2207e493bdf&quot;&gt;ПАО ГАЗПРОМ&lt;/a&gt;"
           style="width: 100%; height: 400px;">
         </div>
-    
-    
+
+
         <h2 class="promo-statistics__section-title">Описание</h2>
-    
+
         <div class="company-description">
           <div class="company-description__text" itemprop="description">
             Компания ПАО ГАЗПРОМ, адрес: г. Москва, ул. Намёткина, д. 16 зарегистрирована 02.08.2002. Организации
@@ -676,7 +690,8 @@
             оптовая твердым, жидким и газообразным топливом и подобными продуктами, всего зарегистрировано 32 вида
             деятельности по ОКВЭД. Имеет связи с 122 компаниями.<br> председатель правления - Миллер Алексей Борисович.
             Размер уставного капитала 118 367 564 500₽.<br> Компания ПАО ГАЗПРОМ принимала участие в 779 тендерах. В
-            отношении компании было возбуждено 853 исполнительных производства, из них текущих 22. ПАО ГАЗПРОМ участвовало
+            отношении компании было возбуждено 853 исполнительных производства, из них текущих 22. ПАО ГАЗПРОМ
+            участвовало
             в 5003 арбитражных делах: в 1288 в качестве истца, и в 2987 в качестве ответчика.<br> Реквизиты ПАО ГАЗПРОМ,
             юридический адрес, официальный сайт и выписка ЕГРЮЛ, а также 3043 существенных события доступны в системе
             СПАРК (демо-доступ бесплатно).<p></p>
@@ -688,13 +703,13 @@
         </div>
       </div>
     </div>
-    
+
     <div class="promo-statistics__section">
       <div class="container promo-statistics__section">
         <div class="rating-subjects">
           <div class="rating-subjects__left-column">
             <h2 class="promo-statistics__section-title">Компании похожие на ПАО ГАЗПРОМ</h2>
-    
+
             <div class="raiting-list-wrap">
               <table class="raiting-list">
                 <colgroup width="1%">
@@ -704,7 +719,7 @@
                 <colgroup width="20%">
                 </colgroup>
                 <tbody>
-    
+
                   <tr>
                     <td class="raiting-list__number">
                       <span>1</span><span>.</span>
@@ -824,7 +839,25 @@
       </div>
     </div>
   </section>
-
+  <footer class="footer">
+    <div class="container">
+      <div class="menu">
+        <a class="menu-item" href="/about/">О проекте</a>
+        <a class="menu-item" href="/apps/">Приложения</a>
+        <a class="menu-item" href="http://maximilyahov.ru/blog/?go=tags/glavred/">Блог</a>
+        <a class="menu-item" href="http://artgorbunov.ru/educenter/text/">Курс</a>
+        <a class="menu-item" href="/api/">АПИ</a>
+      </div>
+      <div class="credits">
+        <a href="http://maximilyahov.ru">Максим&nbsp;Ильяхов</a>,
+        <a href="http://anatolyburov.ru">Анатолий&nbsp;Буров</a>.
+        С&nbsp;1&nbsp;декабря 2014&nbsp;года.
+        &nbsp;
+        &nbsp;
+        Пишите:&nbsp;<a href="mailto:mail@glvrd.ru">mail@glvrd.ru</a>
+      </div>
+    </div>
+  </footer>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
   <script src="js/main.js"></script>
 </body>

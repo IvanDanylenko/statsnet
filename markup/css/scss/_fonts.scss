@@ -1,3 +1,4 @@
+// Gotham Pro Bold
 @font-face {
   font-family: 'Gotham Pro';
   src: url('../../fonts/GothamPro-Bold.eot');
@@ -9,7 +10,7 @@
   font-style: normal;
 }
 
-
+// Gotham Pro Regular
 @font-face {
   font-family: 'Gotham Pro';
   src: url('../../fonts/GothamPro.eot');
@@ -17,6 +18,15 @@
     url('../../fonts/GothamPro.eot?#iefix') format('embedded-opentype'),
     url('../../fonts/GothamPro.woff') format('woff'),
     url('../../fonts/GothamPro.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Avenir Regular
+@font-face {
+  font-family: 'Avenir';
+  src: url('../../fonts/Avenir-Roman.woff2') format('woff2'),
+    url('../../fonts/Avenir-Roman-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }

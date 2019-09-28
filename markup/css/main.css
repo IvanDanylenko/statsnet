@@ -13,10 +13,18 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "Avenir";
+  src: url("../../fonts/Avenir-Roman.woff2") format("woff2"), url("../../fonts/Avenir-Roman-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 body {
   font-family: -apple-system, BlinkMacSystemFont, Arial, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
   font-size: 16px;
   line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 ul,
@@ -38,49 +46,149 @@ section {
 }
 
 .header {
-  padding: 10px 15px;
   background: #fff;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  height: 40px;
+  height: 45px;
   z-index: 100;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .header {
+    padding-top: 5px;
+    padding-bottom: 7px;
+    height: auto;
+    max-height: 150px;
+  }
+  .header .header__inner nav {
+    margin-left: 0;
+  }
+  .header .header__inner nav li:first-child {
+    margin-left: 0;
+  }
 }
 .header__inner {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: flex-start;
 }
 .header a {
-  color: #000;
+  color: #0160A0;
+  text-decoration: none;
+  border-bottom: 1px solid #acd;
 }
 .header a:hover {
+  color: #86b0ce;
+  border-bottom: 1px solid #d5e5ed;
+}
+.header .logo {
+  margin-right: 35px;
+}
+.header .logo a {
   color: #000;
+  font-family: "Avenir", sans-serif;
+  font-size: 22px;
+  border-bottom: none;
+}
+.header .logo a:hover {
+  color: #000;
+  border-bottom: none;
 }
 .header nav {
   margin-left: auto;
 }
 .header nav ul {
   display: flex;
+  flex-wrap: wrap;
 }
 .header nav ul li {
   margin-left: 25px;
 }
+.header .search-box {
+  padding: 0;
+  margin: 0;
+  height: 32px;
+  max-width: 300px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.08);
+}
+@media (max-width: 768px) {
+  .header .search-box {
+    margin: 5px 0 7px;
+  }
+}
+.header .search-box .search-field input {
+  font-family: inherit;
+  font-size: inherit;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  padding: 0 4px 0 8px;
+  border-radius: 3px;
+  -webkit-appearance: none;
+}
+.header .search-box button[type=submit] {
+  display: none;
+}
+
+.footer {
+  padding: 20px 0;
+  font-size: 15px;
+}
+.footer .menu {
+  margin-bottom: 10px;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+.footer .menu .menu-item {
+  color: #0160A0;
+  text-decoration: none;
+  border-bottom: 1px solid #acd;
+  margin-right: 1.5em;
+}
+.footer .menu .menu-item:hover {
+  color: #86b0ce;
+}
+.footer .credits a {
+  color: #888;
+  text-decoration: none;
+  border-bottom: 1px solid #ccc;
+}
 
 .home-page {
-  padding: 70px 0;
+  padding: 70px 0 30px;
   background-size: cover;
   background-position: center top;
   color: #000;
+}
+@media (max-width: 768px) {
+  .home-page {
+    padding-top: 80px;
+  }
+}
+@media (max-width: 576px) {
+  .home-page {
+    paddint-top: 100px;
+  }
 }
 .home-page h1 {
   font-family: "Gotham Pro", sans-serif;
   margin-bottom: 30px;
   font-size: 36px;
-  letter-spacing: 2px;
+  letter-spacing: -1px;
   font-weight: 400;
+}
+@media (max-width: 768px) {
+  .home-page h1 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 576px) {
+  .home-page h1 {
+    font-size: 22px;
+  }
 }
 .home-page .advantages--item img {
   margin-bottom: 10px;
@@ -94,6 +202,9 @@ section {
   font-size: 14px;
 }
 
+.company-page {
+  padding-top: 0;
+}
 .company-page p {
   line-height: 1.4em;
 }
@@ -998,9 +1109,6 @@ section {
   padding-top: 10px;
   font-size: 50px;
 }
-.company-page .promo-statistics__title_company {
-  padding-bottom: 40px;
-}
 @media (max-width: 998px) {
   .company-page .promo-statistics__title_company:before {
     left: -350px;
@@ -1015,6 +1123,10 @@ section {
   .company-page .promo-statistics__title {
     font-size: 42px;
   }
+}
+.company-page .promo-statistics__subscription {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
 }
 .company-page .promo-statistics__section {
   margin-top: 50px;
@@ -1924,6 +2036,7 @@ section {
 }
 
 .search-box {
+  width: 100%;
   margin-top: 20px;
   margin-bottom: 35px;
   padding-left: 40px;
@@ -1935,7 +2048,7 @@ section {
   transition: all 0.1s ease-in-out;
   height: 45px;
   border-radius: 4px;
-  border: 1px solid #000;
+  box-shadow: 0 12px 16px -4px rgba(0, 0, 0, 0.16), 0 0 4px -1px rgba(0, 0, 0, 0.08);
 }
 .search-box .search-field {
   height: 100%;

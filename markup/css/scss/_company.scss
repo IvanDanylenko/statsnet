@@ -1,4 +1,5 @@
 .company-page {
+  padding-top: 0;
   p {
     line-height: 1.4em
   }
@@ -1070,10 +1071,6 @@
     font-size: 50px;
   }
 
-  .promo-statistics__title_company {
-    padding-bottom: 40px
-  }
-
   @media (max-width: 998px) {
     .promo-statistics__title_company:before {
       left: -350px
@@ -1090,6 +1087,11 @@
     .promo-statistics__title {
       font-size: 42px
     }
+  }
+
+  .promo-statistics__subscription {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
   }
 
   .promo-statistics__section {

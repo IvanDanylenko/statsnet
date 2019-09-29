@@ -1,16 +1,8 @@
 .home-page {
-  padding: 70px 0 30px;
+  padding: 40px 0 30px;
   background-size: cover;
   background-position: center top;
   color: #000;
-
-  @media (max-width: 768px) {
-    padding-top: 80px;
-  }
-
-  @media (max-width: 576px) {
-    paddint-top: 100px;
-  }
 
   h1 {
     font-family: 'Gotham Pro', sans-serif;
@@ -24,7 +16,7 @@
     }
 
     @media (max-width: 576px) {
-      font-size: 22px;
+      font-size: 27px;
     }
   }
 

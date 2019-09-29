@@ -19,6 +19,12 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "Avenir";
+  src: url("../../fonts/Avenir-Medium.eot?#iefix") format("embedded-opentype"), url("../../fonts/Avenir-Medium.woff") format("woff"), url("../../fonts/Avenir-Medium.ttf") format("truetype"), url("../../fonts/Avenir-Medium.svg#Avenir-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
 body {
   font-family: -apple-system, BlinkMacSystemFont, Arial, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
   font-size: 16px;
@@ -47,7 +53,7 @@ section {
 
 .header {
   background: #fff;
-  position: fixed;
+  position: static;
   top: 0;
   left: 0;
   right: 0;
@@ -56,20 +62,6 @@ section {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   display: flex;
   align-items: center;
-}
-@media (max-width: 768px) {
-  .header {
-    padding-top: 5px;
-    padding-bottom: 7px;
-    height: auto;
-    max-height: 150px;
-  }
-  .header .header__inner nav {
-    margin-left: 0;
-  }
-  .header .header__inner nav li:first-child {
-    margin-left: 0;
-  }
 }
 .header__inner {
   display: flex;
@@ -93,6 +85,7 @@ section {
   color: #000;
   font-family: "Avenir", sans-serif;
   font-size: 22px;
+  font-weight: 500;
   border-bottom: none;
 }
 .header .logo a:hover {
@@ -100,11 +93,14 @@ section {
   border-bottom: none;
 }
 .header nav {
+  padding: 5px 0;
   margin-left: auto;
+  overflow: hidden;
+  overflow-x: auto;
+  white-space: nowrap;
 }
 .header nav ul {
   display: flex;
-  flex-wrap: wrap;
 }
 .header nav ul li {
   margin-left: 25px;
@@ -133,6 +129,34 @@ section {
 .header .search-box button[type=submit] {
   display: none;
 }
+@media (max-width: 992px) {
+  .header.header-company {
+    padding-top: 5px;
+    padding-bottom: 7px;
+    height: auto;
+    max-height: 150px;
+  }
+  .header.header-company nav {
+    margin-left: 0;
+  }
+  .header.header-company nav li:first-child {
+    margin-left: 0;
+  }
+}
+@media (max-width: 768px) {
+  .header {
+    padding-top: 5px;
+    padding-bottom: 7px;
+    height: auto;
+    max-height: 150px;
+  }
+  .header nav {
+    margin-left: 0;
+  }
+  .header nav li:first-child {
+    margin-left: 0;
+  }
+}
 
 .footer {
   padding: 20px 0;
@@ -158,20 +182,10 @@ section {
 }
 
 .home-page {
-  padding: 70px 0 30px;
+  padding: 40px 0 30px;
   background-size: cover;
   background-position: center top;
   color: #000;
-}
-@media (max-width: 768px) {
-  .home-page {
-    padding-top: 80px;
-  }
-}
-@media (max-width: 576px) {
-  .home-page {
-    paddint-top: 100px;
-  }
 }
 .home-page h1 {
   font-family: "Gotham Pro", sans-serif;
@@ -187,7 +201,7 @@ section {
 }
 @media (max-width: 576px) {
   .home-page h1 {
-    font-size: 22px;
+    font-size: 27px;
   }
 }
 .home-page .advantages--item img {
@@ -1006,7 +1020,7 @@ section {
   z-index: 101;
 }
 .company-page .plug-value:hover:after {
-  content: "Ð˜Ð½Ñ„Ð¾Ñ€Ð¼Ð°Ñ†Ð¸Ñ Ð´Ð¾ÑÑ‚ÑƒÐ¿Ð½Ð° Ð¿Ð¾Ð´Ð¿Ð¸ÑÑ‡Ð¸ÐºÐ°Ð¼ Ð¡ÐŸÐÐ Ðš";
+  content: "Информация доступна только подписчикам Statsnet";
   position: absolute;
   top: 100%;
   word-spacing: normal;

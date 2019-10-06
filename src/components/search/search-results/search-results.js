@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import Pagination from './pagination';
-import CompaniesService from '../../services/companies-service';
-import URL from '../../helpers/url';
+import Loader from '../../loader';
+import CompaniesService from '../../../services/companies-service';
+import URL from '../../../helpers/url';
 import SearchResultsItem from './search-results-item';
+import './search-results.scss';
 
 class SearchResults extends Component {
   companiesService = new CompaniesService();
@@ -11,6 +12,7 @@ class SearchResults extends Component {
   mockData = true;
 
   state = {
+    loading: false,
     params: {},
     searchResults: [],
     errorMessage: ''
@@ -18,11 +20,11 @@ class SearchResults extends Component {
 
   componentDidMount() {
     this.setState(
-      { params: this.url.getAllUrlParams() }, 
+      { params: this.url.getAllUrlParams() },
       () => { this.searchCompanies() }
     );
   }
-  componentDidUpdate(prevProps, prevState, snapshot) {
+  componentDidUpdate(prevProps) {
     if (prevProps.location.search !== this.props.location.search) {
       this.searchCompanies();
     }
@@ -30,34 +32,42 @@ class SearchResults extends Component {
 
   searchCompanies = () => {
     console.log("search companies");
+    console.log(this.state);
     const { params } = this.state;
     if (!params.q) {
-      this.setState({ 
+      this.setState({
         errorMessage: 'Enter search string'
       });
       console.log("Doesn't have q parameter");
       return;
     }
 
+    this.toggleLoading();
+
     let search = '?q=' + params.q;
-    if (params.page) {
-      search += "&page=" + params.page;
-    }
-    this.props.toggleLoading();
     this.companiesService.getCompanies(search, this.mockData)
       .then(data => {
+        console.log(data);
         this.setState({ searchResults: data });
-        // console.log(data);
-        this.props.toggleLoading();
+        this.toggleLoading();
       })
       .catch(err => {
         console.error(err);
-        this.props.toggleLoading();
+        this.setState({
+          errorMessage: 'Receaved bad response from server'
+        })
+        this.toggleLoading();
       });
   }
 
-  handlePageChange = ({selected}) => {
-    this.setState(({params}) => {
+  toggleLoading = () => {
+    this.setState(({ loading }) => {
+      return { loading: !loading }
+    });
+  }
+
+  handlePageChange = ({ selected }) => {
+    this.setState(({ params }) => {
       const paramsCopy = Object.assign({}, params);
       paramsCopy.page = selected + 1;
       return { params: paramsCopy };
@@ -65,23 +75,21 @@ class SearchResults extends Component {
   }
 
   render() {
-    console.log(this.state);
+    if (this.state.loading) {
+      return <Loader loading />
+    }
+
     let elements;
     const { searchResults: results = {} } = this.state;
     if (results.companies) {
-      elements = results.companies.map(({ company }, index) => <SearchResultsItem key={index} company={company} />)
+      elements = results.companies.map((company, index) => <SearchResultsItem key={index} company={company} />)
     } else {
       elements = "Your search returned no results because it's missing a valid search term";
     }
 
     return (
       <div className="search-results">
-        <Pagination
-          pageCount={results.total_pages}
-          onPageChange={this.handlePageChange} />
-        {/* Test icon */}
-        <span className="flag-icon-us"></span>
-        <p className="found-companies">Found {results.total_count ? results.total_count : '0'} companies, showed first 30 </p>
+        <p className="found-companies">Found {results.totalCount ? results.totalCount : '0'} companies</p>
         <div>
           {elements}
         </div>

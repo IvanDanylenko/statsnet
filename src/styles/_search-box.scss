@@ -1,49 +1,56 @@
 .search-box {
   width: 100%;
-  padding-bottom: 50px;
+  margin-top: 20px;
+  margin-bottom: 35px;
+  padding-left: 40px;
+  background: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.6;
+  position: relative;
+  transition: all .1s ease-in-out;
+  height: 45px;
+  border-radius: 4px;
+  box-shadow: 0 12px 16px -4px rgba(0, 0, 0, 0.16),
+    0 0 4px -1px rgba(0, 0, 0, 0.08);
+
   .search-field {
-    display: flex;
-    input, select {
-      margin: 0;
-      padding: 0 16px;
-      height: 3rem;
-      font-weight: 300;
-      font-family: inherit;
-      font-size: inherit;
-      line-height: inherit;
+    height: 100%;
+
+    input {
+      height: 100%;
+      width: 100%;
       border: none;
       outline: none;
+      margin: 0;
+      line-height: normal;
+      letter-spacing: inherit;
+      background: none;
+      border: none;
+      color: #111;
+      -webkit-appearance: textfield;
+      box-shadow: none;
     }
-    input {
-      width: 55%;
-      border-radius: 30px 0 0 30px;
-    }
-    select {
-      width: 35%;
-      background-color: #fff;
-      // box-shadow: -3px 0 3px rgba(0,0,0,.05);
-      cursor: pointer;
-    }
+
     button {
-      padding: 10px;
-      width: 10%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 35px;
+      height: 100%;
+      color: grey;
+      background: transparent;
       display: flex;
-      justify-content: center;
+      justify-content: flex-end;
       align-items: center;
-      color: #fff;
-      background-color: #ef4654;
-      border-radius: 0 30px 30px 0;
       border: none;
       outline: none;
       transition: all .3s ease;
       cursor: pointer;
+
       &:hover {
-        background-color: #000;
+        color: #000;
       }
-      // span {
-      //   position: relative;
-      //   top: -2px;
-      // }
     }
   }
 }

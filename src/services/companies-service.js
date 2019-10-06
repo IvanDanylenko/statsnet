@@ -1,8 +1,6 @@
 import yandex from '../db/test-data/dnb-api-yandex.json';
 
 export default class CompaniesService {
-  // _apiBase = 'https://api.opencorporates.com/v0.4';
-
   getResource = async (url) => {
     const res = await fetch(url);
 
@@ -39,42 +37,16 @@ export default class CompaniesService {
           address: {}
             country: String
             street: String
-
-
-
-
-
   */
 
-  _formSearchQueryToOpenCorApi = () => {
-    // const response = await this.getResource(`/companies/search${search}`);
-    const search = "https://www.dnb.com/apps/dnb/thirdparty/dnbdirectutil?returnNav=false&captchaDone=true&pageSize=1000&pageNumber=1&criteriasearch=true&searchTerm=YANDEX";
-    return search;
-  }
-
-  _transformDataFromOpenCorApi = (res) => {
-
-
-
-    // eslint-disable-next-line
-    for (let company of res.companies) {
-      if (!company.registered_address) {
-        company.registered_address = {}
-      }
-      if (!company.source) {
-        company.source = {}
-      }
-    }
-    return res;
-  }
-
   _formSearchQueryToDNBApi = (params) => {
-    const search = "https://www.dnb.com/apps/dnb/thirdparty/dnbdirectutil?returnNav=false&captchaDone=true&pageSize=1000&pageNumber=1&criteriasearch=true&searchTerm=YANDEX";
+    const base = "https://www.dnb.com/apps/dnb/thirdparty/dnbdirectutil?returnNav=false&captchaDone=true&pageSize=1000&pageNumber=1&criteriasearch=true";
+    const search = base + "&searchTerm=YANDEX";
     return search;
   }
 
   _transformDataFromDNBApi = (res) => {
-    console.log("Transfroming data");
+    console.log("response: ", res);
     const companies = res.searchCandidates.map(company => {
       const {
         organization: {
@@ -104,5 +76,22 @@ export default class CompaniesService {
       totalCount: res.candidatesMatchedQuantity,
       companies
     };
+  }
+
+  _formSearchQueryToOpenCorApi = () => {
+    return false;
+  }
+
+  _transformDataFromOpenCorApi = (res) => {
+    // eslint-disable-next-line
+    for (let company of res.companies) {
+      if (!company.registered_address) {
+        company.registered_address = {}
+      }
+      if (!company.source) {
+        company.source = {}
+      }
+    }
+    return res;
   }
 }

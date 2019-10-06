@@ -96,4 +96,12 @@ export default class URL {
     const encodedParams = this.encodeAllUrlParams(params);
     history.push(`/companies${encodedParams}`);
   }
+
+  isHomePage = () => {
+    if (window.location.pathname === '/') {
+      return true;
+    } else {
+      return false;
+    }
+  }
 }

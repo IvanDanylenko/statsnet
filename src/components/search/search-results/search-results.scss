@@ -1,0 +1,52 @@
+.search-results {
+  .found-companies {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+}
+
+.pagination {
+  .page-item {
+    cursor: pointer;
+  }
+}
+
+.search-results-item {
+  display: flex;
+  align-items: flex-start;
+  font-size: 16px;
+
+  .flag {
+    padding-top: 2px;
+    margin-right: 10px;
+    width: 18px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .mark {
+    padding: 0 5px;
+    margin-right: 10px;
+    border-radius: 3px;
+    background: #e6e6e6;
+  }
+
+  .link {
+    color: #0160A0;
+    text-decoration: none;
+
+    &:hover {
+      color: #86b0ce;
+    }
+  }
+
+  span {
+    margin-right: 10px;
+  }
+}

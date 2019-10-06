@@ -3,20 +3,41 @@ import { Link } from 'react-router-dom';
 import SearchBox from "../search-box";
 import './header.scss';
 
-const Header = () => {
+const Header = ({history}) => {
+  let headerClasses = 'header ';
+  let searchBox = null;
+  if (window.location.pathname === '/') {
+    headerClasses += 'header-home';
+  } else {
+    headerClasses += 'header-company';
+    searchBox = <SearchBox history={history} />
+  }
   return (
-    <header className="header">
-      <div className="logo">
-        <Link to="/">Statsnet</Link>
+    <header className={headerClasses}>
+      <div className="container">
+        <div className="header__inner">
+          <div className="logo">
+            <Link to="/">Statsnet</Link>
+          </div>
+          { searchBox }
+          <nav>
+            <ul>
+              <li>
+                <a href="/about">О проекте</a>
+              </li>
+              <li>
+                <a href="/opportunities">Возможности</a>
+              </li>
+              <li>
+                <a href="/databases">Базы данных</a>
+              </li>
+              <li>
+                <a href="/jurisdictions">Юрисдикции</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
-      {window.location.pathname !== '/' ? <SearchBox /> : null}
-      <nav>
-        <ul>
-          <li><Link to="/jurisdictions">Юрисдикции</Link></li>
-          <li><Link to="/about">О проекте</Link></li>
-          <li><Link to="/terms">Условия использования</Link></li>
-        </ul>
-      </nav>
     </header>
   );
 }
